@@ -33,7 +33,7 @@ def create_league():
 
                     return jsonify({
                         "message": "League created",
-                        "league": new_league.to_json()
+                        "league": new_league.to_json(True)
                     }), 201
                 except:
                     return jsonify({"error": {'code': 400, 'message': 'Invalid or Missing Parameters'}}), 400
@@ -81,10 +81,10 @@ def join_league():
 
                         return jsonify({
                             "message": "League joined successfully",
-                            "league": league.to_json()
+                            "league": league.to_json(False)
                         }), 200
                     else:
-                        return jsonify({"error": {'code': 405, 'message': 'League Not Found'}}), 405
+                        return jsonify({"error": {'code': 404, 'message': 'League Not Found'}}), 404
 
                 except:
                     return jsonify({"error": {'code': 400, 'message': 'Invalid or Missing Parameters'}}), 400
@@ -131,10 +131,10 @@ def delete_league():
                     return jsonify({
                         "error":
                         {
-                            "code": 405,
+                            "code": 404,
                             "error": "League Not Found"
                         }
-                    }), 401
+                    }), 404
 
         except:
             return jsonify({
@@ -175,14 +175,19 @@ def read_league():
                         participants = json.loads(league.participants)
 
                         if user.token in participants:
-                            return jsonify({
-                                "league": league.to_json()
-                            }), 200
+                            if user.token == league.owner_token:
+                                return jsonify({
+                                    "league": league.to_json(True)
+                                }), 200
+                            else:
+                                return jsonify({
+                                    "league": league.to_json(False)
+                                }), 200
 
                         return jsonify({"error": {'code': 401, 'message': 'User Not in this league'}}), 401
 
                     else:
-                        return jsonify({"error": {'code': 405, 'message': 'League Not Found'}}), 405
+                        return jsonify({"error": {'code': 404, 'message': 'League Not Found'}}), 404
 
                 except:
                     return jsonify({"error": {'code': 400, 'message': 'Invalid or Missing Parameters'}}), 400

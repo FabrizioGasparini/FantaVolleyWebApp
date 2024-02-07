@@ -8,13 +8,21 @@ from jwt import decode
 
 players = Blueprint('players', __name__)
 
-@players.route("/read/")
+@players.route("/read/", methods=["GET", "POST"])
 def get_players():
     players_db = Player.query.all()
 
+
     output = []
-    for player in players_db:
-        output.append(player.to_json())
+    try:
+        role = request.get_json()["ruolo"]
+        for player in players_db:
+            if player.ruolo.lower() == role.lower():
+                output.append(player.to_json())
+    except:
+        for player in players_db:
+            output.append(player.to_json())
+
 
     return jsonify({
         "players": output
@@ -38,16 +46,26 @@ def get_player_by_id(player_id):
         "player": player.to_json()
     }), 200
 
-@players.route("/read/teams")
+@players.route("/read/teams", methods=["GET", "POST"])
 def get_players_teams():
     players_db = Player.query.all()
 
     output = {}
-    for player in players_db:
-        if player.squadra in output:
-            output[player.squadra].append(player.to_json())
-        else:
-            output[player.squadra] = [player.to_json()]
+
+    try:
+        role = request.get_json()["ruolo"]
+        for player in players_db:
+            if player.ruolo.lower() == role.lower():
+                if player.squadra in output:
+                    output[player.squadra].append(player.to_json())
+                else:
+                    output[player.squadra] = [player.to_json()]
+    except:
+        for player in players_db:
+            if player.squadra in output:
+                output[player.squadra].append(player.to_json())
+            else:
+                output[player.squadra] = [player.to_json()]
 
     return jsonify({
         "teams": output

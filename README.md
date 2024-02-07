@@ -30,6 +30,32 @@ Lista dei giocatori
 
 ---
 
+### POST /players/read
+
+Lista dei giocatori con determinato ruolo
+
+**Parametri**
+
+- ruolo: Ruolo del giocatore
+
+**Response**
+
+- players: Array contenete tutti i giocatori
+  - nome: Nome del giocatore
+  - ruolo: Ruolo del giocatore
+  - squadra: Squadra del giocatore
+  - squadra_id (int): Id squadra del giocatore
+  - numero: Numero maglia del giocatore
+  - nascita: Data di nascita del giocatore
+  - nazione: Nazionalità del giocatore
+  - altezza: Altezza del giocatore
+  - url_giocatore: Url pagina del giocatore
+  - url_squadra: Url pagina squadra del giocatore
+  - url_foto: Url foto del giocatore
+  - id (int): Id univoco del giocatore
+
+---
+
 ### GET /players/read/<int:player_id>
 
 Giocatore con determinato ID
