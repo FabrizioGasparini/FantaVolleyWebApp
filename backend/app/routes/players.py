@@ -10,16 +10,18 @@ players = Blueprint('players', __name__)
 
 @players.route("/read/", methods=["GET", "POST"])
 def get_players():
+    data = request.get_json()
+
     players_db = Player.query.all()
-
-
     output = []
-    try:
-        role = request.get_json()["ruolo"]
+
+    if "role" in data:
+        role = request.get_json()["role"]
+        
         for player in players_db:
             if player.ruolo.lower() == role.lower():
                 output.append(player.to_json())
-    except:
+    else:
         for player in players_db:
             output.append(player.to_json())
 
@@ -29,38 +31,33 @@ def get_players():
     }), 200
 
 
-@players.route('/read/<int:player_id>')
+@players.route('/read/<int:player_id>', methods=["GET", "POST"])
 def get_player_by_id(player_id):
     player = Player.query.filter_by(id=player_id).first()
 
-    if not player:
+    if player:
         return jsonify({
-                "error": 
-                {
-                    "code": 400,
-                    "message": "Invalid id"
-                }
-            }), 400 
-
-    return jsonify({
-        "player": player.to_json()
-    }), 200
+            "player": player.to_json()
+        }), 200
+    else:
+        return jsonify({"error": {'code': 404, 'message': 'Player not found (invalid id)'}}), 404
 
 @players.route("/read/teams", methods=["GET", "POST"])
 def get_players_teams():
+    data = request.get_json()
+
     players_db = Player.query.all()
+    output = []
 
-    output = {}
-
-    try:
-        role = request.get_json()["ruolo"]
+    if "role" in data:
+        role = request.get_json()["role"]
         for player in players_db:
             if player.ruolo.lower() == role.lower():
                 if player.squadra in output:
                     output[player.squadra].append(player.to_json())
                 else:
                     output[player.squadra] = [player.to_json()]
-    except:
+    else:
         for player in players_db:
             if player.squadra in output:
                 output[player.squadra].append(player.to_json())
@@ -72,179 +69,87 @@ def get_players_teams():
     }), 200
 
 
-@players.route("/read/teams/<int:team_id>")
+@players.route("/read/teams/<int:team_id>", methods=["GET", "POST"])
 def get_players_teams_by_id(team_id):
-    team = Player.query.filter_by(squadra_id = team_id).all()
+    team = Player.query.filter_by(squadra_id=team_id).all()
 
-    if not team:
+    if team:
+        team_name = team[0].squadra
+
+        teams = []
+        for team_db in team:
+            teams.append(team_db.to_json())
+
         return jsonify({
-                "error": 
-                {
-                    "code": 400,
-                    "message": "Invalid id"
-                }
-            }), 400 
-
-    team_name = team[0].squadra
-    teams = []
-
-    for team_db in team:
-        teams.append(team_db.to_json())
-
-    return jsonify({
-        "team": {
-            team_name: teams
-        }
-    }), 200
+            "team": {
+                team_name: teams
+            }
+        }), 200
+    else:
+        return jsonify({"error": {'code': 404, 'message': 'Team not found (invalid id)'}}), 404
 
 
 @players.post("/create/player")
 def create_player():
-    try: 
-        data = request.get_json()
-    except:
-        return jsonify({"error": {'code': 400, 'message': 'Invalid or Missing Parameters'}}), 400
- 
-    if 'token' in data:
-        try:
-            user_identity = decode(data["token"], 'fantavolleyadmin8!', algorithms='HS256')
-            print(user_identity)
-            
-            user = User.query.filter_by(username=user_identity['sub'], role=user_identity['ruolo']).first()
-            if user:
-                try:
-                    new_player = Player(data["nome"], data["ruolo"], data["squadra"], data["squadra_id"], data["numero"], data["nascita"], data["nazione"], data["altezza"], data["url_giocatore"], data["url_squadra"], data["url_foto"])
-                    new_player.save_to_db()
-
-
-                    return jsonify({
-                        "message": "Player created",
-                        "player": new_player.to_json()
-                    }), 201
-                except:
-                    return jsonify({"error": {'code': 400, 'message': 'Invalid or Missing Parameters'}}), 400
-                
-        except:
-            return jsonify({
-                "error": 
-                {
-                    "code": 401,
-                    "message": "Invalid token"
-                }
-            }), 401           
-
+    data = request.get_json()
+    user_identity = decode_token(data["token"])
     
-    return jsonify({
-        "error": 
-        {
-            "code": 401,
-            "message": "Invalid token"
-        }
-    }), 400
+    user = User.query.filter_by(username=user_identity['sub']).first()
+    if user:
+        new_player = Player(data["nome"], data["ruolo"], data["squadra"], data["squadra_id"], data["numero"], data["nascita"], data["nazione"], data["altezza"], data["url_giocatore"], data["url_squadra"], data["url_foto"])
+        new_player.save_to_db()
+
+
+        return jsonify({
+            "message": "Player created",
+            "player": new_player.to_json()
+        }), 201
+    else:
+        return jsonify({"error": {'code': 404, 'message': 'User not found (invalid token)'}}), 404        
+
 
 @players.route("/delete/player", methods=["DELETE", "POST"])
 def delete_player():
-    try: 
-        data = request.get_json()
-    except:
-        return jsonify({"error": {'code': 400, 'message': 'Invalid or Missing Parameters'}}), 400
- 
-    if 'token' in data:
-        user_identity = decode(data["token"], 'fantavolleyadmin8!', algorithms='HS256')
-        try:
-            user = User.query.filter_by(username=user_identity['sub'], role=user_identity['ruolo']).first()
-            if user:
-                try:
-                    player = Player.query.filter_by(id=data["id"]).first()
-                except:
-                    return jsonify({"error": {'code': 400, 'message': 'Invalid or Missing Parameters'}}), 400
-
-                if player:
-                    player.remove_from_db()
-
-                    return jsonify({
-                        "message": "Player deleted successfully",
-                    }), 210
-                else:
-                    return jsonify({
-                        "error":
-                        {
-                            "code": 400,
-                            "error": "Invalid id"
-                        }
-                    }), 400
-
-                
-        except:
-            return jsonify({
-                "error": 
-                {
-                    "code": 401,
-                    "message": "Invalid token"
-                }
-            }), 401           
-
+    data = request.get_json()
+    user_identity = decode_token(data["token"])
     
-    return jsonify({
-        "error": 
-        {
-            "code": 401,
-            "message": "Invalid token"
-        }
-    }), 401
+    user = User.query.filter_by(username=user_identity['sub']).first()
+    if user:
+
+        player = Player.query.filter_by(id=data["id"]).first()
+        if player:
+            player.remove_from_db()
+
+            return jsonify({
+                "message": "Player deleted successfully",
+            }), 210
+        else:
+            return jsonify({"error": {'code': 404, 'message': 'Player not found (invalid id)'}}), 404        
+    else:
+        return jsonify({"error": {'code': 404, 'message': 'User not found (invalid token)'}}), 404        
+
 
 
 @players.route("/delete/team", methods=["DELETE", "POST"])
 def delete_team():
-    try: 
-        data = request.get_json()
-    except:
-        return jsonify({"error": {'code': 400, 'message': 'Invalid or Missing Parameters'}}), 400
- 
-    if 'token' in data:
-        user_identity = decode(data["token"], 'fantavolleyadmin8!', algorithms='HS256')
-        try:
-            user = User.query.filter_by(username=user_identity['sub'], role=user_identity['ruolo']).first()
-            if user:
-                try:
-                    player = Player.query.filter_by(squadra_id=data["squadra_id"]).all()
-                except:
-                    return jsonify({"error": {'code': 400, 'message': 'Invalid or Missing Parameters'}}), 400
-
-                if player:
-                    for plr in player:
-                        plr.remove_from_db()
-
-                    return jsonify({
-                        "message": "Team deleted successfully",
-                    }), 210
-                else:
-                    return jsonify({
-                        "error":
-                        {
-                            "code": 400,
-                            "error": "Invalid id"
-                        }
-                    }), 400
-
-                
-        except:
-            return jsonify({
-                "error": 
-                {
-                    "code": 401,
-                    "message": "Invalid token"
-                }
-            }), 401           
-
+    data = request.get_json()
+    user_identity = decode_token(data["token"])
     
-    return jsonify({
-        "error": 
-        {
-            "code": 401,
-            "message": "Invalid token"
-        }
-    }), 401
+    user = User.query.filter_by(username=user_identity['sub']).first()
+    if user:
+
+        player = Player.query.filter_by(squadra_id=data["squadra_id"]).all()
+        if player:
+            for plr in player:
+                plr.remove_from_db()
+
+            return jsonify({
+                "message": "Team deleted successfully",
+            }), 210
+        else:
+            return jsonify({"error": {'code': 404, 'message': 'Team not found (invalid id)'}}), 404        
+    else:
+        return jsonify({"error": {'code': 404, 'message': 'User not found (invalid token)'}}), 404   
 
 # def get_players_db():
 #     conn = None

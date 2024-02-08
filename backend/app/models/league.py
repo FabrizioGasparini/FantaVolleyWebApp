@@ -17,7 +17,7 @@ class League(db.Model):
         self.owner_token = owner_token
         self.participants = json.dumps(participants)
         self.current_auction = ""
-        #self.starting_credits =
+        self.starting_credits = starting_credits
 
     def save_to_db(self):
         db.session.add(self)
