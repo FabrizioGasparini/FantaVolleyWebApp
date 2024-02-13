@@ -8,7 +8,7 @@ from jwt import decode
 
 players = Blueprint('players', __name__)
 
-@players.route("/read/", methods=["GET", "POST"])
+@players.route("/read", methods=["GET", "POST"])
 def get_players():
     data = request.get_json()
 
@@ -42,12 +42,12 @@ def get_player_by_id(player_id):
     else:
         return jsonify({"error": {'code': 404, 'message': 'Player not found (invalid id)'}}), 404
 
-@players.route("/read/teams", methods=["GET", "POST"])
+@players.route("/teams/read", methods=["GET", "POST"])
 def get_players_teams():
     data = request.get_json()
 
     players_db = Player.query.all()
-    output = []
+    output = {}
 
     if "role" in data:
         role = request.get_json()["role"]
@@ -69,16 +69,25 @@ def get_players_teams():
     }), 200
 
 
-@players.route("/read/teams/<int:team_id>", methods=["GET", "POST"])
+@players.route("/teams/read/<int:team_id>", methods=["GET", "POST"])
 def get_players_teams_by_id(team_id):
+    data = request.get_json()
+    players_db = Player.query.all()
+
     team = Player.query.filter_by(squadra_id=team_id).all()
 
     if team:
         team_name = team[0].squadra
 
         teams = []
-        for team_db in team:
-            teams.append(team_db.to_json())
+        if "role" in data:
+            role = request.get_json()["role"]
+            for player in team:
+                if player.ruolo.lower() == role.lower():
+                    teams.append(player.to_json())
+        else:
+            for player in team:
+                teams.append(player.to_json())
 
         return jsonify({
             "team": {
@@ -89,7 +98,7 @@ def get_players_teams_by_id(team_id):
         return jsonify({"error": {'code': 404, 'message': 'Team not found (invalid id)'}}), 404
 
 
-@players.post("/create/player")
+@players.post("/create")
 def create_player():
     data = request.get_json()
     user_identity = decode_token(data["token"])
@@ -108,7 +117,7 @@ def create_player():
         return jsonify({"error": {'code': 404, 'message': 'User not found (invalid token)'}}), 404        
 
 
-@players.route("/delete/player", methods=["DELETE", "POST"])
+@players.route("/delete", methods=["DELETE", "POST"])
 def delete_player():
     data = request.get_json()
     user_identity = decode_token(data["token"])
@@ -116,7 +125,7 @@ def delete_player():
     user = User.query.filter_by(username=user_identity['sub']).first()
     if user:
 
-        player = Player.query.filter_by(id=data["id"]).first()
+        player = Player.query.filter_by(id=data["player_id"]).first()
         if player:
             player.remove_from_db()
 
@@ -130,7 +139,7 @@ def delete_player():
 
 
 
-@players.route("/delete/team", methods=["DELETE", "POST"])
+@players.route("/teams/delete", methods=["DELETE", "POST"])
 def delete_team():
     data = request.get_json()
     user_identity = decode_token(data["token"])
@@ -138,7 +147,7 @@ def delete_team():
     user = User.query.filter_by(username=user_identity['sub']).first()
     if user:
 
-        player = Player.query.filter_by(squadra_id=data["squadra_id"]).all()
+        player = Player.query.filter_by(squadra_id=data["team_id"]).all()
         if player:
             for plr in player:
                 plr.remove_from_db()

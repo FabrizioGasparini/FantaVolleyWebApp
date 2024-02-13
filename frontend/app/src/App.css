@@ -1,0 +1,17 @@
+body {
+    background-image: url("./assets/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+
+    overflow: hidden;
+
+    transition: 0.5s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 100vw;
+    min-height: 100vh;
+}

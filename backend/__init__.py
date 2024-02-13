@@ -1,10 +1,12 @@
 from flask import Flask
+from flask_cors import CORS
 from flask_jwt_extended import JWTManager
 from app.error_handler import error_handlers_bp
 
 from app.models.database import db
 
 app = Flask(__name__)
+CORS(app)
 
 app.secret_key = "hello"
 

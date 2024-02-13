@@ -56,7 +56,7 @@ def register():
 def login():
     data = request.get_json()
     
-    user = User.query.filter_by(username=data['username']).first()
+    user = User.query.filter_by(email=data['email']).first()
     if user:
         if check_password_hash(user.password, data['password']):
             return jsonify({
@@ -70,7 +70,7 @@ def login():
 
     
 
-@auth.route("/read/user", methods=["GET", "POST"])
+@auth.route("/user/read", methods=["GET", "POST"])
 def user():
     data = request.get_json()
     user_identity = decode_token(data["token"])
@@ -85,7 +85,7 @@ def user():
 
 
 
-@auth.route('/delete/user', methods=["DELETE", "POST"])
+@auth.route('/user/delete', methods=["DELETE", "POST"])
 def delete():
     data = request.get_json()
     user_identity = decode_token(data["token"])

@@ -73,24 +73,38 @@
 # print(players)
 
 
-import os
+# import os
 
-file = open('D:/Progetti/FantaVolley/backend/app/data/giocatori.json', 'r')
-file2 = open('D:/Progetti/FantaVolley/backend/app/data/new_giocatori.json', 'w')
+# file = open('D:/Progetti/FantaVolley/backend/app/data/giocatori.json', 'r')
+# file2 = open('D:/Progetti/FantaVolley/backend/app/data/new_giocatori.json', 'w')
 
-lines = file.readlines()
+# lines = file.readlines()
     
-squadre = {}
-index = 1
-for i, line in enumerate(lines):
-    if '"squadra' in line:
-        new_line = line.split(':"')[1].split('"')[0]
-        if new_line in squadre:
-            file2.write(f'\t   "squadra_id": {squadre[new_line]},\n')
-        else:
-            squadre[new_line] = index
-            file2.write(f'\t   "squadra_id": {index},\n')
-            index += 1
+
+# for i, line in enumerate(lines):
+#     if '"url_giocatore"' in line:
+#         player_code = line.split('player/')[1].split('"')[0]
+        
+#         file2.write(f'\t   "url_giocatore": "https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/{player_code}.png",\n')
+
         
     
-    file2.write(line)
+#     file2.write(line)
+
+import os
+import requests
+
+file = open('D:/Progetti/FantaVolley/backend/app/data/test.txt', 'r')
+lines = file.readlines()
+
+i = 0
+for line in lines:
+    line = line.split(".png")[0] + ".png"
+    request = requests.get(line)
+    if request.status_code == 200:
+        i += 1
+        print(i)
+    else:
+        print(request.url)
+
+print(i)

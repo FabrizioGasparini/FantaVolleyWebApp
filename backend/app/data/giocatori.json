@@ -10,9 +10,7 @@
       "altezza":"183 cm",
       "url_giocatore":"http://www.legavolley.it/player/ACQ-ALE-99",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ACQ-ALE-99&sqid=6398",
-      "id":0
-   },
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ACQ-ALE-99.png"         },
    {
       "nome":"Alletti Aimone",
       "ruolo":"Centrale",
@@ -24,9 +22,7 @@
       "altezza":"207 cm",
       "url_giocatore":"http://www.legavolley.it/player/ALL-AIM-88",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ALL-AIM-88&sqid=6397",
-      "id":1
-   },
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ALL-AIM-88.png"         },
    {
       "nome":"Alonso Roamy",
       "ruolo":"Centrale",
@@ -38,9 +34,7 @@
       "altezza":"201 cm",
       "url_giocatore":"http://www.legavolley.it/player/ALO-ROA-97",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ALO-ROA-97&sqid=6396",
-      "id":2
-   },
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ALO-ROA-97.png"         },
    {
       "nome":"Andringa Robbert",
       "ruolo":"Schiacciatore",
@@ -52,9 +46,7 @@
       "altezza":"191 cm",
       "url_giocatore":"http://www.legavolley.it/player/AND-ROB-90",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=AND-ROB-90&sqid=6396",
-      "id":3
-   },
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/AND-ROB-90.png"         },
    {
       "nome":"Anzani Simone",
       "ruolo":"Centrale",
@@ -66,9 +58,7 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/ANZ-SIM-92",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ANZ-SIM-92&sqid=6395",
-      "id":4
-   },
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ANZ-SIM-92.png"         },
    {
       "nome":"Balaso Fabio",
       "ruolo":"Libero",
@@ -80,9 +70,7 @@
       "altezza":"178 cm",
       "url_giocatore":"http://www.legavolley.it/player/BAL-FAB-95",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BAL-FAB-95&sqid=6395",
-      "id":5
-   },
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BAL-FAB-95.png"         },
    {
       "nome":"Baldi Andrea",
       "ruolo":"Schiacciatore",
@@ -94,9 +82,7 @@
       "altezza":"197 cm",
       "url_giocatore":"http://www.legavolley.it/player/BAL-AND-00",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BAL-AND-00&sqid=6435",
-      "id":6
-   },
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BAL-AND-00.png"         },
    {
       "nome":"Baranowicz Michele",
       "ruolo":"Palleggiatore",
@@ -108,9 +94,7 @@
       "altezza":"196 cm",
       "url_giocatore":"http://www.legavolley.it/player/BAR-MIC-89",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BAR-MIC-89&sqid=6401",
-      "id":7
-   },
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BAR-MIC-89.png"         },
    {
       "nome":"Basic Luka",
       "ruolo":"Schiacciatore",
@@ -122,9 +106,7 @@
       "altezza":"201 cm",
       "url_giocatore":"http://www.legavolley.it/player/BAS-LUK-95",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BAS-LUK-95&sqid=6435",
-      "id":8
-   },
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BAS-LUK-95.png"         },
    {
       "nome":"Bayram Efe",
       "ruolo":"Schiacciatore",
@@ -136,9 +118,7 @@
       "altezza":"194 cm",
       "url_giocatore":"http://www.legavolley.it/player/BAY-EFE-02",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BAY-EFE-02&sqid=6401",
-      "id":9
-   },
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BAY-EFE-02.png"         },
    {
       "nome":"Ben Tara Wassim",
       "ruolo":"Schiacciatore",
@@ -150,8 +130,7 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/BEN-WAS-96",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BEN-WAS-96&sqid=6400",
-      "id":10
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BEN-WAS-96.png"      
    },
    {
       "nome":"Beretta Thomas",
@@ -164,8 +143,7 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/BER-THO-90",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BER-THO-90&sqid=6403",
-      "id":11
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BER-THO-90.png"      
    },
    {
       "nome":"Berger Martin",
@@ -178,8 +156,7 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/BER-MAR-03",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BER-MAR-03&sqid=6398",
-      "id":12
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BER-MAR-03.png"      
    },
    {
       "nome":"Bisotto Francesco",
@@ -192,8 +169,7 @@
       "altezza":"180 cm",
       "url_giocatore":"http://www.legavolley.it/player/BIS-FRA-02",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BIS-FRA-02&sqid=6395",
-      "id":13
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BIS-FRA-02.png"      
    },
    {
       "nome":"Bonacchi Federico",
@@ -206,8 +182,7 @@
       "altezza":"189 cm",
       "url_giocatore":"http://www.legavolley.it/player/BON-FED-04",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BON-FED-04&sqid=6397",
-      "id":14
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BON-FED-04.png"      
    },
    {
       "nome":"Boninfante Mattia",
@@ -220,8 +195,7 @@
       "altezza":"190 cm",
       "url_giocatore":"http://www.legavolley.it/player/BON-MAT-04",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BON-MAT-04&sqid=6402",
-      "id":15
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BON-MAT-04.png"      
    },
    {
       "nome":"Bonisoli Pietro",
@@ -234,8 +208,7 @@
       "altezza":"182 cm",
       "url_giocatore":"http://www.legavolley.it/player/BON-PIE-05",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BON-PIE-05&sqid=6404",
-      "id":16
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BON-PIE-05.png"      
    },
    {
       "nome":"Bossi Elia",
@@ -248,8 +221,7 @@
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/BOS-ELI-94",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BOS-ELI-94&sqid=6435",
-      "id":17
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BOS-ELI-94.png"      
    },
    {
       "nome":"Bottolo Mattia",
@@ -262,8 +234,7 @@
       "altezza":"196 cm",
       "url_giocatore":"http://www.legavolley.it/player/BOT-MAT-00",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BOT-MAT-00&sqid=6395",
-      "id":18
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BOT-MAT-00.png"      
    },
    {
       "nome":"Brehme Anton",
@@ -276,8 +247,7 @@
       "altezza":"206 cm",
       "url_giocatore":"http://www.legavolley.it/player/BRE-ANT-99",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BRE-ANT-99&sqid=6402",
-      "id":19
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BRE-ANT-99.png"      
    },
    {
       "nome":"Brizard Antoine",
@@ -290,8 +260,7 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/BRI-ANT-94",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BRI-ANT-94&sqid=6396",
-      "id":20
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BRI-ANT-94.png"      
    },
    {
       "nome":"Buchegger Paul",
@@ -304,8 +273,7 @@
       "altezza":"204 cm",
       "url_giocatore":"http://www.legavolley.it/player/BUC-PAU-96",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BUC-PAU-96&sqid=6435",
-      "id":21
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BUC-PAU-96.png"      
    },
    {
       "nome":"Candellaro Davide",
@@ -318,8 +286,7 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/CAN-DAV-89",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=CAN-DAV-89&sqid=6400",
-      "id":22
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CAN-DAV-89.png"      
    },
    {
       "nome":"Caneschi Edoardo",
@@ -332,8 +299,7 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/CAN-EDO-97",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=CAN-EDO-97&sqid=6396",
-      "id":23
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CAN-EDO-97.png"      
    },
    {
       "nome":"Cardenas Morales Julio Cesar",
@@ -346,8 +312,7 @@
       "altezza":"197 cm",
       "url_giocatore":"http://www.legavolley.it/player/CAR-JUL-00",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=CAR-JUL-00&sqid=6399",
-      "id":24
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CAR-JUL-00.png"      
    },
    {
       "nome":"Catania Damiano",
@@ -360,8 +325,7 @@
       "altezza":"180 cm",
       "url_giocatore":"http://www.legavolley.it/player/CAT-DAM-01",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=CAT-DAM-01&sqid=6394",
-      "id":25
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CAT-DAM-01.png"      
    },
    {
       "nome":"Cavaccini Domenico",
@@ -374,8 +338,7 @@
       "altezza":"178 cm",
       "url_giocatore":"http://www.legavolley.it/player/CAV-DOM-87",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=CAV-DOM-87&sqid=6435",
-      "id":26
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CAV-DOM-87.png"      
    },
    {
       "nome":"Cavuto Oreste",
@@ -388,8 +351,7 @@
       "altezza":"199 cm",
       "url_giocatore":"http://www.legavolley.it/player/CAV-ORE-96",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=CAV-ORE-96&sqid=6398",
-      "id":27
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CAV-ORE-96.png"      
    },
    {
       "nome":"Chinenyeze Barthelemy",
@@ -402,8 +364,7 @@
       "altezza":"204 cm",
       "url_giocatore":"http://www.legavolley.it/player/CHI-BAR-98",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=CHI-BAR-98&sqid=6395",
-      "id":28
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CHI-BAR-98.png"      
    },
    {
       "nome":"Colaci Massimo",
@@ -416,8 +377,7 @@
       "altezza":"180 cm",
       "url_giocatore":"http://www.legavolley.it/player/COL-MAS-85",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=COL-MAS-85&sqid=6400",
-      "id":29
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/COL-MAS-85.png"      
    },
    {
       "nome":"Colombo Luca Samuele Maria",
@@ -430,8 +390,7 @@
       "altezza":"178 cm",
       "url_giocatore":"http://www.legavolley.it/player/COL-LUC-04",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=COL-LUC-04&sqid=6394",
-      "id":30
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/COL-LUC-04.png"      
    },
    {
       "nome":"Comparoni Francesco",
@@ -444,8 +403,7 @@
       "altezza":"204 cm",
       "url_giocatore":"http://www.legavolley.it/player/COM-FRA-01",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=COM-FRA-01&sqid=6403",
-      "id":31
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/COM-FRA-01.png"      
    },
    {
       "nome":"Cortesia Lorenzo",
@@ -458,8 +416,7 @@
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/COR-LOR-99",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=COR-LOR-99&sqid=6404",
-      "id":32
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/COR-LOR-99.png"      
    },
    {
       "nome":"Crosato Federico",
@@ -472,8 +429,7 @@
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/CRO-FED-02",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=CRO-FED-02&sqid=6399",
-      "id":33
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CRO-FED-02.png"      
    },
    {
       "nome":"Czerwinski Michael",
@@ -486,8 +442,7 @@
       "altezza":"206 cm",
       "url_giocatore":"http://www.legavolley.it/player/CZE-MIC-03",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=CZE-MIC-03&sqid=6401",
-      "id":34
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CZE-MIC-03.png"      
    },
    {
       "nome":"D'Amico Francesco",
@@ -500,8 +455,7 @@
       "altezza":"179 cm",
       "url_giocatore":"http://www.legavolley.it/player/DAM-FRA-99",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DAM-FRA-99&sqid=6404",
-      "id":35
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DAM-FRA-99.png"      
    },
    {
       "nome":"D'Heer Wout",
@@ -514,8 +468,7 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/DHE-WOU-01",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DHE-WOU-01&sqid=6398",
-      "id":36
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DHE-WOU-01.png"      
    },
    {
       "nome":"Davyskiba Vlad",
@@ -528,8 +481,7 @@
       "altezza":"197 cm",
       "url_giocatore":"http://www.legavolley.it/player/DAV-ULA-01",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DAV-ULA-01&sqid=6402",
-      "id":37
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DAV-ULA-01.png"      
    },
    {
       "nome":"De Cecco Luciano",
@@ -542,8 +494,7 @@
       "altezza":"194 cm",
       "url_giocatore":"http://www.legavolley.it/player/DEC-LUC-88",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DEC-LUC-88&sqid=6395",
-      "id":38
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DEC-LUC-88.png"      
    },
    {
       "nome":"De Santis Saverio",
@@ -556,8 +507,7 @@
       "altezza":"175 cm",
       "url_giocatore":"http://www.legavolley.it/player/DES-SAV-99",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DES-SAV-99&sqid=6401",
-      "id":39
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DES-SAV-99.png"      
    },
    {
       "nome":"Desmet Mathijs",
@@ -570,8 +520,7 @@
       "altezza":"198 cm",
       "url_giocatore":"http://www.legavolley.it/player/DES-MAT-00",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DES-MAT-00&sqid=6399",
-      "id":40
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DES-MAT-00.png"      
    },
    {
       "nome":"Di Martino Gabriele",
@@ -584,8 +533,7 @@
       "altezza":"199 cm",
       "url_giocatore":"http://www.legavolley.it/player/DIM-GAB-97",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DIM-GAB-97&sqid=6403",
-      "id":41
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DIM-GAB-97.png"      
    },
    {
       "nome":"Diamantini Enrico",
@@ -598,8 +546,7 @@
       "altezza":"204 cm",
       "url_giocatore":"http://www.legavolley.it/player/DIA-ENR-93",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DIA-ENR-93&sqid=6395",
-      "id":42
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DIA-ENR-93.png"      
    },
    {
       "nome":"Dias Bruno",
@@ -612,8 +559,7 @@
       "altezza":"188 cm",
       "url_giocatore":"http://www.legavolley.it/player/DIA-BRU-03",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DIA-BRU-03&sqid=6396",
-      "id":43
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DIA-BRU-03.png"      
    },
    {
       "nome":"Dirlic Petar",
@@ -626,8 +572,7 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/DIR-PET-97",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DIR-PET-97&sqid=6394",
-      "id":44
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DIR-PET-97.png"      
    },
    {
       "nome":"Dzavoronok Donovan",
@@ -640,8 +585,7 @@
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/DZA-DON-97",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DZA-DON-97&sqid=6404",
-      "id":45
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DZA-DON-97.png"      
    },
    {
       "nome":"Ekstrand Hampus",
@@ -654,8 +598,7 @@
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/EKS-HAM-03",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=EKS-HAM-03&sqid=6397",
-      "id":46
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/EKS-HAM-03.png"      
    },
    {
       "nome":"Esmaeilnezhad Amin",
@@ -668,8 +611,7 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/ESM-AMI-96",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ESM-AMI-96&sqid=6404",
-      "id":47
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ESM-AMI-96.png"      
    },
    {
       "nome":"Falaschi Marco",
@@ -682,8 +624,7 @@
       "altezza":"188 cm",
       "url_giocatore":"http://www.legavolley.it/player/FAL-MAR-03",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=FAL-MAR-03&sqid=6399",
-      "id":48
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/FAL-MAR-03.png"      
    },
    {
       "nome":"Faure Theo",
@@ -696,8 +637,7 @@
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/FAU-THE",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=FAU-THE&sqid=6401",
-      "id":49
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/FAU-THE.png"      
    },
    {
       "nome":"Federici Filippo",
@@ -710,8 +650,7 @@
       "altezza":"182 cm",
       "url_giocatore":"http://www.legavolley.it/player/FED-FIL-00",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=FED-FIL-00&sqid=6402",
-      "id":50
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/FED-FIL-00.png"      
    },
    {
       "nome":"Finauri Alessandro",
@@ -724,8 +663,7 @@
       "altezza":"185 cm",
       "url_giocatore":"http://www.legavolley.it/player/FIN-ALE-04",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=FIN-ALE-04&sqid=6401",
-      "id":51
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/FIN-ALE-04.png"      
    },
    {
       "nome":"Frumuselu Cristian",
@@ -738,8 +676,7 @@
       "altezza":"207 cm",
       "url_giocatore":"http://www.legavolley.it/player/FRU-CRI-97",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=FRU-CRI-97&sqid=6435",
-      "id":52
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/FRU-CRI-97.png"      
    },
    {
       "nome":"Fusaro Francesco",
@@ -752,8 +689,7 @@
       "altezza":"201 cm",
       "url_giocatore":"http://www.legavolley.it/player/FUS-FRA-99",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=FUS-FRA-99&sqid=6399",
-      "id":53
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/FUS-FRA-99.png"      
    },
    {
       "nome":"Gaggini Marco",
@@ -766,8 +702,7 @@
       "altezza":"184 cm",
       "url_giocatore":"http://www.legavolley.it/player/GAG-MAR-02",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GAG-MAR-02&sqid=6403",
-      "id":54
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GAG-MAR-02.png"      
    },
    {
       "nome":"Galassi Gianluca",
@@ -780,8 +715,7 @@
       "altezza":"201 cm",
       "url_giocatore":"http://www.legavolley.it/player/GAL-GIA-97",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GAL-GIA-97&sqid=6403",
-      "id":55
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GAL-GIA-97.png"      
    },
    {
       "nome":"Garcia Fernandez Gabi",
@@ -794,8 +728,7 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/GAR-GAB-99",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GAR-GAB-99&sqid=6399",
-      "id":56
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GAR-GAB-99.png"      
    },
    {
       "nome":"Gardini Davide",
@@ -808,8 +741,7 @@
       "altezza":"206 cm",
       "url_giocatore":"http://www.legavolley.it/player/GAR-DAV-99",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GAR-DAV-99&sqid=6399",
-      "id":57
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GAR-DAV-99.png"      
    },
    {
       "nome":"Gargiulo Giovanni Maria",
@@ -822,8 +754,7 @@
       "altezza":"210 cm",
       "url_giocatore":"http://www.legavolley.it/player/GAR-GIO-99",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GAR-GIO-99&sqid=6397",
-      "id":58
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GAR-GIO-99.png"      
    },
    {
       "nome":"Giani Lorenzo",
@@ -836,8 +767,7 @@
       "altezza":"190 cm",
       "url_giocatore":"http://www.legavolley.it/player/GIA-LOR-02",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GIA-LOR-02&sqid=6401",
-      "id":59
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GIA-LOR-02.png"      
    },
    {
       "nome":"Giannelli Simone",
@@ -850,8 +780,7 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/GIA-SIM-96",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GIA-SIM-96&sqid=6400",
-      "id":60
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GIA-SIM-96.png"      
    },
    {
       "nome":"Gironi Fabrizio",
@@ -864,8 +793,7 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/GIR-FAB-00",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GIR-FAB-00&sqid=6396",
-      "id":61
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GIR-FAB-00.png"      
    },
    {
       "nome":"Gollini Riccardo",
@@ -878,8 +806,7 @@
       "altezza":"194 cm",
       "url_giocatore":"http://www.legavolley.it/player/GOL-RIC-00",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GOL-RIC-00&sqid=6402",
-      "id":62
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GOL-RIC-00.png"      
    },
    {
       "nome":"Grozdanov Aleks",
@@ -892,8 +819,7 @@
       "altezza":"207 cm",
       "url_giocatore":"http://www.legavolley.it/player/GRO-ALE-98",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GRO-ALE-98&sqid=6404",
-      "id":63
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GRO-ALE-98.png"      
    },
    {
       "nome":"Guarienti Zappoli Enrico",
@@ -906,8 +832,7 @@
       "altezza":"197 cm",
       "url_giocatore":"http://www.legavolley.it/player/ZAP-ENR-95",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ZAP-ENR-95&sqid=6435",
-      "id":64
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZAP-ENR-95.png"      
    },
    {
       "nome":"Gutierrez Josè Miguel",
@@ -920,8 +845,7 @@
       "altezza":"194 cm",
       "url_giocatore":"http://www.legavolley.it/player/GUT-JOS-01",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GUT-JOS-01&sqid=6397",
-      "id":65
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GUT-JOS-01.png"      
    },
    {
       "nome":"Guzzo Tommaso",
@@ -934,8 +858,7 @@
       "altezza":"197 cm",
       "url_giocatore":"http://www.legavolley.it/player/GUZ-TOM-02",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GUZ-TOM-02&sqid=6399",
-      "id":66
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GUZ-TOM-02.png"      
    },
    {
       "nome":"Held Tim",
@@ -948,8 +871,7 @@
       "altezza":"195 cm",
       "url_giocatore":"http://www.legavolley.it/player/HEL-TIM-98",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=HEL-TIM-98&sqid=6400",
-      "id":67
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/HEL-TIM-98.png"      
    },
    {
       "nome":"Herrera Jaime Jesus",
@@ -962,8 +884,7 @@
       "altezza":"196 cm",
       "url_giocatore":"http://www.legavolley.it/player/HER-JES-95",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=HER-JES-95&sqid=6400",
-      "id":68
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/HER-JES-95.png"      
    },
    {
       "nome":"Hoffer Nicolò",
@@ -976,8 +897,7 @@
       "altezza":"180 cm",
       "url_giocatore":"http://www.legavolley.it/player/HOF-NIC-01",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=HOF-NIC-01&sqid=6396",
-      "id":69
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/HOF-NIC-01.png"      
    },
    {
       "nome":"Innocenzi Andrea",
@@ -990,8 +910,7 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/INN-AND-00",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=INN-AND-00&sqid=6394",
-      "id":70
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/INN-AND-00.png"      
    },
    {
       "nome":"Ishikawa Yuki",
@@ -1004,8 +923,7 @@
       "altezza":"192 cm",
       "url_giocatore":"http://www.legavolley.it/player/ISH-YUK-95",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ISH-YUK-95&sqid=6394",
-      "id":71
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ISH-YUK-95.png"      
    },
    {
       "nome":"Jendryk Jeffrey",
@@ -1018,8 +936,7 @@
       "altezza":"208 cm",
       "url_giocatore":"http://www.legavolley.it/player/JEN-JEF-95",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=JEN-JEF-95&sqid=6397",
-      "id":72
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/JEN-JEF-95.png"      
    },
    {
       "nome":"Jovovic Nikola",
@@ -1032,8 +949,7 @@
       "altezza":"197 cm",
       "url_giocatore":"http://www.legavolley.it/player/JOV-NIK-92",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=JOV-NIK-92&sqid=6404",
-      "id":73
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/JOV-NIK-92.png"      
    },
    {
       "nome":"Juantorena Osmany",
@@ -1046,8 +962,7 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/JUA-OSM-85",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=JUA-OSM-85&sqid=6402",
-      "id":74
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/JUA-OSM-85.png"      
    },
    {
       "nome":"Kaziyski Matey",
@@ -1060,8 +975,7 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/KAZ-MAT-84",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=KAZ-MAT-84&sqid=6394",
-      "id":75
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/KAZ-MAT-84.png"      
    },
    {
       "nome":"Keita Noumory",
@@ -1074,8 +988,7 @@
       "altezza":"206 cm",
       "url_giocatore":"http://www.legavolley.it/player/KEI-NOU-01",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=KEI-NOU-01&sqid=6404",
-      "id":76
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/KEI-NOU-01.png"      
    },
    {
       "nome":"Kozamernik Jan",
@@ -1088,8 +1001,7 @@
       "altezza":"204 cm",
       "url_giocatore":"http://www.legavolley.it/player/KOZ-JAN-95",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=KOZ-JAN-95&sqid=6398",
-      "id":77
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/KOZ-JAN-95.png"      
    },
    {
       "nome":"Kreling Fernando",
@@ -1102,8 +1014,7 @@
       "altezza":"185 cm",
       "url_giocatore":"http://www.legavolley.it/player/KRE-FER",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=KRE-FER&sqid=6403",
-      "id":78
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/KRE-FER.png"      
    },
    {
       "nome":"Lagumdzija Adis",
@@ -1116,8 +1027,7 @@
       "altezza":"211 cm",
       "url_giocatore":"http://www.legavolley.it/player/LAG-ADI-99",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LAG-ADI-99&sqid=6395",
-      "id":79
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LAG-ADI-99.png"      
    },
    {
       "nome":"Lanza Filippo",
@@ -1130,8 +1040,7 @@
       "altezza":"196 cm",
       "url_giocatore":"http://www.legavolley.it/player/LAN-FIL-91",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LAN-FIL-91&sqid=6397",
-      "id":80
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LAN-FIL-91.png"      
    },
    {
       "nome":"Larizza Jacopo",
@@ -1144,8 +1053,7 @@
       "altezza":"204 cm",
       "url_giocatore":"http://www.legavolley.it/player/LAR-JAC-98",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LAR-JAC-98&sqid=6395",
-      "id":81
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LAR-JAC-98.png"      
    },
    {
       "nome":"Laurenzano Gabriele",
@@ -1158,8 +1066,7 @@
       "altezza":"176 cm",
       "url_giocatore":"http://www.legavolley.it/player/LAU-GAB-03",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LAU-GAB-03&sqid=6398",
-      "id":82
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LAU-GAB-03.png"      
    },
    {
       "nome":"Lavia Daniele",
@@ -1172,8 +1079,7 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/LAV-DAN-99",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LAV-DAN-99&sqid=6398",
-      "id":83
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LAV-DAN-99.png"      
    },
    {
       "nome":"Lawani Ibrahim",
@@ -1186,8 +1092,7 @@
       "altezza":"199 cm",
       "url_giocatore":"http://www.legavolley.it/player/LAW-IBR-01",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LAW-IBR-01&sqid=6403",
-      "id":84
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LAW-IBR-01.png"      
    },
    {
       "nome":"Leal Yoandy",
@@ -1200,8 +1105,7 @@
       "altezza":"201 cm",
       "url_giocatore":"http://www.legavolley.it/player/LEA-YAN-98",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LEA-YAN-98&sqid=6396",
-      "id":85
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LEA-YAN-98.png"      
    },
    {
       "nome":"Leon Venero Wilfredo",
@@ -1214,8 +1118,7 @@
       "altezza":"201 cm",
       "url_giocatore":"http://www.legavolley.it/player/LEO-WIL-93",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LEO-WIL-93&sqid=6400",
-      "id":86
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LEO-WIL-93.png"      
    },
    {
       "nome":"Loeppky Eric",
@@ -1228,8 +1131,7 @@
       "altezza":"197 cm",
       "url_giocatore":"http://www.legavolley.it/player/LOE-ERI-98",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LOE-ERI-98&sqid=6403",
-      "id":87
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LOE-ERI-98.png"      
    },
    {
       "nome":"Loser Agustin",
@@ -1242,8 +1144,7 @@
       "altezza":"201 cm",
       "url_giocatore":"http://www.legavolley.it/player/LOS-AGU-97",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LOS-AGU-97&sqid=6394",
-      "id":88
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LOS-AGU-97.png"      
    },
    {
       "nome":"Luzzi Davide",
@@ -1256,8 +1157,7 @@
       "altezza":"180 cm",
       "url_giocatore":"http://www.legavolley.it/player/LUZ-DAV-04",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LUZ-DAV-04&sqid=6397",
-      "id":89
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LUZ-DAV-04.png"      
    },
    {
       "nome":"Maar Stephen",
@@ -1270,8 +1170,7 @@
       "altezza":"201 cm",
       "url_giocatore":"http://www.legavolley.it/player/MAA-STE-94",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MAA-STE-94&sqid=6403",
-      "id":90
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MAA-STE-94.png"      
    },
    {
       "nome":"Magalini Giulio",
@@ -1284,8 +1183,7 @@
       "altezza":"196 cm",
       "url_giocatore":"http://www.legavolley.it/player/MAG-GIU-01",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MAG-GIU-01&sqid=6398",
-      "id":91
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MAG-GIU-01.png"      
    },
    {
       "nome":"Manavinezhad Mohammadjavad",
@@ -1298,22 +1196,7 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/MAN-MOH-95",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MAN-MOH-95&sqid=6435",
-      "id":92
-   },
-   {
-      "nome":"Marttila Luka",
-      "ruolo":"Schiacciatore",
-	   "squadra_id": 8,
-      "squadra":"Mint Vero Volley Monza",
-      "numero":"2",
-      "nascita":"30/06/2003",
-      "nazione":"FIN",
-      "altezza":"197 cm",
-      "url_giocatore":"http://www.legavolley.it/player/MAR-LUK-03",
-      "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MAR-LUK-03&sqid=6403",
-      "id":93
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MAN-MOH-95.png"      
    },
    {
       "nome":"Massari Jacopo",
@@ -1326,8 +1209,7 @@
       "altezza":"185 cm",
       "url_giocatore":"http://www.legavolley.it/player/MAS-JAC-88",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MAS-JAC-88&sqid=6435",
-      "id":94
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MAS-JAC-88.png"      
    },
    {
       "nome":"Masulovic Nemanja",
@@ -1340,8 +1222,7 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/MAS-NEM-95",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MAS-NEM-95&sqid=6435",
-      "id":95
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MAS-NEM-95.png"      
    },
    {
       "nome":"Mazzone Daniele",
@@ -1354,8 +1235,7 @@
       "altezza":"209 cm",
       "url_giocatore":"http://www.legavolley.it/player/MAZ-DAN-92",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MAZ-DAN-92&sqid=6401",
-      "id":96
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MAZ-DAN-92.png"      
    },
    {
       "nome":"Mergarejo Hernandez Osniel Lazaro",
@@ -1368,8 +1248,7 @@
       "altezza":"197 cm",
       "url_giocatore":"http://www.legavolley.it/player/MEL-OSN-87",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MEL-OSN-87&sqid=6394",
-      "id":97
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MEL-OSN-87.png"      
    },
    {
       "nome":"Michieletto Alessandro",
@@ -1382,8 +1261,7 @@
       "altezza":"211 cm",
       "url_giocatore":"http://www.legavolley.it/player/MIC-ALE-01",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MIC-ALE-01&sqid=6398",
-      "id":98
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MIC-ALE-01.png"      
    },
    {
       "nome":"Morazzini Flavio",
@@ -1396,8 +1274,7 @@
       "altezza":"187 cm",
       "url_giocatore":"http://www.legavolley.it/player/MOR-FLA-05",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MOR-FLA-05&sqid=6403",
-      "id":99
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MOR-FLA-05.png"      
    },
    {
       "nome":"Mosca Leandro",
@@ -1410,8 +1287,7 @@
       "altezza":"209 cm",
       "url_giocatore":"http://www.legavolley.it/player/MOS-LEA-00",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MOS-LEA-00&sqid=6404",
-      "id":100
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MOS-LEA-00.png"      
    },
    {
       "nome":"Mossa De Rezende Bruno",
@@ -1424,8 +1300,7 @@
       "altezza":"190 cm",
       "url_giocatore":"http://www.legavolley.it/player/MOS-BRU-86",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MOS-BRU-86&sqid=6402",
-      "id":101
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MOS-BRU-86.png"
    },
    {
       "nome":"Motzo Matheus",
@@ -1438,8 +1313,7 @@
       "altezza":"192 cm",
       "url_giocatore":"http://www.legavolley.it/player/MOT-MAT-99",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MOT-MAT-99&sqid=6395",
-      "id":102
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MOT-MAT-99.png"
    },
    {
       "nome":"Mozic Rok",
@@ -1452,8 +1326,7 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/MOZ-ROK-02",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MOZ-ROK-02&sqid=6404",
-      "id":103
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MOZ-ROK-02.png"
    },
    {
       "nome":"Mujanovic Nik",
@@ -1466,8 +1339,7 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/MUJ-NIK-04",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MUJ-NIK-04&sqid=6403",
-      "id":104
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MUJ-NIK-04.png"
    },
    {
       "nome":"Nedeljkovic Aleksandar",
@@ -1480,8 +1352,7 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/NED-ALE-97",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=NED-ALE-97&sqid=6401",
-      "id":105
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/NED-ALE-97.png"
    },
    {
       "nome":"Nelli Gabriele",
@@ -1494,8 +1365,7 @@
       "altezza":"208 cm",
       "url_giocatore":"http://www.legavolley.it/player/NEL-GAB-93",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=NEL-GAB-93&sqid=6398",
-      "id":106
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/NEL-GAB-93.png"
    },
    {
       "nome":"Nikolov Aleksandar",
@@ -1508,8 +1378,7 @@
       "altezza":"206 cm",
       "url_giocatore":"http://www.legavolley.it/player/NIK-ALE-03",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=NIK-ALE-03&sqid=6395",
-      "id":107
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/NIK-ALE-03.png"
    },
    {
       "nome":"Orduna Santiago",
@@ -1522,8 +1391,7 @@
       "altezza":"183 cm",
       "url_giocatore":"http://www.legavolley.it/player/ORD-SAN-83",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ORD-SAN-83&sqid=6435",
-      "id":108
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ORD-SAN-83.png"
    },
    {
       "nome":"Pace Domenico",
@@ -1536,8 +1404,7 @@
       "altezza":"180 cm",
       "url_giocatore":"http://www.legavolley.it/player/PAC-DOM-00",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PAC-DOM-00&sqid=6398",
-      "id":109
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PAC-DOM-00.png"
    },
    {
       "nome":"Paglialunga Luca",
@@ -1550,8 +1417,7 @@
       "altezza":"192 cm",
       "url_giocatore":"http://www.legavolley.it/player/PAG-LUC-04",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PAG-LUC-04&sqid=6397",
-      "id":110
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PAG-LUC-04.png"
    },
    {
       "nome":"Peric Pavle",
@@ -1564,8 +1430,7 @@
       "altezza":"207 cm",
       "url_giocatore":"http://www.legavolley.it/player/PER-PAV-98",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PER-PAV-98&sqid=6401",
-      "id":111
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PER-PAV-98.png"
    },
    {
       "nome":"Piano Matteo",
@@ -1578,8 +1443,7 @@
       "altezza":"209 cm",
       "url_giocatore":"http://www.legavolley.it/player/PIA-MAT-90",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PIA-MAT-90&sqid=6394",
-      "id":112
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PIA-MAT-90.png"
    },
    {
       "nome":"Piccinelli Alessandro",
@@ -1592,8 +1456,7 @@
       "altezza":"189 cm",
       "url_giocatore":"http://www.legavolley.it/player/PIC-ALE-97",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PIC-ALE-97&sqid=6401",
-      "id":113
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PIC-ALE-97.png"
    },
    {
       "nome":"Pierri Francesco",
@@ -1606,8 +1469,7 @@
       "altezza":"180 cm",
       "url_giocatore":"http://www.legavolley.it/player/PIE-FRA-99",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PIE-FRA-99&sqid=6435",
-      "id":114
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PIE-FRA-99.png"
    },
    {
       "nome":"Pinali Giulio",
@@ -1620,8 +1482,7 @@
       "altezza":"198 cm",
       "url_giocatore":"http://www.legavolley.it/player/PIN-GIU-97",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PIN-GIU-97&sqid=6402",
-      "id":115
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PIN-GIU-97.png"
    },
    {
       "nome":"Pinali Roberto",
@@ -1634,8 +1495,7 @@
       "altezza":"187 cm",
       "url_giocatore":"http://www.legavolley.it/player/PIN-ROB-95",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PIN-ROB-95&sqid=6402",
-      "id":116
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PIN-ROB-95.png"
    },
    {
       "nome":"Plak Fabian",
@@ -1648,8 +1508,7 @@
       "altezza":"198 cm",
       "url_giocatore":"http://www.legavolley.it/player/PLA-FAB-97",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PLA-FAB-97&sqid=6399",
-      "id":117
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PLA-FAB-97.png"
    },
    {
       "nome":"Plotnytskyi Oleh",
@@ -1662,8 +1521,7 @@
       "altezza":"194 cm",
       "url_giocatore":"http://www.legavolley.it/player/PLO-OLE-97",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PLO-OLE-97&sqid=6400",
-      "id":118
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PLO-OLE-97.png"
    },
    {
       "nome":"Podrascanin Marko",
@@ -1676,8 +1534,7 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/POD-MAR-87",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=POD-MAR-87&sqid=6398",
-      "id":119
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/POD-MAR-87.png"
    },
    {
       "nome":"Porro Luca",
@@ -1690,8 +1547,7 @@
       "altezza":"194 cm",
       "url_giocatore":"http://www.legavolley.it/player/POR-LUC-03",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=POR-LUC-03&sqid=6399",
-      "id":120
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/POR-LUC-03.png"
    },
    {
       "nome":"Porro Paolo",
@@ -1704,8 +1560,7 @@
       "altezza":"185 cm",
       "url_giocatore":"http://www.legavolley.it/player/POR-PAO-01",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=POR-PAO-01&sqid=6394",
-      "id":121
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/POR-PAO-01.png"
    },
    {
       "nome":"Raffaelli Giacomo",
@@ -1718,8 +1573,7 @@
       "altezza":"194 cm",
       "url_giocatore":"http://www.legavolley.it/player/RAF-GIA-95",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RAF-GIA-95&sqid=6397",
-      "id":122
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RAF-GIA-95.png"
    },
    {
       "nome":"Ramon Jordi",
@@ -1732,8 +1586,7 @@
       "altezza":"194 cm",
       "url_giocatore":"http://www.legavolley.it/player/RAM-JOR-99",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RAM-JOR-99&sqid=6401",
-      "id":123
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RAM-JOR-99.png"
    },
    {
       "nome":"Randazzo Luigi",
@@ -1746,8 +1599,7 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/RAN-LUI-94",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RAN-LUI-94&sqid=6435",
-      "id":124
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RAN-LUI-94.png"
    },
    {
       "nome":"Recine Francesco",
@@ -1760,8 +1612,7 @@
       "altezza":"185 cm",
       "url_giocatore":"http://www.legavolley.it/player/REC-FRA-99",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=REC-FRA-99&sqid=6396",
-      "id":125
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/REC-FRA-99.png"
    },
    {
       "nome":"Reggers Ferre",
@@ -1774,8 +1625,7 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/REG-FER-03",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=REG-FER-03&sqid=6394",
-      "id":126
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/REG-FER-03.png"
    },
    {
       "nome":"Resende Gualberto Flavio",
@@ -1788,8 +1638,7 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/GUA-FLA-93",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GUA-FLA-93&sqid=6400",
-      "id":127
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GUA-FLA-93.png"
    },
    {
       "nome":"Ricci Fabio",
@@ -1802,8 +1651,7 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/RIC-FAB-94",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RIC-FAB-94&sqid=6396",
-      "id":128
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RIC-FAB-94.png"
    },
    {
       "nome":"Rinaldi Tommaso",
@@ -1816,8 +1664,7 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/RIN-TOM-01",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RIN-TOM-01&sqid=6402",
-      "id":129
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RIN-TOM-01.png"
    },
    {
       "nome":"Rizzo Marco",
@@ -1830,8 +1677,7 @@
       "altezza":"185 cm",
       "url_giocatore":"http://www.legavolley.it/player/RIZ-MAR-90",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RIZ-MAR-90&sqid=6397",
-      "id":130
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RIZ-MAR-90.png"
    },
    {
       "nome":"Romanò Yuri",
@@ -1844,8 +1690,7 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/ROM-YUR-97",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ROM-YUR-97&sqid=6396",
-      "id":131
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ROM-YUR-97.png"
    },
    {
       "nome":"Ropret Gregor",
@@ -1858,8 +1703,7 @@
       "altezza":"193 cm",
       "url_giocatore":"http://www.legavolley.it/player/ROP-GRE-89",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ROP-GRE-89&sqid=6400",
-      "id":132
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ROP-GRE-89.png"
    },
    {
       "nome":"Rossi Andrea",
@@ -1872,8 +1716,7 @@
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/ROS-AND-89",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ROS-AND-89&sqid=6401",
-      "id":133
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ROS-AND-89.png"
    },
    {
       "nome":"Russell Kyle",
@@ -1886,8 +1729,7 @@
       "altezza":"206 cm",
       "url_giocatore":"http://www.legavolley.it/player/RUS-KYL-93",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RUS-KYL-93&sqid=6397",
-      "id":134
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RUS-KYL-93.png"
    },
    {
       "nome":"Russo Davide Luigi",
@@ -1900,8 +1742,7 @@
       "altezza":"180 cm",
       "url_giocatore":"http://www.legavolley.it/player/RUS-DAV-01",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RUS-DAV-01&sqid=6399",
-      "id":135
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RUS-DAV-01.png"
    },
    {
       "nome":"Russo Roberto",
@@ -1914,8 +1755,7 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/RUS-ROB-97",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RUS-ROB-97&sqid=6400",
-      "id":136
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RUS-ROB-97.png"
    },
    {
       "nome":"Rychlicki Kamil",
@@ -1928,8 +1768,7 @@
       "altezza":"204 cm",
       "url_giocatore":"http://www.legavolley.it/player/RYC-KAM-96",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RYC-KAM-96&sqid=6398",
-      "id":137
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RYC-KAM-96.png"
    },
    {
       "nome":"Saitta Davide",
@@ -1942,8 +1781,7 @@
       "altezza":"190 cm",
       "url_giocatore":"http://www.legavolley.it/player/SAI-DAV-87",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SAI-DAV-87&sqid=6401",
-      "id":138
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SAI-DAV-87.png"
    },
    {
       "nome":"Sala Lorenzo",
@@ -1956,8 +1794,7 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/SAL-LOR-02",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SAL-LOR-02&sqid=6397",
-      "id":139
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SAL-LOR-02.png"
    },
    {
       "nome":"Sanguinetti Giovanni",
@@ -1970,8 +1807,7 @@
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/SAN-GIO-00",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SAN-GIO-00&sqid=6402",
-      "id":140
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SAN-GIO-00.png"
    },
    {
       "nome":"Sani Francesco",
@@ -1984,8 +1820,7 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/SAN-FRA-02",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SAN-FRA-02&sqid=6404",
-      "id":141
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SAN-FRA-02.png"
    },
    {
       "nome":"Santambrogio Filippo",
@@ -1998,8 +1833,7 @@
       "altezza":"181 cm",
       "url_giocatore":"http://www.legavolley.it/player/SAN-FIL-99",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SAN-FIL-99&sqid=6435",
-      "id":142
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SAN-FIL-99.png"
    },
    {
       "nome":"Santos De Souza Ricardo Lucarelli",
@@ -2012,8 +1846,7 @@
       "altezza":"196 cm",
       "url_giocatore":"http://www.legavolley.it/player/LUC-RIC-92",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LUC-RIC-92&sqid=6396",
-      "id":143
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LUC-RIC-92.png"
    },
    {
       "nome":"Sapozhkov Maksim",
@@ -2026,8 +1859,7 @@
       "altezza":"220 cm",
       "url_giocatore":"http://www.legavolley.it/player/SAP-MAK-00",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SAP-MAK-00&sqid=6402",
-      "id":144
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SAP-MAK-00.png"
    },
    {
       "nome":"Sbertoli Riccardo",
@@ -2040,8 +1872,7 @@
       "altezza":"190 cm",
       "url_giocatore":"http://www.legavolley.it/player/SBE-RIC-98",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SBE-RIC-98&sqid=6398",
-      "id":145
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SBE-RIC-98.png"
    },
    {
       "nome":"Scanferla Leonardo",
@@ -2054,8 +1885,7 @@
       "altezza":"184 cm",
       "url_giocatore":"http://www.legavolley.it/player/SCA-LEO-98",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SCA-LEO-98&sqid=6396",
-      "id":146
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SCA-LEO-98.png"
    },
    {
       "nome":"Semeniuk Kamil",
@@ -2068,8 +1898,7 @@
       "altezza":"194 cm",
       "url_giocatore":"http://www.legavolley.it/player/SEM-KAM-96",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SEM-KAM-96&sqid=6400",
-      "id":147
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SEM-KAM-96.png"
    },
    {
       "nome":"Sighinolfi Nicholas",
@@ -2082,8 +1911,7 @@
       "altezza":"206 cm",
       "url_giocatore":"http://www.legavolley.it/player/SIG-NIC-94",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SIG-NIC-94&sqid=6402",
-      "id":148
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SIG-NIC-94.png"
    },
    {
       "nome":"Simon Robertlandy",
@@ -2096,8 +1924,7 @@
       "altezza":"208 cm",
       "url_giocatore":"http://www.legavolley.it/player/SIM-ROB-87",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SIM-ROB-87&sqid=6396",
-      "id":149
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SIM-ROB-87.png"
    },
    {
       "nome":"Solé Sebastian",
@@ -2110,8 +1937,7 @@
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/SOL-SEB-91",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SOL-SEB-91&sqid=6400",
-      "id":150
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SOL-SEB-91.png"
    },
    {
       "nome":"Spirito Luca",
@@ -2124,8 +1950,7 @@
       "altezza":"199 cm",
       "url_giocatore":"http://www.legavolley.it/player/SPI-LUC-93",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SPI-LUC-93&sqid=6404",
-      "id":151
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SPI-LUC-93.png"
    },
    {
       "nome":"Stankovic Dragan",
@@ -2138,8 +1963,7 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/STA-DRA-85",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=STA-DRA-85&sqid=6402",
-      "id":152
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/STA-DRA-85.png"
    },
    {
       "nome":"Stefani Tommaso",
@@ -2152,8 +1976,7 @@
       "altezza":"210 cm",
       "url_giocatore":"http://www.legavolley.it/player/STE-TOM-01",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=STE-TOM-01&sqid=6399",
-      "id":153
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/STE-TOM-01.png"
    },
    {
       "nome":"Szwarc Arthur",
@@ -2166,8 +1989,7 @@
       "altezza":"207 cm",
       "url_giocatore":"http://www.legavolley.it/player/SZW-ART-95",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SZW-ART-95&sqid=6403",
-      "id":154
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SZW-ART-95.png"
    },
    {
       "nome":"Takahashi Ran",
@@ -2180,8 +2002,7 @@
       "altezza":"188 cm",
       "url_giocatore":"http://www.legavolley.it/player/TAK-RAN-01",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=TAK-RAN-01&sqid=6403",
-      "id":155
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TAK-RAN-01.png"
    },
    {
       "nome":"Taniguchi Wataru",
@@ -2194,8 +2015,7 @@
       "altezza":"174 cm",
       "url_giocatore":"http://www.legavolley.it/player/TAN-WAT-96",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=TAN-WAT-96&sqid=6399",
-      "id":156
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TAN-WAT-96.png"
    },
    {
       "nome":"Thelle Jakob Solgaard",
@@ -2208,8 +2028,7 @@
       "altezza":"198 cm",
       "url_giocatore":"http://www.legavolley.it/player/THE-JAK-99",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=THE-JAK-99&sqid=6395",
-      "id":157
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/THE-JAK-99.png"
    },
    {
       "nome":"Tondo Alessandro",
@@ -2222,8 +2041,7 @@
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/TON-ALE-91",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=TON-ALE-91&sqid=6435",
-      "id":158
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TON-ALE-91.png"
    },
    {
       "nome":"Toscani Alessandro",
@@ -2236,22 +2054,7 @@
       "altezza":"183 cm",
       "url_giocatore":"http://www.legavolley.it/player/TOS-ALE-98",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=TOS-ALE-98&sqid=6400",
-      "id":159
-   },
-   {
-      "nome":"Tosti Jacopo",
-      "ruolo":"Centrale",
-	   "squadra_id": 6,
-      "squadra":"Cisterna Volley",
-      "numero":"3",
-      "nascita":"29/09/2008",
-      "nazione":"ITA",
-      "altezza":"ND cm",
-      "url_giocatore":"http://www.legavolley.it/player/TOS-JAC-08",
-      "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=TOS-JAC-08&sqid=6401",
-      "id":160
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TOS-ALE-98.png"
    },
    {
       "nome":"Trinidad De Haro Angel",
@@ -2264,8 +2067,7 @@
       "altezza":"195 cm",
       "url_giocatore":"http://www.legavolley.it/player/TRI-ANG-93",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=TRI-ANG-93&sqid=6397",
-      "id":161
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TRI-ANG-93.png"
    },
    {
       "nome":"Truhtchev Axel",
@@ -2278,8 +2080,7 @@
       "altezza":"195 cm",
       "url_giocatore":"http://www.legavolley.it/player/TRU-AXE-95",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=TRU-AXE-95&sqid=6404",
-      "id":162
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TRU-AXE-95.png"
    },
    {
       "nome":"Truocchio Andrea",
@@ -2292,8 +2093,7 @@
       "altezza":"207 cm",
       "url_giocatore":"http://www.legavolley.it/player/TRU-AND-00",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=TRU-AND-00&sqid=6399",
-      "id":163
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TRU-AND-00.png"
    },
    {
       "nome":"Visic Petar",
@@ -2306,8 +2106,7 @@
       "altezza":"198 cm",
       "url_giocatore":"http://www.legavolley.it/player/VIS-PET-98",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=VIS-PET-98&sqid=6403",
-      "id":164
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/VIS-PET-98.png"
    },
    {
       "nome":"Vitelli Marco",
@@ -2320,8 +2119,7 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/VIT-MAR-96",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=VIT-MAR-96&sqid=6394",
-      "id":165
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/VIT-MAR-96.png"
    },
    {
       "nome":"Yant Herrera Marlon",
@@ -2334,8 +2132,7 @@
       "altezza":"204 cm",
       "url_giocatore":"http://www.legavolley.it/player/YAN-MAR-01",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=YAN-MAR-01&sqid=6395",
-      "id":166
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/YAN-MAR-01.png"
    },
    {
       "nome":"Zanotti Andrea",
@@ -2348,8 +2145,7 @@
       "altezza":"195 cm",
       "url_giocatore":"http://www.legavolley.it/player/ZAN-AND-97",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ZAN-AND-97&sqid=6404",
-      "id":167
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZAN-AND-97.png"
    },
    {
       "nome":"Zaytsev Ivan",
@@ -2362,8 +2158,7 @@
       "altezza":"204 cm",
       "url_giocatore":"http://www.legavolley.it/player/ZAY-IVA-88",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ZAY-IVA-88&sqid=6395",
-      "id":168
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZAY-IVA-88.png"   
    },
    {
       "nome":"Zenger Julian",
@@ -2376,8 +2171,7 @@
       "altezza":"190 cm",
       "url_giocatore":"http://www.legavolley.it/player/ZEN-JUL-97",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ZEN-JUL-97&sqid=6399",
-      "id":169
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZEN-JUL-97.png"   
    },
    {
       "nome":"Zingel Aidan",
@@ -2390,8 +2184,7 @@
       "altezza":"207 cm",
       "url_giocatore":"http://www.legavolley.it/player/ZIN-AID-90",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ZIN-AID-90&sqid=6404",
-      "id":170
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZIN-AID-90.png"   
    },
    {
       "nome":"Zonta Nicola",
@@ -2404,8 +2197,7 @@
       "altezza":"186 cm",
       "url_giocatore":"http://www.legavolley.it/player/ZON-NIC-00",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ZON-NIC-00&sqid=6394",
-      "id":171
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZON-NIC-00.png"   
    },
    {
       "nome":"Zoppellari Francesco",
@@ -2418,7 +2210,6 @@
       "altezza":"185 cm",
       "url_giocatore":"http://www.legavolley.it/player/ZOP-FRA-97",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ZOP-FRA-97&sqid=6399",
-      "id":172
+      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZOP-FRA-97.png"   
    }
 ]

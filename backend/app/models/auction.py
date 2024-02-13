@@ -32,26 +32,27 @@ class Auction(db.Model):
         db.session.commit()
 
     def to_json(self, show_tokens = True):
+        current_bid = json.loads(self.current_bid)
+        
         if show_tokens:
             return {
-                'token': self.token,
+                'auction_token': self.token,
                 'owner_token': self.owner_token,
                 #'start_time': self.start_time, UNUSED
                 #'end_time': self.end_time, UNUSED
                 'current_player_id': self.current_player_id,
-                'current_bid': json.loads(self.current_bid),
+                'current_bid': current_bid,
                 'status': self.status
             }
         
         bid = {"player_id": 0, "bidder_id": 0, "bid": 0}
-        current_bid = json.loads(self.current_bid)
 
         bid["player_id"] = current_bid["player_id"]
         bid["bid"] = current_bid["bid"]
         bid["bidder_id"] = User.query.filter_by(token=current_bid["bidder_token"]).first().id
 
         return {
-                'token': self.token,
+                'auction_token': self.token,
                 #'start_time': self.start_time, UNUSED
                 #'end_time': self.end_time, UNUSED
                 'current_player_id': self.current_player_id,
@@ -68,6 +69,11 @@ class Auction(db.Model):
         if player_id not in selected_players:
             self.current_player_id = player_id
 
+            current_bid = json.loads(self.current_bid)
+            current_bid["player_id"] = player_id
+
+            self.current_bid = json.dumps(current_bid)
+
             self.status = AuctionStatus.IN_PROGRESS
             db.session.commit()
 
@@ -75,14 +81,15 @@ class Auction(db.Model):
         
         return False
 
-    def close(self):
+    def end(self):
         self.status = AuctionStatus.CLOSED
         
         current_bid = json.loads(self.current_bid)
         if current_bid["bidder_token"] != "":
-            print(self.results)
             results = json.loads(self.results)
             selected_players = json.loads(self.selected_players)
+
+            current_bid["player_id"] = self.current_player_id
 
             results.append(current_bid)
             selected_players.append(self.current_player_id)
@@ -92,14 +99,18 @@ class Auction(db.Model):
 
             self.current_player_id = 0
 
-            self.current_bid = json.dumps({"player_id": 0, "bidder_token": "", "bid": 0})
             self.status = AuctionStatus.WAITING
 
             db.session.commit()
 
             return True
-        
-        return False
+        else:
+            self.current_player_id = 0
+            self.status = AuctionStatus.WAITING
+
+            db.session.commit()
+            
+            return True
 
 
     def bid(self, user_token):
@@ -109,9 +120,12 @@ class Auction(db.Model):
 
             current_bid["bid"] += 5
             current_bid["bidder_token"] = user_token
+            current_bid["player_id"] = self.current_player_id
+    
+            print(current_bid["player_id"])
 
             self.current_bid = json.dumps(current_bid)
-
+    
             db.session.commit()
 
             return True
@@ -120,7 +134,16 @@ class Auction(db.Model):
 
         #self.end_time = self.end_time + timedelta(seconds=5) UNUSED
 
-        
+    def get_participants(self):
+        participants = []
+
+        results = json.loads(self.results)
+        for result in results:
+            if not result["bidder_token"] in participants:
+                participants.append(result["bidder_token"])   
+
+        return participants    
+    
 
     # UNUSED
     # def start_auction_timer(self):

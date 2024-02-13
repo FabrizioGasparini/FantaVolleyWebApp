@@ -9,6 +9,7 @@ from flask_jwt_extended import decode_token
 
 leagues = Blueprint('leagues', __name__)
 
+
 @leagues.post('/create')
 def create_league():
     data = request.get_json()
@@ -33,6 +34,7 @@ def create_league():
     else:
         return jsonify({"error": {'code': 404, 'message': 'User not found (invalid token)'}}), 404
 
+
 @leagues.post('/join')
 def join_league():
     data = request.get_json()
@@ -41,7 +43,7 @@ def join_league():
     user = User.query.filter_by(username=user_identity['sub']).first()
     if user:
         
-        league = League.query.filter_by(owner_token=user.token).first()
+        league = League.query.filter_by(invite_code=data["invite_code"]).first()
         if league:
             
             participants = json.loads(league.participants)
@@ -58,31 +60,6 @@ def join_league():
             return jsonify({"error": {'code': 404, 'message': 'League not found'}}), 404       
     else:
         return jsonify({"error": {'code': 404, 'message': 'User not found (invalid token)'}}), 404 
-
-
-@leagues.route("/delete", methods=["DELETE", "POST"])
-def delete_league():
-    data = request.get_json()
-    user_identity = decode_token(data["token"])
-    
-    user = User.query.filter_by(username=user_identity['sub']).first()
-    if user:
-        
-        league = League.query.filter_by(owner_token=user.token).first()
-        if league:
-            league.remove_from_db()
-            return jsonify({
-                "message": "League deleted successfully",
-            }), 210
-        else:
-            return jsonify({"error": {'code': 404, 'message': 'League not found'}}), 404       
-    else:
-        return jsonify({"error": {'code': 404, 'message': 'User not found (invalid token)'}}), 404 
-    
-    
-
-
-
 
 
 @leagues.post('/read')
@@ -105,5 +82,25 @@ def read_league():
                 return jsonify({"error": {'code': 401, 'message': 'User not in this league'}}), 401
         else:
             return jsonify({"error": {'code': 404, 'message': 'League not found'}}), 404
+    else:
+        return jsonify({"error": {'code': 404, 'message': 'User not found (invalid token)'}}), 404 
+
+
+@leagues.route("/delete", methods=["DELETE", "POST"])
+def delete_league():
+    data = request.get_json()
+    user_identity = decode_token(data["token"])
+    
+    user = User.query.filter_by(username=user_identity['sub']).first()
+    if user:
+        
+        league = League.query.filter_by(owner_token=user.token, invite_code=data["invite_code"]).first()
+        if league:
+            league.remove_from_db()
+            return jsonify({
+                "message": "League deleted successfully",
+            }), 210
+        else:
+            return jsonify({"error": {'code': 404, 'message': 'League not found'}}), 404       
     else:
         return jsonify({"error": {'code': 404, 'message': 'User not found (invalid token)'}}), 404 

@@ -4,12 +4,13 @@ from app.models.user import User
 
 class League(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(100), unique=True, nullable=False)
+    name = db.Column(db.String, unique=True, nullable=False)
     participants = db.Column(db.String, nullable=False)
-    owner_token = db.Column(db.String(999), nullable=False)
-    invite_code = db.Column(db.String(16), unique=True, nullable=False)
-    current_auction = db.Column(db.String(100))
+    owner_token = db.Column(db.String, nullable=False)
+    invite_code = db.Column(db.String, unique=True, nullable=False)
+    current_auction = db.Column(db.String, nullable=False)
     starting_credits = db.Column(db.Integer, nullable=False)
+    roasters = db.Column(db.String, nullable=False)
 
     def __init__(self, name, participants, owner_token, invite_code, starting_credits):
         self.name = name
@@ -18,6 +19,7 @@ class League(db.Model):
         self.participants = json.dumps(participants)
         self.current_auction = ""
         self.starting_credits = starting_credits
+        self.roasters = json.dumps([])
 
     def save_to_db(self):
         db.session.add(self)
@@ -61,3 +63,36 @@ class League(db.Model):
         self.current_auction = auction
 
         db.session.commit()
+
+    def add_roaster(self, token, roaster):
+        roasters = json.loads(self.roasters)
+
+        for old_roaster in roasters:
+            if old_roaster["token"] == token:
+                old_roaster['roaster'] += roaster
+
+                print(old_roaster['roaster'])
+
+                self.roasters = json.dumps(roasters)
+                db.session.commit()
+                return True
+                    
+        roasters.append({"token": token, "roaster": roaster})
+
+        self.roasters = json.dumps(roasters)
+        db.session.commit()
+        return True
+
+    def remove_roaster(self, token):
+        roasters = json.loads(self.roasters)
+
+        for roaster in roasters:
+            if roaster.token == token:
+                roasters.remove(roaster)
+                self.roasters = json.dumps(roasters)
+
+                db.session.commit()
+
+                return True
+            
+        return False
