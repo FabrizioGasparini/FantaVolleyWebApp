@@ -3,23 +3,37 @@ import './Login.css';
 import { faUser, faLock, faAt } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import axios from '../../api/axios';
+import PropTypes from 'prop-types'
+import Cookies from 'universal-cookie';
+import { useNavigate } from 'react-router-dom';
 
-const RegisterForm = () => {
+const cookies = new Cookies()
+const COOKIE_PATH = "/"
+const COOKIE_NAME = "token"
+
+
+const RegisterForm = ({ onClick }) => {
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [confirmPassword, setConfirmPassword] = useState('');
     const [error, setError] = useState('')
-
+    
+    const navigate = useNavigate()
+    
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('/api/v1/auth/register',
-                JSON.stringify({ username, email, password }),
-                {
-                    headers: { 'Content-Type': 'application/json' }
-                }
-            );
-            console.log(response.data);
+            if (password == confirmPassword)
+            {                
+                const response = await axios.post('/api/v1/auth/register', {username, email, password});
+                
+                const token = response.data.user.token
+
+                cookies.set(COOKIE_NAME, token, { path: COOKIE_PATH, httpOnly: true })
+                return navigate('/')
+            }
+            else setError("Le password non corrispondono")
         } catch (error) {
             setError(error.response.data.error.message)
             console.error('Errore durante il login:', error);
@@ -29,7 +43,7 @@ const RegisterForm = () => {
     return (
         <div className="login-frame">
             <h1 className="hl">Benvenuto!</h1>
-            <p className="st">Inserisci i tuoi dati per accedere!</p>
+            <p className="st">Crea il tuo account!</p>
             <form className="form" onSubmit={handleSubmit}>
                 <div className="inputs">                    
                     <div className="input-box">
@@ -39,7 +53,7 @@ const RegisterForm = () => {
                             id="username"
                             placeholder="Username"
                             required
-                            autoComplete="username"
+                            autoComplete='username'
                             value={username}
                             onChange={(e) => setUsername(e.target.value)}
                         />
@@ -47,13 +61,13 @@ const RegisterForm = () => {
                     </div>
                     <div className="input-box">
                         <input
-                            type="text"
+                            type="email"
                             name="email"
                             id="email"
                             placeholder="Email"
                             required
-                            autoComplete="email"
                             value={email}
+                            autoComplete="email"
                             onChange={(e) => setEmail(e.target.value)}
                         />
                         <FontAwesomeIcon className="icon" icon={faAt} />
@@ -66,23 +80,37 @@ const RegisterForm = () => {
                             placeholder="Password"
                             required
                             value={password}
+                            autoComplete='password'
                             onChange={(e) => setPassword(e.target.value)}/>
                         <FontAwesomeIcon className="icon" icon={faLock} />
                     </div>
-                    <div className="forgot">
-                        <a href="#">Password Dimenticata</a>
+                    <div className="input-box">
+                        <input
+                            type="password"
+                            name="confirm"
+                            id="confirm"
+                            placeholder="Conferma Password"
+                            required
+                            value={confirmPassword}
+                            autoComplete='off'
+                            onChange={(e) => setConfirmPassword(e.target.value)}/>
+                        <FontAwesomeIcon className="icon" icon={faLock} />
                     </div>
                 </div>
-                <button type="submit" className="submit">Login</button>
+                <button type="submit" className="submit">Registrati</button>
                 <p className="error-message">{error}</p>
+                <span className="separator"></span>
+                <p className='new-user'>Hai già un account?</p>
+                <div className="register">
+                    <button onClick={onClick}>Accedi</button>
+                </div>
             </form>
-            <span className="separator"></span>
-            <p className='new-user'>Hai già un account?</p>
-            <div className="register">
-                <a href="#">Accedi</a>
-            </div>
         </div>
     );
 }
+
+RegisterForm.propTypes = {
+    onClick: PropTypes.func.isRequired
+};
 
 export default RegisterForm;

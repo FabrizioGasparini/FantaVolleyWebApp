@@ -3,14 +3,17 @@ import sqlite3
 from flask import Blueprint, jsonify, request
 from app.models.player import Player
 from app.models.user import User
-from flask_jwt_extended import create_access_token, decode_token
+from flask_jwt_extended import decode_token, get_jwt_identity, jwt_required
 from jwt import decode
 
 players = Blueprint('players', __name__)
 
 @players.route("/read", methods=["GET", "POST"])
 def get_players():
-    data = request.get_json()
+    if request.data:
+        data = request.get_json()
+    else:
+        data = {}
 
     players_db = Player.query.all()
     output = []
@@ -44,7 +47,10 @@ def get_player_by_id(player_id):
 
 @players.route("/teams/read", methods=["GET", "POST"])
 def get_players_teams():
-    data = request.get_json()
+    if request.data:
+        data = request.get_json()
+    else:
+        data = {}
 
     players_db = Player.query.all()
     output = {}
@@ -71,8 +77,10 @@ def get_players_teams():
 
 @players.route("/teams/read/<int:team_id>", methods=["GET", "POST"])
 def get_players_teams_by_id(team_id):
-    data = request.get_json()
-    players_db = Player.query.all()
+    if request.data:
+        data = request.get_json()
+    else:
+        data = {}
 
     team = Player.query.filter_by(squadra_id=team_id).all()
 
@@ -99,13 +107,15 @@ def get_players_teams_by_id(team_id):
 
 
 @players.post("/create")
+@jwt_required()
 def create_player():
     data = request.get_json()
-    user_identity = decode_token(data["token"])
+    user_identity = get_jwt_identity()
     
-    user = User.query.filter_by(username=user_identity['sub']).first()
-    if user:
-        new_player = Player(data["nome"], data["ruolo"], data["squadra"], data["squadra_id"], data["numero"], data["nascita"], data["nazione"], data["altezza"], data["url_giocatore"], data["url_squadra"], data["url_foto"])
+    user = User.query.filter_by(username=user_identity).first()
+    if user and user.role == "admin":
+
+        new_player = Player(data["nome"], data["ruolo"], data["squadra"], data["squadra_id"], data["numero"], data["nascita"], data["nazione"], data["altezza"], data["codice"], data["url_giocatore"], data["url_squadra"], data["url_foto"], data["url_card"])
         new_player.save_to_db()
 
 
@@ -118,12 +128,13 @@ def create_player():
 
 
 @players.route("/delete", methods=["DELETE", "POST"])
+@jwt_required()
 def delete_player():
     data = request.get_json()
-    user_identity = decode_token(data["token"])
+    user_identity = get_jwt_identity()
     
-    user = User.query.filter_by(username=user_identity['sub']).first()
-    if user:
+    user = User.query.filter_by(username=user_identity).first()
+    if user and user.role == "admin":
 
         player = Player.query.filter_by(id=data["player_id"]).first()
         if player:
@@ -140,12 +151,13 @@ def delete_player():
 
 
 @players.route("/teams/delete", methods=["DELETE", "POST"])
+@jwt_required()
 def delete_team():
     data = request.get_json()
-    user_identity = decode_token(data["token"])
+    user_identity = get_jwt_identity()
     
-    user = User.query.filter_by(username=user_identity['sub']).first()
-    if user:
+    user = User.query.filter_by(username=user_identity).first()
+    if user and user.role == "admin":
 
         player = Player.query.filter_by(squadra_id=data["team_id"]).all()
         if player:

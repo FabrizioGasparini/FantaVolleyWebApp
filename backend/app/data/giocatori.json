@@ -2,7 +2,7 @@
    {
       "nome":"Acquarone Alessandro",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 1,
+      "squadra_id":1,
       "squadra":"Itas Trentino",
       "numero":"24",
       "nascita":"20/09/1999",
@@ -10,11 +10,14 @@
       "altezza":"183 cm",
       "url_giocatore":"http://www.legavolley.it/player/ACQ-ALE-99",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ACQ-ALE-99.png"         },
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ACQ-ALE-99&sqid=6398&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ACQ-ALE-99.png",
+      "codice":"ACQ-ALE-99"
+   },
    {
       "nome":"Alletti Aimone",
       "ruolo":"Centrale",
-	   "squadra_id": 2,
+      "squadra_id":2,
       "squadra":"Gioiella Prisma Taranto",
       "numero":"4",
       "nascita":"28/06/1988",
@@ -22,11 +25,14 @@
       "altezza":"207 cm",
       "url_giocatore":"http://www.legavolley.it/player/ALL-AIM-88",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ALL-AIM-88.png"         },
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ALL-AIM-88&sqid=6397&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ALL-AIM-88.png",
+      "codice":"ALL-AIM-88"
+   },
    {
       "nome":"Alonso Roamy",
       "ruolo":"Centrale",
-	   "squadra_id": 3,
+      "squadra_id":3,
       "squadra":"Gas Sales Bluenergy Piacenza",
       "numero":"5",
       "nascita":"24/07/1997",
@@ -34,11 +40,14 @@
       "altezza":"201 cm",
       "url_giocatore":"http://www.legavolley.it/player/ALO-ROA-97",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ALO-ROA-97.png"         },
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ALO-ROA-97&sqid=6396&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ALO-ROA-97.png",
+      "codice":"ALO-ROA-97"
+   },
    {
       "nome":"Andringa Robbert",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 3,
+      "squadra_id":3,
       "squadra":"Gas Sales Bluenergy Piacenza",
       "numero":"15",
       "nascita":"28/04/1990",
@@ -46,11 +55,14 @@
       "altezza":"191 cm",
       "url_giocatore":"http://www.legavolley.it/player/AND-ROB-90",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/AND-ROB-90.png"         },
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=AND-ROB-90&sqid=6396&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/AND-ROB-90.png",
+      "codice":"AND-ROB-90"
+   },
    {
       "nome":"Anzani Simone",
       "ruolo":"Centrale",
-	   "squadra_id": 4,
+      "squadra_id":4,
       "squadra":"Cucine Lube Civitanova",
       "numero":"17",
       "nascita":"24/02/1992",
@@ -58,11 +70,14 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/ANZ-SIM-92",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ANZ-SIM-92.png"         },
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ANZ-SIM-92&sqid=6395&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ANZ-SIM-92.png",
+      "codice":"ANZ-SIM-92"
+   },
    {
       "nome":"Balaso Fabio",
       "ruolo":"Libero",
-	   "squadra_id": 4,
+      "squadra_id":4,
       "squadra":"Cucine Lube Civitanova",
       "numero":"7",
       "nascita":"20/10/1995",
@@ -70,23 +85,29 @@
       "altezza":"178 cm",
       "url_giocatore":"http://www.legavolley.it/player/BAL-FAB-95",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BAL-FAB-95.png"         },
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BAL-FAB-95&sqid=6395&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BAL-FAB-95.png",
+      "codice":"BAL-FAB-95"
+   },
    {
       "nome":"Baldi Andrea",
       "ruolo":"Schiacciatore",
       "squadra":"Farmitalia Catania",
-	   "squadra_id": 5,
+      "squadra_id":5,
       "numero":"11",
       "nascita":"04/12/2000",
       "nazione":"ITA",
       "altezza":"197 cm",
       "url_giocatore":"http://www.legavolley.it/player/BAL-AND-00",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BAL-AND-00.png"         },
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BAL-AND-00&sqid=6435&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BAL-AND-00.png",
+      "codice":"BAL-AND-00"
+   },
    {
       "nome":"Baranowicz Michele",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 6,
+      "squadra_id":6,
       "squadra":"Cisterna Volley",
       "numero":"17",
       "nascita":"05/08/1989",
@@ -94,23 +115,29 @@
       "altezza":"196 cm",
       "url_giocatore":"http://www.legavolley.it/player/BAR-MIC-89",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BAR-MIC-89.png"         },
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BAR-MIC-89&sqid=6401&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BAR-MIC-89.png",
+      "codice":"BAR-MIC-89"
+   },
    {
       "nome":"Basic Luka",
       "ruolo":"Schiacciatore",
       "squadra":"Farmitalia Catania",
-	   "squadra_id": 5,
+      "squadra_id":5,
       "numero":"1",
       "nascita":"29/01/1995",
       "nazione":"FRA",
       "altezza":"201 cm",
       "url_giocatore":"http://www.legavolley.it/player/BAS-LUK-95",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BAS-LUK-95.png"         },
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BAS-LUK-95&sqid=6435&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BAS-LUK-95.png",
+      "codice":"BAS-LUK-95"
+   },
    {
       "nome":"Bayram Efe",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 6,
+      "squadra_id":6,
       "squadra":"Cisterna Volley",
       "numero":"20",
       "nascita":"01/03/2002",
@@ -118,11 +145,14 @@
       "altezza":"194 cm",
       "url_giocatore":"http://www.legavolley.it/player/BAY-EFE-02",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BAY-EFE-02.png"         },
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BAY-EFE-02&sqid=6401&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BAY-EFE-02.png",
+      "codice":"BAY-EFE-02"
+   },
    {
       "nome":"Ben Tara Wassim",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 7,
+      "squadra_id":7,
       "squadra":"Sir Susa Vim Perugia",
       "numero":"10",
       "nascita":"03/08/1996",
@@ -130,12 +160,14 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/BEN-WAS-96",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BEN-WAS-96.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BEN-WAS-96&sqid=6400&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BEN-WAS-96.png",
+      "codice":"BEN-WAS-96"
    },
    {
       "nome":"Beretta Thomas",
       "ruolo":"Centrale",
-	   "squadra_id": 8,
+      "squadra_id":8,
       "squadra":"Mint Vero Volley Monza",
       "numero":"13",
       "nascita":"18/04/1990",
@@ -143,12 +175,14 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/BER-THO-90",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BER-THO-90.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BER-THO-90&sqid=6403&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BER-THO-90.png",
+      "codice":"BER-THO-90"
    },
    {
       "nome":"Berger Martin",
       "ruolo":"Centrale",
-	   "squadra_id": 1,
+      "squadra_id":1,
       "squadra":"Itas Trentino",
       "numero":"10",
       "nascita":"03/04/2003",
@@ -156,12 +190,14 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/BER-MAR-03",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BER-MAR-03.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BER-MAR-03&sqid=6398&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BER-MAR-03.png",
+      "codice":"BER-MAR-03"
    },
    {
       "nome":"Bisotto Francesco",
       "ruolo":"Libero",
-	   "squadra_id": 4,
+      "squadra_id":4,
       "squadra":"Cucine Lube Civitanova",
       "numero":"6",
       "nascita":"20/05/2002",
@@ -169,12 +205,14 @@
       "altezza":"180 cm",
       "url_giocatore":"http://www.legavolley.it/player/BIS-FRA-02",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BIS-FRA-02.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BIS-FRA-02&sqid=6395&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BIS-FRA-02.png",
+      "codice":"BIS-FRA-02"
    },
    {
       "nome":"Bonacchi Federico",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 2,
+      "squadra_id":2,
       "squadra":"Gioiella Prisma Taranto",
       "numero":"17",
       "nascita":"08/04/2004",
@@ -182,12 +220,14 @@
       "altezza":"189 cm",
       "url_giocatore":"http://www.legavolley.it/player/BON-FED-04",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BON-FED-04.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BON-FED-04&sqid=6397&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BON-FED-04.png",
+      "codice":"BON-FED-04"
    },
    {
       "nome":"Boninfante Mattia",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 9,
+      "squadra_id":9,
       "squadra":"Valsa Group Modena",
       "numero":"2",
       "nascita":"24/06/2004",
@@ -195,12 +235,14 @@
       "altezza":"190 cm",
       "url_giocatore":"http://www.legavolley.it/player/BON-MAT-04",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BON-MAT-04.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BON-MAT-04&sqid=6402&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BON-MAT-04.png",
+      "codice":"BON-MAT-04"
    },
    {
       "nome":"Bonisoli Pietro",
       "ruolo":"Libero",
-	   "squadra_id": 10,
+      "squadra_id":10,
       "squadra":"Rana Verona",
       "numero":"15",
       "nascita":"11/02/2005",
@@ -208,25 +250,29 @@
       "altezza":"182 cm",
       "url_giocatore":"http://www.legavolley.it/player/BON-PIE-05",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BON-PIE-05.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BON-PIE-05&sqid=6404&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BON-PIE-05.png",
+      "codice":"BON-PIE-05"
    },
    {
       "nome":"Bossi Elia",
       "ruolo":"Centrale",
       "squadra":"Farmitalia Catania",
-	   "squadra_id": 5,
+      "squadra_id":5,
       "numero":"15",
       "nascita":"15/08/1994",
       "nazione":"ITA",
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/BOS-ELI-94",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BOS-ELI-94.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BOS-ELI-94&sqid=6435&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BOS-ELI-94.png",
+      "codice":"BOS-ELI-94"
    },
    {
       "nome":"Bottolo Mattia",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 4,
+      "squadra_id":4,
       "squadra":"Cucine Lube Civitanova",
       "numero":"21",
       "nascita":"03/01/2000",
@@ -234,12 +280,14 @@
       "altezza":"196 cm",
       "url_giocatore":"http://www.legavolley.it/player/BOT-MAT-00",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BOT-MAT-00.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BOT-MAT-00&sqid=6395&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BOT-MAT-00.png",
+      "codice":"BOT-MAT-00"
    },
    {
       "nome":"Brehme Anton",
       "ruolo":"Centrale",
-	   "squadra_id": 9,
+      "squadra_id":9,
       "squadra":"Valsa Group Modena",
       "numero":"14",
       "nascita":"10/08/1999",
@@ -247,12 +295,14 @@
       "altezza":"206 cm",
       "url_giocatore":"http://www.legavolley.it/player/BRE-ANT-99",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BRE-ANT-99.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BRE-ANT-99&sqid=6402&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BRE-ANT-99.png",
+      "codice":"BRE-ANT-99"
    },
    {
       "nome":"Brizard Antoine",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 3,
+      "squadra_id":3,
       "squadra":"Gas Sales Bluenergy Piacenza",
       "numero":"6",
       "nascita":"22/05/1994",
@@ -260,25 +310,29 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/BRI-ANT-94",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BRI-ANT-94.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BRI-ANT-94&sqid=6396&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BRI-ANT-94.png",
+      "codice":"BRI-ANT-94"
    },
    {
       "nome":"Buchegger Paul",
       "ruolo":"Schiacciatore",
       "squadra":"Farmitalia Catania",
-	   "squadra_id": 5,
+      "squadra_id":5,
       "numero":"17",
       "nascita":"04/03/1996",
       "nazione":"AUT",
       "altezza":"204 cm",
       "url_giocatore":"http://www.legavolley.it/player/BUC-PAU-96",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BUC-PAU-96.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=BUC-PAU-96&sqid=6435&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/BUC-PAU-96.png",
+      "codice":"BUC-PAU-96"
    },
    {
       "nome":"Candellaro Davide",
       "ruolo":"Centrale",
-	   "squadra_id": 7,
+      "squadra_id":7,
       "squadra":"Sir Susa Vim Perugia",
       "numero":"2",
       "nascita":"07/06/1989",
@@ -286,12 +340,14 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/CAN-DAV-89",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CAN-DAV-89.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=CAN-DAV-89&sqid=6400&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CAN-DAV-89.png",
+      "codice":"CAN-DAV-89"
    },
    {
       "nome":"Caneschi Edoardo",
       "ruolo":"Centrale",
-	   "squadra_id": 3,
+      "squadra_id":3,
       "squadra":"Gas Sales Bluenergy Piacenza",
       "numero":"18",
       "nascita":"26/01/1997",
@@ -299,12 +355,14 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/CAN-EDO-97",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CAN-EDO-97.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=CAN-EDO-97&sqid=6396&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CAN-EDO-97.png",
+      "codice":"CAN-EDO-97"
    },
    {
       "nome":"Cardenas Morales Julio Cesar",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 11,
+      "squadra_id":11,
       "squadra":"Pallavolo Padova",
       "numero":"12",
       "nascita":"04/09/2000",
@@ -312,12 +370,14 @@
       "altezza":"197 cm",
       "url_giocatore":"http://www.legavolley.it/player/CAR-JUL-00",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CAR-JUL-00.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=CAR-JUL-00&sqid=6399&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CAR-JUL-00.png",
+      "codice":"CAR-JUL-00"
    },
    {
       "nome":"Catania Damiano",
       "ruolo":"Libero",
-	   "squadra_id": 12,
+      "squadra_id":12,
       "squadra":"Allianz Milano",
       "numero":"5",
       "nascita":"28/03/2001",
@@ -325,25 +385,29 @@
       "altezza":"180 cm",
       "url_giocatore":"http://www.legavolley.it/player/CAT-DAM-01",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CAT-DAM-01.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=CAT-DAM-01&sqid=6394&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CAT-DAM-01.png",
+      "codice":"CAT-DAM-01"
    },
    {
       "nome":"Cavaccini Domenico",
       "ruolo":"Libero",
       "squadra":"Farmitalia Catania",
-	   "squadra_id": 5,
+      "squadra_id":5,
       "numero":"3",
       "nascita":"13/03/1987",
       "nazione":"ITA",
       "altezza":"178 cm",
       "url_giocatore":"http://www.legavolley.it/player/CAV-DOM-87",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CAV-DOM-87.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=CAV-DOM-87&sqid=6435&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CAV-DOM-87.png",
+      "codice":"CAV-DOM-87"
    },
    {
       "nome":"Cavuto Oreste",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 1,
+      "squadra_id":1,
       "squadra":"Itas Trentino",
       "numero":"7",
       "nascita":"05/12/1996",
@@ -351,12 +415,14 @@
       "altezza":"199 cm",
       "url_giocatore":"http://www.legavolley.it/player/CAV-ORE-96",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CAV-ORE-96.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=CAV-ORE-96&sqid=6398&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CAV-ORE-96.png",
+      "codice":"CAV-ORE-96"
    },
    {
       "nome":"Chinenyeze Barthelemy",
       "ruolo":"Centrale",
-	   "squadra_id": 4,
+      "squadra_id":4,
       "squadra":"Cucine Lube Civitanova",
       "numero":"1",
       "nascita":"28/02/1998",
@@ -364,12 +430,14 @@
       "altezza":"204 cm",
       "url_giocatore":"http://www.legavolley.it/player/CHI-BAR-98",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CHI-BAR-98.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=CHI-BAR-98&sqid=6395&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CHI-BAR-98.png",
+      "codice":"CHI-BAR-98"
    },
    {
       "nome":"Colaci Massimo",
       "ruolo":"Libero",
-	   "squadra_id": 7,
+      "squadra_id":7,
       "squadra":"Sir Susa Vim Perugia",
       "numero":"13",
       "nascita":"21/02/1985",
@@ -377,12 +445,14 @@
       "altezza":"180 cm",
       "url_giocatore":"http://www.legavolley.it/player/COL-MAS-85",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/COL-MAS-85.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=COL-MAS-85&sqid=6400&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/COL-MAS-85.png",
+      "codice":"COL-MAS-85"
    },
    {
       "nome":"Colombo Luca Samuele Maria",
       "ruolo":"Libero",
-	   "squadra_id": 12,
+      "squadra_id":12,
       "squadra":"Allianz Milano",
       "numero":"17",
       "nascita":"14/01/2004",
@@ -390,12 +460,14 @@
       "altezza":"178 cm",
       "url_giocatore":"http://www.legavolley.it/player/COL-LUC-04",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/COL-LUC-04.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=COL-LUC-04&sqid=6394&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/COL-LUC-04.png",
+      "codice":"COL-LUC-04"
    },
    {
       "nome":"Comparoni Francesco",
       "ruolo":"Centrale",
-	   "squadra_id": 8,
+      "squadra_id":8,
       "squadra":"Mint Vero Volley Monza",
       "numero":"6",
       "nascita":"22/06/2001",
@@ -403,12 +475,14 @@
       "altezza":"204 cm",
       "url_giocatore":"http://www.legavolley.it/player/COM-FRA-01",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/COM-FRA-01.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=COM-FRA-01&sqid=6403&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/COM-FRA-01.png",
+      "codice":"COM-FRA-01"
    },
    {
       "nome":"Cortesia Lorenzo",
       "ruolo":"Centrale",
-	   "squadra_id": 10,
+      "squadra_id":10,
       "squadra":"Rana Verona",
       "numero":"2",
       "nascita":"26/07/1999",
@@ -416,12 +490,14 @@
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/COR-LOR-99",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/COR-LOR-99.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=COR-LOR-99&sqid=6404&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/COR-LOR-99.png",
+      "codice":"COR-LOR-99"
    },
    {
       "nome":"Crosato Federico",
       "ruolo":"Centrale",
-	   "squadra_id": 11,
+      "squadra_id":11,
       "squadra":"Pallavolo Padova",
       "numero":"22",
       "nascita":"22/05/2002",
@@ -429,12 +505,14 @@
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/CRO-FED-02",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CRO-FED-02.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=CRO-FED-02&sqid=6399&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CRO-FED-02.png",
+      "codice":"CRO-FED-02"
    },
    {
       "nome":"Czerwinski Michael",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 6,
+      "squadra_id":6,
       "squadra":"Cisterna Volley",
       "numero":"14",
       "nascita":"07/09/2003",
@@ -442,12 +520,14 @@
       "altezza":"206 cm",
       "url_giocatore":"http://www.legavolley.it/player/CZE-MIC-03",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CZE-MIC-03.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=CZE-MIC-03&sqid=6401&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/CZE-MIC-03.png",
+      "codice":"CZE-MIC-03"
    },
    {
       "nome":"D'Amico Francesco",
       "ruolo":"Libero",
-	   "squadra_id": 10,
+      "squadra_id":10,
       "squadra":"Rana Verona",
       "numero":"6",
       "nascita":"09/10/1999",
@@ -455,12 +535,14 @@
       "altezza":"179 cm",
       "url_giocatore":"http://www.legavolley.it/player/DAM-FRA-99",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DAM-FRA-99.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DAM-FRA-99&sqid=6404&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DAM-FRA-99.png",
+      "codice":"DAM-FRA-99"
    },
    {
       "nome":"D'Heer Wout",
       "ruolo":"Centrale",
-	   "squadra_id": 1,
+      "squadra_id":1,
       "squadra":"Itas Trentino",
       "numero":"3",
       "nascita":"26/04/2001",
@@ -468,12 +550,14 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/DHE-WOU-01",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DHE-WOU-01.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DHE-WOU-01&sqid=6398&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DHE-WOU-01.png",
+      "codice":"DHE-WOU-01"
    },
    {
       "nome":"Davyskiba Vlad",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 9,
+      "squadra_id":9,
       "squadra":"Valsa Group Modena",
       "numero":"15",
       "nascita":"31/03/2001",
@@ -481,12 +565,14 @@
       "altezza":"197 cm",
       "url_giocatore":"http://www.legavolley.it/player/DAV-ULA-01",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DAV-ULA-01.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DAV-ULA-01&sqid=6402&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DAV-ULA-01.png",
+      "codice":"DAV-ULA-01"
    },
    {
       "nome":"De Cecco Luciano",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 4,
+      "squadra_id":4,
       "squadra":"Cucine Lube Civitanova",
       "numero":"15",
       "nascita":"02/06/1988",
@@ -494,12 +580,14 @@
       "altezza":"194 cm",
       "url_giocatore":"http://www.legavolley.it/player/DEC-LUC-88",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DEC-LUC-88.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DEC-LUC-88&sqid=6395&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DEC-LUC-88.png",
+      "codice":"DEC-LUC-88"
    },
    {
       "nome":"De Santis Saverio",
       "ruolo":"Libero",
-	   "squadra_id": 6,
+      "squadra_id":6,
       "squadra":"Cisterna Volley",
       "numero":"1",
       "nascita":"21/09/1999",
@@ -507,12 +595,14 @@
       "altezza":"175 cm",
       "url_giocatore":"http://www.legavolley.it/player/DES-SAV-99",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DES-SAV-99.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DES-SAV-99&sqid=6401&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DES-SAV-99.png",
+      "codice":"DES-SAV-99"
    },
    {
       "nome":"Desmet Mathijs",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 11,
+      "squadra_id":11,
       "squadra":"Pallavolo Padova",
       "numero":"15",
       "nascita":"28/01/2000",
@@ -520,12 +610,14 @@
       "altezza":"198 cm",
       "url_giocatore":"http://www.legavolley.it/player/DES-MAT-00",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DES-MAT-00.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DES-MAT-00&sqid=6399&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DES-MAT-00.png",
+      "codice":"DES-MAT-00"
    },
    {
       "nome":"Di Martino Gabriele",
       "ruolo":"Centrale",
-	   "squadra_id": 8,
+      "squadra_id":8,
       "squadra":"Mint Vero Volley Monza",
       "numero":"18",
       "nascita":"20/07/1997",
@@ -533,12 +625,14 @@
       "altezza":"199 cm",
       "url_giocatore":"http://www.legavolley.it/player/DIM-GAB-97",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DIM-GAB-97.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DIM-GAB-97&sqid=6403&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DIM-GAB-97.png",
+      "codice":"DIM-GAB-97"
    },
    {
       "nome":"Diamantini Enrico",
       "ruolo":"Centrale",
-	   "squadra_id": 4,
+      "squadra_id":4,
       "squadra":"Cucine Lube Civitanova",
       "numero":"12",
       "nascita":"04/04/1993",
@@ -546,12 +640,14 @@
       "altezza":"204 cm",
       "url_giocatore":"http://www.legavolley.it/player/DIA-ENR-93",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DIA-ENR-93.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DIA-ENR-93&sqid=6395&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DIA-ENR-93.png",
+      "codice":"DIA-ENR-93"
    },
    {
       "nome":"Dias Bruno",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 3,
+      "squadra_id":3,
       "squadra":"Gas Sales Bluenergy Piacenza",
       "numero":"19",
       "nascita":"25/07/2003",
@@ -559,12 +655,14 @@
       "altezza":"188 cm",
       "url_giocatore":"http://www.legavolley.it/player/DIA-BRU-03",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DIA-BRU-03.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DIA-BRU-03&sqid=6396&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DIA-BRU-03.png",
+      "codice":"DIA-BRU-03"
    },
    {
       "nome":"Dirlic Petar",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 12,
+      "squadra_id":12,
       "squadra":"Allianz Milano",
       "numero":"30",
       "nascita":"27/05/1997",
@@ -572,12 +670,14 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/DIR-PET-97",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DIR-PET-97.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DIR-PET-97&sqid=6394&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DIR-PET-97.png",
+      "codice":"DIR-PET-97"
    },
    {
       "nome":"Dzavoronok Donovan",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 10,
+      "squadra_id":10,
       "squadra":"Rana Verona",
       "numero":"4",
       "nascita":"23/07/1997",
@@ -585,12 +685,14 @@
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/DZA-DON-97",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DZA-DON-97.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=DZA-DON-97&sqid=6404&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/DZA-DON-97.png",
+      "codice":"DZA-DON-97"
    },
    {
       "nome":"Ekstrand Hampus",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 2,
+      "squadra_id":2,
       "squadra":"Gioiella Prisma Taranto",
       "numero":"9",
       "nascita":"28/10/2003",
@@ -598,12 +700,14 @@
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/EKS-HAM-03",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/EKS-HAM-03.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=EKS-HAM-03&sqid=6397&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/EKS-HAM-03.png",
+      "codice":"EKS-HAM-03"
    },
    {
       "nome":"Esmaeilnezhad Amin",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 10,
+      "squadra_id":10,
       "squadra":"Rana Verona",
       "numero":"10",
       "nascita":"19/12/1996",
@@ -611,12 +715,14 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/ESM-AMI-96",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ESM-AMI-96.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ESM-AMI-96&sqid=6404&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ESM-AMI-96.png",
+      "codice":"ESM-AMI-96"
    },
    {
       "nome":"Falaschi Marco",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 11,
+      "squadra_id":11,
       "squadra":"Pallavolo Padova",
       "numero":"5",
       "nascita":"18/09/1987",
@@ -624,12 +730,14 @@
       "altezza":"188 cm",
       "url_giocatore":"http://www.legavolley.it/player/FAL-MAR-03",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/FAL-MAR-03.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=FAL-MAR-03&sqid=6399&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/FAL-MAR-03.png",
+      "codice":"FAL-MAR-03"
    },
    {
       "nome":"Faure Theo",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 6,
+      "squadra_id":6,
       "squadra":"Cisterna Volley",
       "numero":"11",
       "nascita":"12/10/1999",
@@ -637,12 +745,14 @@
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/FAU-THE",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/FAU-THE.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=FAU-THE&sqid=6401&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/FAU-THE.png",
+      "codice":"FAU-THE"
    },
    {
       "nome":"Federici Filippo",
       "ruolo":"Libero",
-	   "squadra_id": 9,
+      "squadra_id":9,
       "squadra":"Valsa Group Modena",
       "numero":"17",
       "nascita":"26/12/2000",
@@ -650,12 +760,14 @@
       "altezza":"182 cm",
       "url_giocatore":"http://www.legavolley.it/player/FED-FIL-00",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/FED-FIL-00.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=FED-FIL-00&sqid=6402&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/FED-FIL-00.png",
+      "codice":"FED-FIL-00"
    },
    {
       "nome":"Finauri Alessandro",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 6,
+      "squadra_id":6,
       "squadra":"Cisterna Volley",
       "numero":"4",
       "nascita":"05/05/2004",
@@ -663,25 +775,29 @@
       "altezza":"185 cm",
       "url_giocatore":"http://www.legavolley.it/player/FIN-ALE-04",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/FIN-ALE-04.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=FIN-ALE-04&sqid=6401&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/FIN-ALE-04.png",
+      "codice":"FIN-ALE-04"
    },
    {
       "nome":"Frumuselu Cristian",
       "ruolo":"Centrale",
       "squadra":"Farmitalia Catania",
-	   "squadra_id": 5,
+      "squadra_id":5,
       "numero":"10",
       "nascita":"07/06/1997",
       "nazione":"ITA",
       "altezza":"207 cm",
       "url_giocatore":"http://www.legavolley.it/player/FRU-CRI-97",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/FRU-CRI-97.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=FRU-CRI-97&sqid=6435&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/FRU-CRI-97.png",
+      "codice":"FRU-CRI-97"
    },
    {
       "nome":"Fusaro Francesco",
       "ruolo":"Centrale",
-	   "squadra_id": 11,
+      "squadra_id":11,
       "squadra":"Pallavolo Padova",
       "numero":"99",
       "nascita":"30/05/1999",
@@ -689,12 +805,14 @@
       "altezza":"201 cm",
       "url_giocatore":"http://www.legavolley.it/player/FUS-FRA-99",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/FUS-FRA-99.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=FUS-FRA-99&sqid=6399&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/FUS-FRA-99.png",
+      "codice":"FUS-FRA-99"
    },
    {
       "nome":"Gaggini Marco",
       "ruolo":"Libero",
-	   "squadra_id": 8,
+      "squadra_id":8,
       "squadra":"Mint Vero Volley Monza",
       "numero":"20",
       "nascita":"07/04/2002",
@@ -702,12 +820,14 @@
       "altezza":"184 cm",
       "url_giocatore":"http://www.legavolley.it/player/GAG-MAR-02",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GAG-MAR-02.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GAG-MAR-02&sqid=6403&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GAG-MAR-02.png",
+      "codice":"GAG-MAR-02"
    },
    {
       "nome":"Galassi Gianluca",
       "ruolo":"Centrale",
-	   "squadra_id": 8,
+      "squadra_id":8,
       "squadra":"Mint Vero Volley Monza",
       "numero":"11",
       "nascita":"24/07/1997",
@@ -715,12 +835,14 @@
       "altezza":"201 cm",
       "url_giocatore":"http://www.legavolley.it/player/GAL-GIA-97",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GAL-GIA-97.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GAL-GIA-97&sqid=6403&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GAL-GIA-97.png",
+      "codice":"GAL-GIA-97"
    },
    {
       "nome":"Garcia Fernandez Gabi",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 11,
+      "squadra_id":11,
       "squadra":"Pallavolo Padova",
       "numero":"10",
       "nascita":"08/01/1999",
@@ -728,12 +850,14 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/GAR-GAB-99",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GAR-GAB-99.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GAR-GAB-99&sqid=6399&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GAR-GAB-99.png",
+      "codice":"GAR-GAB-99"
    },
    {
       "nome":"Gardini Davide",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 11,
+      "squadra_id":11,
       "squadra":"Pallavolo Padova",
       "numero":"1",
       "nascita":"11/02/1999",
@@ -741,12 +865,14 @@
       "altezza":"206 cm",
       "url_giocatore":"http://www.legavolley.it/player/GAR-DAV-99",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GAR-DAV-99.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GAR-DAV-99&sqid=6399&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GAR-DAV-99.png",
+      "codice":"GAR-DAV-99"
    },
    {
       "nome":"Gargiulo Giovanni Maria",
       "ruolo":"Centrale",
-	   "squadra_id": 2,
+      "squadra_id":2,
       "squadra":"Gioiella Prisma Taranto",
       "numero":"3",
       "nascita":"01/01/1999",
@@ -754,12 +880,14 @@
       "altezza":"210 cm",
       "url_giocatore":"http://www.legavolley.it/player/GAR-GIO-99",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GAR-GIO-99.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GAR-GIO-99&sqid=6397&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GAR-GIO-99.png",
+      "codice":"GAR-GIO-99"
    },
    {
       "nome":"Giani Lorenzo",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 6,
+      "squadra_id":6,
       "squadra":"Cisterna Volley",
       "numero":"6",
       "nascita":"01/11/2002",
@@ -767,12 +895,14 @@
       "altezza":"190 cm",
       "url_giocatore":"http://www.legavolley.it/player/GIA-LOR-02",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GIA-LOR-02.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GIA-LOR-02&sqid=6401&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GIA-LOR-02.png",
+      "codice":"GIA-LOR-02"
    },
    {
       "nome":"Giannelli Simone",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 7,
+      "squadra_id":7,
       "squadra":"Sir Susa Vim Perugia",
       "numero":"6",
       "nascita":"09/08/1996",
@@ -780,12 +910,14 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/GIA-SIM-96",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GIA-SIM-96.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GIA-SIM-96&sqid=6400&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GIA-SIM-96.png",
+      "codice":"GIA-SIM-96"
    },
    {
       "nome":"Gironi Fabrizio",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 3,
+      "squadra_id":3,
       "squadra":"Gas Sales Bluenergy Piacenza",
       "numero":"4",
       "nascita":"18/03/2000",
@@ -793,12 +925,14 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/GIR-FAB-00",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GIR-FAB-00.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GIR-FAB-00&sqid=6396&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GIR-FAB-00.png",
+      "codice":"GIR-FAB-00"
    },
    {
       "nome":"Gollini Riccardo",
       "ruolo":"Libero",
-	   "squadra_id": 9,
+      "squadra_id":9,
       "squadra":"Valsa Group Modena",
       "numero":"11",
       "nascita":"05/07/2000",
@@ -806,12 +940,14 @@
       "altezza":"194 cm",
       "url_giocatore":"http://www.legavolley.it/player/GOL-RIC-00",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GOL-RIC-00.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GOL-RIC-00&sqid=6402&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GOL-RIC-00.png",
+      "codice":"GOL-RIC-00"
    },
    {
       "nome":"Grozdanov Aleks",
       "ruolo":"Centrale",
-	   "squadra_id": 10,
+      "squadra_id":10,
       "squadra":"Rana Verona",
       "numero":"11",
       "nascita":"28/03/1998",
@@ -819,25 +955,29 @@
       "altezza":"207 cm",
       "url_giocatore":"http://www.legavolley.it/player/GRO-ALE-98",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GRO-ALE-98.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GRO-ALE-98&sqid=6404&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GRO-ALE-98.png",
+      "codice":"GRO-ALE-98"
    },
    {
       "nome":"Guarienti Zappoli Enrico",
       "ruolo":"Schiacciatore",
       "squadra":"Farmitalia Catania",
-	   "squadra_id": 5,
+      "squadra_id":5,
       "numero":"4",
       "nascita":"12/05/1995",
       "nazione":"BRA",
       "altezza":"197 cm",
       "url_giocatore":"http://www.legavolley.it/player/ZAP-ENR-95",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZAP-ENR-95.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ZAP-ENR-95&sqid=6435&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZAP-ENR-95.png",
+      "codice":"ZAP-ENR-95"
    },
    {
-      "nome":"Gutierrez Josè Miguel",
+      "nome":"Gutierrez JosÃ¨ Miguel",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 2,
+      "squadra_id":2,
       "squadra":"Gioiella Prisma Taranto",
       "numero":"22",
       "nascita":"27/10/2001",
@@ -845,12 +985,14 @@
       "altezza":"194 cm",
       "url_giocatore":"http://www.legavolley.it/player/GUT-JOS-01",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GUT-JOS-01.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GUT-JOS-01&sqid=6397&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GUT-JOS-01.png",
+      "codice":"GUT-JOS-01"
    },
    {
       "nome":"Guzzo Tommaso",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 11,
+      "squadra_id":11,
       "squadra":"Pallavolo Padova",
       "numero":"9",
       "nascita":"30/04/2002",
@@ -858,12 +1000,14 @@
       "altezza":"197 cm",
       "url_giocatore":"http://www.legavolley.it/player/GUZ-TOM-02",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GUZ-TOM-02.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GUZ-TOM-02&sqid=6399&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GUZ-TOM-02.png",
+      "codice":"GUZ-TOM-02"
    },
    {
       "nome":"Held Tim",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 7,
+      "squadra_id":7,
       "squadra":"Sir Susa Vim Perugia",
       "numero":"3",
       "nascita":"17/04/1998",
@@ -871,12 +1015,14 @@
       "altezza":"195 cm",
       "url_giocatore":"http://www.legavolley.it/player/HEL-TIM-98",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/HEL-TIM-98.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=HEL-TIM-98&sqid=6400&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/HEL-TIM-98.png",
+      "codice":"HEL-TIM-98"
    },
    {
       "nome":"Herrera Jaime Jesus",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 7,
+      "squadra_id":7,
       "squadra":"Sir Susa Vim Perugia",
       "numero":"7",
       "nascita":"04/04/1995",
@@ -884,12 +1030,14 @@
       "altezza":"196 cm",
       "url_giocatore":"http://www.legavolley.it/player/HER-JES-95",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/HER-JES-95.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=HER-JES-95&sqid=6400&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/HER-JES-95.png",
+      "codice":"HER-JES-95"
    },
    {
-      "nome":"Hoffer Nicolò",
+      "nome":"Hoffer NicolÃ²",
       "ruolo":"Libero",
-	   "squadra_id": 3,
+      "squadra_id":3,
       "squadra":"Gas Sales Bluenergy Piacenza",
       "numero":"2",
       "nascita":"06/05/2000",
@@ -897,12 +1045,14 @@
       "altezza":"180 cm",
       "url_giocatore":"http://www.legavolley.it/player/HOF-NIC-01",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/HOF-NIC-01.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=HOF-NIC-01&sqid=6396&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/HOF-NIC-01.png",
+      "codice":"HOF-NIC-01"
    },
    {
       "nome":"Innocenzi Andrea",
       "ruolo":"Centrale",
-	   "squadra_id": 12,
+      "squadra_id":12,
       "squadra":"Allianz Milano",
       "numero":"10",
       "nascita":"06/10/2000",
@@ -910,12 +1060,14 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/INN-AND-00",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/INN-AND-00.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=INN-AND-00&sqid=6394&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/INN-AND-00.png",
+      "codice":"INN-AND-00"
    },
    {
       "nome":"Ishikawa Yuki",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 12,
+      "squadra_id":12,
       "squadra":"Allianz Milano",
       "numero":"14",
       "nascita":"11/12/1995",
@@ -923,12 +1075,14 @@
       "altezza":"192 cm",
       "url_giocatore":"http://www.legavolley.it/player/ISH-YUK-95",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ISH-YUK-95.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ISH-YUK-95&sqid=6394&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ISH-YUK-95.png",
+      "codice":"ISH-YUK-95"
    },
    {
       "nome":"Jendryk Jeffrey",
       "ruolo":"Centrale",
-	   "squadra_id": 2,
+      "squadra_id":2,
       "squadra":"Gioiella Prisma Taranto",
       "numero":"11",
       "nascita":"15/09/1995",
@@ -936,12 +1090,14 @@
       "altezza":"208 cm",
       "url_giocatore":"http://www.legavolley.it/player/JEN-JEF-95",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/JEN-JEF-95.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=JEN-JEF-95&sqid=6397&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/JEN-JEF-95.png",
+      "codice":"JEN-JEF-95"
    },
    {
       "nome":"Jovovic Nikola",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 10,
+      "squadra_id":10,
       "squadra":"Rana Verona",
       "numero":"7",
       "nascita":"13/02/1992",
@@ -949,12 +1105,14 @@
       "altezza":"197 cm",
       "url_giocatore":"http://www.legavolley.it/player/JOV-NIK-92",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/JOV-NIK-92.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=JOV-NIK-92&sqid=6404&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/JOV-NIK-92.png",
+      "codice":"JOV-NIK-92"
    },
    {
       "nome":"Juantorena Osmany",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 9,
+      "squadra_id":9,
       "squadra":"Valsa Group Modena",
       "numero":"5",
       "nascita":"12/08/1985",
@@ -962,12 +1120,14 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/JUA-OSM-85",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/JUA-OSM-85.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=JUA-OSM-85&sqid=6402&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/JUA-OSM-85.png",
+      "codice":"JUA-OSM-85"
    },
    {
       "nome":"Kaziyski Matey",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 12,
+      "squadra_id":12,
       "squadra":"Allianz Milano",
       "numero":"1",
       "nascita":"23/09/1984",
@@ -975,12 +1135,14 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/KAZ-MAT-84",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/KAZ-MAT-84.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=KAZ-MAT-84&sqid=6394&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/KAZ-MAT-84.png",
+      "codice":"KAZ-MAT-84"
    },
    {
       "nome":"Keita Noumory",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 10,
+      "squadra_id":10,
       "squadra":"Rana Verona",
       "numero":"9",
       "nascita":"26/06/2001",
@@ -988,12 +1150,14 @@
       "altezza":"206 cm",
       "url_giocatore":"http://www.legavolley.it/player/KEI-NOU-01",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/KEI-NOU-01.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=KEI-NOU-01&sqid=6404&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/KEI-NOU-01.png",
+      "codice":"KEI-NOU-01"
    },
    {
       "nome":"Kozamernik Jan",
       "ruolo":"Centrale",
-	   "squadra_id": 1,
+      "squadra_id":1,
       "squadra":"Itas Trentino",
       "numero":"4",
       "nascita":"24/12/1995",
@@ -1001,12 +1165,14 @@
       "altezza":"204 cm",
       "url_giocatore":"http://www.legavolley.it/player/KOZ-JAN-95",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/KOZ-JAN-95.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=KOZ-JAN-95&sqid=6398&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/KOZ-JAN-95.png",
+      "codice":"KOZ-JAN-95"
    },
    {
       "nome":"Kreling Fernando",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 8,
+      "squadra_id":8,
       "squadra":"Mint Vero Volley Monza",
       "numero":"14",
       "nascita":"13/01/1996",
@@ -1014,12 +1180,14 @@
       "altezza":"185 cm",
       "url_giocatore":"http://www.legavolley.it/player/KRE-FER",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/KRE-FER.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=KRE-FER&sqid=6403&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/KRE-FER.png",
+      "codice":"KRE-FER"
    },
    {
       "nome":"Lagumdzija Adis",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 4,
+      "squadra_id":4,
       "squadra":"Cucine Lube Civitanova",
       "numero":"10",
       "nascita":"29/03/1999",
@@ -1027,12 +1195,14 @@
       "altezza":"211 cm",
       "url_giocatore":"http://www.legavolley.it/player/LAG-ADI-99",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LAG-ADI-99.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LAG-ADI-99&sqid=6395&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LAG-ADI-99.png",
+      "codice":"LAG-ADI-99"
    },
    {
       "nome":"Lanza Filippo",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 2,
+      "squadra_id":2,
       "squadra":"Gioiella Prisma Taranto",
       "numero":"10",
       "nascita":"03/03/1991",
@@ -1040,12 +1210,14 @@
       "altezza":"196 cm",
       "url_giocatore":"http://www.legavolley.it/player/LAN-FIL-91",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LAN-FIL-91.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LAN-FIL-91&sqid=6397&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LAN-FIL-91.png",
+      "codice":"LAN-FIL-91"
    },
    {
       "nome":"Larizza Jacopo",
       "ruolo":"Centrale",
-	   "squadra_id": 4,
+      "squadra_id":4,
       "squadra":"Cucine Lube Civitanova",
       "numero":"22",
       "nascita":"22/08/1998",
@@ -1053,12 +1225,14 @@
       "altezza":"204 cm",
       "url_giocatore":"http://www.legavolley.it/player/LAR-JAC-98",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LAR-JAC-98.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LAR-JAC-98&sqid=6395&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LAR-JAC-98.png",
+      "codice":"LAR-JAC-98"
    },
    {
       "nome":"Laurenzano Gabriele",
       "ruolo":"Libero",
-	   "squadra_id": 1,
+      "squadra_id":1,
       "squadra":"Itas Trentino",
       "numero":"13",
       "nascita":"12/06/2003",
@@ -1066,12 +1240,14 @@
       "altezza":"176 cm",
       "url_giocatore":"http://www.legavolley.it/player/LAU-GAB-03",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LAU-GAB-03.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LAU-GAB-03&sqid=6398&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LAU-GAB-03.png",
+      "codice":"LAU-GAB-03"
    },
    {
       "nome":"Lavia Daniele",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 1,
+      "squadra_id":1,
       "squadra":"Itas Trentino",
       "numero":"15",
       "nascita":"04/11/1999",
@@ -1079,12 +1255,14 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/LAV-DAN-99",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LAV-DAN-99.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LAV-DAN-99&sqid=6398&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LAV-DAN-99.png",
+      "codice":"LAV-DAN-99"
    },
    {
       "nome":"Lawani Ibrahim",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 8,
+      "squadra_id":8,
       "squadra":"Mint Vero Volley Monza",
       "numero":"9",
       "nascita":"15/09/2001",
@@ -1092,12 +1270,14 @@
       "altezza":"199 cm",
       "url_giocatore":"http://www.legavolley.it/player/LAW-IBR-01",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LAW-IBR-01.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LAW-IBR-01&sqid=6403&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LAW-IBR-01.png",
+      "codice":"LAW-IBR-01"
    },
    {
       "nome":"Leal Yoandy",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 3,
+      "squadra_id":3,
       "squadra":"Gas Sales Bluenergy Piacenza",
       "numero":"9",
       "nascita":"31/08/1988",
@@ -1105,12 +1285,14 @@
       "altezza":"201 cm",
       "url_giocatore":"http://www.legavolley.it/player/LEA-YAN-98",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LEA-YAN-98.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LEA-YAN-98&sqid=6396&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LEA-YAN-98.png",
+      "codice":"LEA-YAN-98"
    },
    {
       "nome":"Leon Venero Wilfredo",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 7,
+      "squadra_id":7,
       "squadra":"Sir Susa Vim Perugia",
       "numero":"9",
       "nascita":"31/07/1993",
@@ -1118,12 +1300,14 @@
       "altezza":"201 cm",
       "url_giocatore":"http://www.legavolley.it/player/LEO-WIL-93",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LEO-WIL-93.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LEO-WIL-93&sqid=6400&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LEO-WIL-93.png",
+      "codice":"LEO-WIL-93"
    },
    {
       "nome":"Loeppky Eric",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 8,
+      "squadra_id":8,
       "squadra":"Mint Vero Volley Monza",
       "numero":"4",
       "nascita":"01/08/1998",
@@ -1131,12 +1315,14 @@
       "altezza":"197 cm",
       "url_giocatore":"http://www.legavolley.it/player/LOE-ERI-98",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LOE-ERI-98.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LOE-ERI-98&sqid=6403&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LOE-ERI-98.png",
+      "codice":"LOE-ERI-98"
    },
    {
       "nome":"Loser Agustin",
       "ruolo":"Centrale",
-	   "squadra_id": 12,
+      "squadra_id":12,
       "squadra":"Allianz Milano",
       "numero":"8",
       "nascita":"12/10/1997",
@@ -1144,12 +1330,14 @@
       "altezza":"201 cm",
       "url_giocatore":"http://www.legavolley.it/player/LOS-AGU-97",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LOS-AGU-97.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LOS-AGU-97&sqid=6394&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LOS-AGU-97.png",
+      "codice":"LOS-AGU-97"
    },
    {
       "nome":"Luzzi Davide",
       "ruolo":"Libero",
-	   "squadra_id": 2,
+      "squadra_id":2,
       "squadra":"Gioiella Prisma Taranto",
       "numero":"5",
       "nascita":"05/03/2004",
@@ -1157,12 +1345,14 @@
       "altezza":"180 cm",
       "url_giocatore":"http://www.legavolley.it/player/LUZ-DAV-04",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LUZ-DAV-04.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LUZ-DAV-04&sqid=6397&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LUZ-DAV-04.png",
+      "codice":"LUZ-DAV-04"
    },
    {
       "nome":"Maar Stephen",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 8,
+      "squadra_id":8,
       "squadra":"Mint Vero Volley Monza",
       "numero":"7",
       "nascita":"06/12/1994",
@@ -1170,12 +1360,14 @@
       "altezza":"201 cm",
       "url_giocatore":"http://www.legavolley.it/player/MAA-STE-94",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MAA-STE-94.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MAA-STE-94&sqid=6403&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MAA-STE-94.png",
+      "codice":"MAA-STE-94"
    },
    {
       "nome":"Magalini Giulio",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 1,
+      "squadra_id":1,
       "squadra":"Itas Trentino",
       "numero":"12",
       "nascita":"14/08/2001",
@@ -1183,51 +1375,59 @@
       "altezza":"196 cm",
       "url_giocatore":"http://www.legavolley.it/player/MAG-GIU-01",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MAG-GIU-01.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MAG-GIU-01&sqid=6398&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MAG-GIU-01.png",
+      "codice":"MAG-GIU-01"
    },
    {
       "nome":"Manavinezhad Mohammadjavad",
       "ruolo":"Schiacciatore",
       "squadra":"Farmitalia Catania",
-	   "squadra_id": 5,
+      "squadra_id":5,
       "numero":"14",
       "nascita":"27/11/1995",
       "nazione":"IRI",
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/MAN-MOH-95",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MAN-MOH-95.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MAN-MOH-95&sqid=6435&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MAN-MOH-95.png",
+      "codice":"MAN-MOH-95"
    },
    {
       "nome":"Massari Jacopo",
       "ruolo":"Schiacciatore",
       "squadra":"Farmitalia Catania",
-	   "squadra_id": 5,
+      "squadra_id":5,
       "numero":"6",
       "nascita":"02/06/1988",
       "nazione":"ITA",
       "altezza":"185 cm",
       "url_giocatore":"http://www.legavolley.it/player/MAS-JAC-88",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MAS-JAC-88.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MAS-JAC-88&sqid=6435&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MAS-JAC-88.png",
+      "codice":"MAS-JAC-88"
    },
    {
       "nome":"Masulovic Nemanja",
       "ruolo":"Centrale",
       "squadra":"Farmitalia Catania",
-	   "squadra_id": 5,
+      "squadra_id":5,
       "numero":"8",
       "nascita":"05/10/1995",
       "nazione":"SRB",
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/MAS-NEM-95",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MAS-NEM-95.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MAS-NEM-95&sqid=6435&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MAS-NEM-95.png",
+      "codice":"MAS-NEM-95"
    },
    {
       "nome":"Mazzone Daniele",
       "ruolo":"Centrale",
-	   "squadra_id": 6,
+      "squadra_id":6,
       "squadra":"Cisterna Volley",
       "numero":"18",
       "nascita":"04/06/1992",
@@ -1235,12 +1435,14 @@
       "altezza":"209 cm",
       "url_giocatore":"http://www.legavolley.it/player/MAZ-DAN-92",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MAZ-DAN-92.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MAZ-DAN-92&sqid=6401&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MAZ-DAN-92.png",
+      "codice":"MAZ-DAN-92"
    },
    {
       "nome":"Mergarejo Hernandez Osniel Lazaro",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 12,
+      "squadra_id":12,
       "squadra":"Allianz Milano",
       "numero":"2",
       "nascita":"18/12/1997",
@@ -1248,12 +1450,14 @@
       "altezza":"197 cm",
       "url_giocatore":"http://www.legavolley.it/player/MEL-OSN-87",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MEL-OSN-87.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MEL-OSN-87&sqid=6394&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MEL-OSN-87.png",
+      "codice":"MEL-OSN-87"
    },
    {
       "nome":"Michieletto Alessandro",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 1,
+      "squadra_id":1,
       "squadra":"Itas Trentino",
       "numero":"5",
       "nascita":"05/12/2001",
@@ -1261,12 +1465,14 @@
       "altezza":"211 cm",
       "url_giocatore":"http://www.legavolley.it/player/MIC-ALE-01",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MIC-ALE-01.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MIC-ALE-01&sqid=6398&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MIC-ALE-01.png",
+      "codice":"MIC-ALE-01"
    },
    {
       "nome":"Morazzini Flavio",
       "ruolo":"Libero",
-	   "squadra_id": 8,
+      "squadra_id":8,
       "squadra":"Mint Vero Volley Monza",
       "numero":"10",
       "nascita":"10/05/2005",
@@ -1274,12 +1480,14 @@
       "altezza":"187 cm",
       "url_giocatore":"http://www.legavolley.it/player/MOR-FLA-05",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MOR-FLA-05.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MOR-FLA-05&sqid=6403&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MOR-FLA-05.png",
+      "codice":"MOR-FLA-05"
    },
    {
       "nome":"Mosca Leandro",
       "ruolo":"Centrale",
-	   "squadra_id": 10,
+      "squadra_id":10,
       "squadra":"Rana Verona",
       "numero":"18",
       "nascita":"05/09/2000",
@@ -1287,12 +1495,14 @@
       "altezza":"209 cm",
       "url_giocatore":"http://www.legavolley.it/player/MOS-LEA-00",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MOS-LEA-00.png"      
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MOS-LEA-00&sqid=6404&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MOS-LEA-00.png",
+      "codice":"MOS-LEA-00"
    },
    {
       "nome":"Mossa De Rezende Bruno",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 9,
+      "squadra_id":9,
       "squadra":"Valsa Group Modena",
       "numero":"1",
       "nascita":"02/07/1986",
@@ -1300,12 +1510,14 @@
       "altezza":"190 cm",
       "url_giocatore":"http://www.legavolley.it/player/MOS-BRU-86",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MOS-BRU-86.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MOS-BRU-86&sqid=6402&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MOS-BRU-86.png",
+      "codice":"MOS-BRU-86"
    },
    {
       "nome":"Motzo Matheus",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 4,
+      "squadra_id":4,
       "squadra":"Cucine Lube Civitanova",
       "numero":"4",
       "nascita":"09/09/1999",
@@ -1313,12 +1525,14 @@
       "altezza":"192 cm",
       "url_giocatore":"http://www.legavolley.it/player/MOT-MAT-99",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MOT-MAT-99.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MOT-MAT-99&sqid=6395&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MOT-MAT-99.png",
+      "codice":"MOT-MAT-99"
    },
    {
       "nome":"Mozic Rok",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 10,
+      "squadra_id":10,
       "squadra":"Rana Verona",
       "numero":"19",
       "nascita":"17/01/2002",
@@ -1326,12 +1540,14 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/MOZ-ROK-02",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MOZ-ROK-02.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MOZ-ROK-02&sqid=6404&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MOZ-ROK-02.png",
+      "codice":"MOZ-ROK-02"
    },
    {
       "nome":"Mujanovic Nik",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 8,
+      "squadra_id":8,
       "squadra":"Mint Vero Volley Monza",
       "numero":"8",
       "nascita":"14/10/2004",
@@ -1339,12 +1555,14 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/MUJ-NIK-04",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MUJ-NIK-04.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=MUJ-NIK-04&sqid=6403&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/MUJ-NIK-04.png",
+      "codice":"MUJ-NIK-04"
    },
    {
       "nome":"Nedeljkovic Aleksandar",
       "ruolo":"Centrale",
-	   "squadra_id": 6,
+      "squadra_id":6,
       "squadra":"Cisterna Volley",
       "numero":"29",
       "nascita":"27/10/1997",
@@ -1352,12 +1570,14 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/NED-ALE-97",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/NED-ALE-97.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=NED-ALE-97&sqid=6401&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/NED-ALE-97.png",
+      "codice":"NED-ALE-97"
    },
    {
       "nome":"Nelli Gabriele",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 1,
+      "squadra_id":1,
       "squadra":"Itas Trentino",
       "numero":"2",
       "nascita":"04/12/1993",
@@ -1365,12 +1585,14 @@
       "altezza":"208 cm",
       "url_giocatore":"http://www.legavolley.it/player/NEL-GAB-93",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/NEL-GAB-93.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=NEL-GAB-93&sqid=6398&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/NEL-GAB-93.png",
+      "codice":"NEL-GAB-93"
    },
    {
       "nome":"Nikolov Aleksandar",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 4,
+      "squadra_id":4,
       "squadra":"Cucine Lube Civitanova",
       "numero":"11",
       "nascita":"30/11/2003",
@@ -1378,25 +1600,29 @@
       "altezza":"206 cm",
       "url_giocatore":"http://www.legavolley.it/player/NIK-ALE-03",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/NIK-ALE-03.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=NIK-ALE-03&sqid=6395&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/NIK-ALE-03.png",
+      "codice":"NIK-ALE-03"
    },
    {
       "nome":"Orduna Santiago",
       "ruolo":"Palleggiatore",
       "squadra":"Farmitalia Catania",
-	   "squadra_id": 5,
+      "squadra_id":5,
       "numero":"5",
       "nascita":"31/08/1983",
       "nazione":"ITA",
       "altezza":"183 cm",
       "url_giocatore":"http://www.legavolley.it/player/ORD-SAN-83",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ORD-SAN-83.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ORD-SAN-83&sqid=6435&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ORD-SAN-83.png",
+      "codice":"ORD-SAN-83"
    },
    {
       "nome":"Pace Domenico",
       "ruolo":"Libero",
-	   "squadra_id": 1,
+      "squadra_id":1,
       "squadra":"Itas Trentino",
       "numero":"8",
       "nascita":"02/08/2000",
@@ -1404,12 +1630,14 @@
       "altezza":"180 cm",
       "url_giocatore":"http://www.legavolley.it/player/PAC-DOM-00",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PAC-DOM-00.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PAC-DOM-00&sqid=6398&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PAC-DOM-00.png",
+      "codice":"PAC-DOM-00"
    },
    {
       "nome":"Paglialunga Luca",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 2,
+      "squadra_id":2,
       "squadra":"Gioiella Prisma Taranto",
       "numero":"27",
       "nascita":"02/03/2004",
@@ -1417,12 +1645,14 @@
       "altezza":"192 cm",
       "url_giocatore":"http://www.legavolley.it/player/PAG-LUC-04",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PAG-LUC-04.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PAG-LUC-04&sqid=6397&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PAG-LUC-04.png",
+      "codice":"PAG-LUC-04"
    },
    {
       "nome":"Peric Pavle",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 6,
+      "squadra_id":6,
       "squadra":"Cisterna Volley",
       "numero":"98",
       "nascita":"07/08/1998",
@@ -1430,12 +1660,14 @@
       "altezza":"207 cm",
       "url_giocatore":"http://www.legavolley.it/player/PER-PAV-98",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PER-PAV-98.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PER-PAV-98&sqid=6401&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PER-PAV-98.png",
+      "codice":"PER-PAV-98"
    },
    {
       "nome":"Piano Matteo",
       "ruolo":"Centrale",
-	   "squadra_id": 12,
+      "squadra_id":12,
       "squadra":"Allianz Milano",
       "numero":"11",
       "nascita":"24/10/1990",
@@ -1443,12 +1675,14 @@
       "altezza":"209 cm",
       "url_giocatore":"http://www.legavolley.it/player/PIA-MAT-90",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PIA-MAT-90.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PIA-MAT-90&sqid=6394&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PIA-MAT-90.png",
+      "codice":"PIA-MAT-90"
    },
    {
       "nome":"Piccinelli Alessandro",
       "ruolo":"Libero",
-	   "squadra_id": 6,
+      "squadra_id":6,
       "squadra":"Cisterna Volley",
       "numero":"10",
       "nascita":"30/01/1997",
@@ -1456,25 +1690,29 @@
       "altezza":"189 cm",
       "url_giocatore":"http://www.legavolley.it/player/PIC-ALE-97",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PIC-ALE-97.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PIC-ALE-97&sqid=6401&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PIC-ALE-97.png",
+      "codice":"PIC-ALE-97"
    },
    {
       "nome":"Pierri Francesco",
       "ruolo":"Libero",
       "squadra":"Farmitalia Catania",
-	   "squadra_id": 5,
+      "squadra_id":5,
       "numero":"2",
       "nascita":"14/09/1999",
       "nazione":"ITA",
       "altezza":"180 cm",
       "url_giocatore":"http://www.legavolley.it/player/PIE-FRA-99",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PIE-FRA-99.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PIE-FRA-99&sqid=6435&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PIE-FRA-99.png",
+      "codice":"PIE-FRA-99"
    },
    {
       "nome":"Pinali Giulio",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 9,
+      "squadra_id":9,
       "squadra":"Valsa Group Modena",
       "numero":"8",
       "nascita":"02/04/1997",
@@ -1482,12 +1720,14 @@
       "altezza":"198 cm",
       "url_giocatore":"http://www.legavolley.it/player/PIN-GIU-97",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PIN-GIU-97.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PIN-GIU-97&sqid=6402&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PIN-GIU-97.png",
+      "codice":"PIN-GIU-97"
    },
    {
       "nome":"Pinali Roberto",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 9,
+      "squadra_id":9,
       "squadra":"Valsa Group Modena",
       "numero":"10",
       "nascita":"28/01/1995",
@@ -1495,12 +1735,14 @@
       "altezza":"187 cm",
       "url_giocatore":"http://www.legavolley.it/player/PIN-ROB-95",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PIN-ROB-95.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PIN-ROB-95&sqid=6402&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PIN-ROB-95.png",
+      "codice":"PIN-ROB-95"
    },
    {
       "nome":"Plak Fabian",
       "ruolo":"Centrale",
-	   "squadra_id": 11,
+      "squadra_id":11,
       "squadra":"Pallavolo Padova",
       "numero":"8",
       "nascita":"23/07/1997",
@@ -1508,12 +1750,14 @@
       "altezza":"198 cm",
       "url_giocatore":"http://www.legavolley.it/player/PLA-FAB-97",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PLA-FAB-97.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PLA-FAB-97&sqid=6399&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PLA-FAB-97.png",
+      "codice":"PLA-FAB-97"
    },
    {
       "nome":"Plotnytskyi Oleh",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 7,
+      "squadra_id":7,
       "squadra":"Sir Susa Vim Perugia",
       "numero":"17",
       "nascita":"05/06/1997",
@@ -1521,12 +1765,14 @@
       "altezza":"194 cm",
       "url_giocatore":"http://www.legavolley.it/player/PLO-OLE-97",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PLO-OLE-97.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=PLO-OLE-97&sqid=6400&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/PLO-OLE-97.png",
+      "codice":"PLO-OLE-97"
    },
    {
       "nome":"Podrascanin Marko",
       "ruolo":"Centrale",
-	   "squadra_id": 1,
+      "squadra_id":1,
       "squadra":"Itas Trentino",
       "numero":"18",
       "nascita":"29/08/1987",
@@ -1534,12 +1780,14 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/POD-MAR-87",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/POD-MAR-87.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=POD-MAR-87&sqid=6398&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/POD-MAR-87.png",
+      "codice":"POD-MAR-87"
    },
    {
       "nome":"Porro Luca",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 11,
+      "squadra_id":11,
       "squadra":"Pallavolo Padova",
       "numero":"17",
       "nascita":"09/05/2004",
@@ -1547,12 +1795,14 @@
       "altezza":"194 cm",
       "url_giocatore":"http://www.legavolley.it/player/POR-LUC-03",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/POR-LUC-03.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=POR-LUC-03&sqid=6399&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/POR-LUC-03.png",
+      "codice":"POR-LUC-03"
    },
    {
       "nome":"Porro Paolo",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 12,
+      "squadra_id":12,
       "squadra":"Allianz Milano",
       "numero":"16",
       "nascita":"27/10/2001",
@@ -1560,12 +1810,14 @@
       "altezza":"185 cm",
       "url_giocatore":"http://www.legavolley.it/player/POR-PAO-01",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/POR-PAO-01.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=POR-PAO-01&sqid=6394&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/POR-PAO-01.png",
+      "codice":"POR-PAO-01"
    },
    {
       "nome":"Raffaelli Giacomo",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 2,
+      "squadra_id":2,
       "squadra":"Gioiella Prisma Taranto",
       "numero":"77",
       "nascita":"07/02/1995",
@@ -1573,12 +1825,14 @@
       "altezza":"194 cm",
       "url_giocatore":"http://www.legavolley.it/player/RAF-GIA-95",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RAF-GIA-95.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RAF-GIA-95&sqid=6397&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RAF-GIA-95.png",
+      "codice":"RAF-GIA-95"
    },
    {
       "nome":"Ramon Jordi",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 6,
+      "squadra_id":6,
       "squadra":"Cisterna Volley",
       "numero":"7",
       "nascita":"09/07/1999",
@@ -1586,25 +1840,29 @@
       "altezza":"194 cm",
       "url_giocatore":"http://www.legavolley.it/player/RAM-JOR-99",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RAM-JOR-99.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RAM-JOR-99&sqid=6401&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RAM-JOR-99.png",
+      "codice":"RAM-JOR-99"
    },
    {
       "nome":"Randazzo Luigi",
       "ruolo":"Schiacciatore",
       "squadra":"Farmitalia Catania",
-	   "squadra_id": 5,
+      "squadra_id":5,
       "numero":"18",
       "nascita":"30/04/1994",
       "nazione":"ITA",
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/RAN-LUI-94",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RAN-LUI-94.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RAN-LUI-94&sqid=6435&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RAN-LUI-94.png",
+      "codice":"RAN-LUI-94"
    },
    {
       "nome":"Recine Francesco",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 3,
+      "squadra_id":3,
       "squadra":"Gas Sales Bluenergy Piacenza",
       "numero":"3",
       "nascita":"07/02/1999",
@@ -1612,12 +1870,14 @@
       "altezza":"185 cm",
       "url_giocatore":"http://www.legavolley.it/player/REC-FRA-99",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/REC-FRA-99.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=REC-FRA-99&sqid=6396&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/REC-FRA-99.png",
+      "codice":"REC-FRA-99"
    },
    {
       "nome":"Reggers Ferre",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 12,
+      "squadra_id":12,
       "squadra":"Allianz Milano",
       "numero":"7",
       "nascita":"18/07/2003",
@@ -1625,12 +1885,14 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/REG-FER-03",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/REG-FER-03.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=REG-FER-03&sqid=6394&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/REG-FER-03.png",
+      "codice":"REG-FER-03"
    },
    {
       "nome":"Resende Gualberto Flavio",
       "ruolo":"Centrale",
-	   "squadra_id": 7,
+      "squadra_id":7,
       "squadra":"Sir Susa Vim Perugia",
       "numero":"15",
       "nascita":"22/04/1993",
@@ -1638,12 +1900,14 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/GUA-FLA-93",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GUA-FLA-93.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=GUA-FLA-93&sqid=6400&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/GUA-FLA-93.png",
+      "codice":"GUA-FLA-93"
    },
    {
       "nome":"Ricci Fabio",
       "ruolo":"Centrale",
-	   "squadra_id": 3,
+      "squadra_id":3,
       "squadra":"Gas Sales Bluenergy Piacenza",
       "numero":"12",
       "nascita":"11/07/1994",
@@ -1651,12 +1915,14 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/RIC-FAB-94",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RIC-FAB-94.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RIC-FAB-94&sqid=6396&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RIC-FAB-94.png",
+      "codice":"RIC-FAB-94"
    },
    {
       "nome":"Rinaldi Tommaso",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 9,
+      "squadra_id":9,
       "squadra":"Valsa Group Modena",
       "numero":"90",
       "nascita":"09/11/2001",
@@ -1664,12 +1930,14 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/RIN-TOM-01",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RIN-TOM-01.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RIN-TOM-01&sqid=6402&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RIN-TOM-01.png",
+      "codice":"RIN-TOM-01"
    },
    {
       "nome":"Rizzo Marco",
       "ruolo":"Libero",
-	   "squadra_id": 2,
+      "squadra_id":2,
       "squadra":"Gioiella Prisma Taranto",
       "numero":"6",
       "nascita":"02/01/1990",
@@ -1677,12 +1945,14 @@
       "altezza":"185 cm",
       "url_giocatore":"http://www.legavolley.it/player/RIZ-MAR-90",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RIZ-MAR-90.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RIZ-MAR-90&sqid=6397&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RIZ-MAR-90.png",
+      "codice":"RIZ-MAR-90"
    },
    {
-      "nome":"Romanò Yuri",
+      "nome":"RomanÃ² Yuri",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 3,
+      "squadra_id":3,
       "squadra":"Gas Sales Bluenergy Piacenza",
       "numero":"17",
       "nascita":"26/07/1997",
@@ -1690,12 +1960,14 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/ROM-YUR-97",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ROM-YUR-97.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ROM-YUR-97&sqid=6396&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ROM-YUR-97.png",
+      "codice":"ROM-YUR-97"
    },
    {
       "nome":"Ropret Gregor",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 7,
+      "squadra_id":7,
       "squadra":"Sir Susa Vim Perugia",
       "numero":"20",
       "nascita":"01/03/1989",
@@ -1703,12 +1975,14 @@
       "altezza":"193 cm",
       "url_giocatore":"http://www.legavolley.it/player/ROP-GRE-89",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ROP-GRE-89.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ROP-GRE-89&sqid=6400&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ROP-GRE-89.png",
+      "codice":"ROP-GRE-89"
    },
    {
       "nome":"Rossi Andrea",
       "ruolo":"Centrale",
-	   "squadra_id": 6,
+      "squadra_id":6,
       "squadra":"Cisterna Volley",
       "numero":"13",
       "nascita":"14/02/1989",
@@ -1716,12 +1990,14 @@
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/ROS-AND-89",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ROS-AND-89.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ROS-AND-89&sqid=6401&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ROS-AND-89.png",
+      "codice":"ROS-AND-89"
    },
    {
       "nome":"Russell Kyle",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 2,
+      "squadra_id":2,
       "squadra":"Gioiella Prisma Taranto",
       "numero":"15",
       "nascita":"25/08/1993",
@@ -1729,12 +2005,14 @@
       "altezza":"206 cm",
       "url_giocatore":"http://www.legavolley.it/player/RUS-KYL-93",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RUS-KYL-93.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RUS-KYL-93&sqid=6397&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RUS-KYL-93.png",
+      "codice":"RUS-KYL-93"
    },
    {
       "nome":"Russo Davide Luigi",
       "ruolo":"Libero",
-	   "squadra_id": 11,
+      "squadra_id":11,
       "squadra":"Pallavolo Padova",
       "numero":"3",
       "nascita":"09/02/2001",
@@ -1742,12 +2020,14 @@
       "altezza":"180 cm",
       "url_giocatore":"http://www.legavolley.it/player/RUS-DAV-01",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RUS-DAV-01.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RUS-DAV-01&sqid=6399&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RUS-DAV-01.png",
+      "codice":"RUS-DAV-01"
    },
    {
       "nome":"Russo Roberto",
       "ruolo":"Centrale",
-	   "squadra_id": 7,
+      "squadra_id":7,
       "squadra":"Sir Susa Vim Perugia",
       "numero":"19",
       "nascita":"23/02/1997",
@@ -1755,12 +2035,14 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/RUS-ROB-97",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RUS-ROB-97.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RUS-ROB-97&sqid=6400&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RUS-ROB-97.png",
+      "codice":"RUS-ROB-97"
    },
    {
       "nome":"Rychlicki Kamil",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 1,
+      "squadra_id":1,
       "squadra":"Itas Trentino",
       "numero":"11",
       "nascita":"01/11/1996",
@@ -1768,12 +2050,14 @@
       "altezza":"204 cm",
       "url_giocatore":"http://www.legavolley.it/player/RYC-KAM-96",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RYC-KAM-96.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=RYC-KAM-96&sqid=6398&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/RYC-KAM-96.png",
+      "codice":"RYC-KAM-96"
    },
    {
       "nome":"Saitta Davide",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 6,
+      "squadra_id":6,
       "squadra":"Cisterna Volley",
       "numero":"8",
       "nascita":"23/06/1987",
@@ -1781,12 +2065,14 @@
       "altezza":"190 cm",
       "url_giocatore":"http://www.legavolley.it/player/SAI-DAV-87",
       "url_squadra":"http://www.legavolley.it/team/6401",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SAI-DAV-87.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SAI-DAV-87&sqid=6401&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SAI-DAV-87.png",
+      "codice":"SAI-DAV-87"
    },
    {
       "nome":"Sala Lorenzo",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 2,
+      "squadra_id":2,
       "squadra":"Gioiella Prisma Taranto",
       "numero":"14",
       "nascita":"15/09/2002",
@@ -1794,12 +2080,14 @@
       "altezza":"200 cm",
       "url_giocatore":"http://www.legavolley.it/player/SAL-LOR-02",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SAL-LOR-02.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SAL-LOR-02&sqid=6397&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SAL-LOR-02.png",
+      "codice":"SAL-LOR-02"
    },
    {
       "nome":"Sanguinetti Giovanni",
       "ruolo":"Centrale",
-	   "squadra_id": 9,
+      "squadra_id":9,
       "squadra":"Valsa Group Modena",
       "numero":"6",
       "nascita":"14/04/2000",
@@ -1807,12 +2095,14 @@
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/SAN-GIO-00",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SAN-GIO-00.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SAN-GIO-00&sqid=6402&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SAN-GIO-00.png",
+      "codice":"SAN-GIO-00"
    },
    {
       "nome":"Sani Francesco",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 10,
+      "squadra_id":10,
       "squadra":"Rana Verona",
       "numero":"16",
       "nascita":"16/07/2002",
@@ -1820,25 +2110,29 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/SAN-FRA-02",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SAN-FRA-02.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SAN-FRA-02&sqid=6404&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SAN-FRA-02.png",
+      "codice":"SAN-FRA-02"
    },
    {
       "nome":"Santambrogio Filippo",
       "ruolo":"Palleggiatore",
       "squadra":"Farmitalia Catania",
-	   "squadra_id": 5,
+      "squadra_id":5,
       "numero":"44",
       "nascita":"13/05/1999",
       "nazione":"ITA",
       "altezza":"181 cm",
       "url_giocatore":"http://www.legavolley.it/player/SAN-FIL-99",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SAN-FIL-99.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SAN-FIL-99&sqid=6435&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SAN-FIL-99.png",
+      "codice":"SAN-FIL-99"
    },
    {
       "nome":"Santos De Souza Ricardo Lucarelli",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 3,
+      "squadra_id":3,
       "squadra":"Gas Sales Bluenergy Piacenza",
       "numero":"8",
       "nascita":"14/02/1992",
@@ -1846,12 +2140,14 @@
       "altezza":"196 cm",
       "url_giocatore":"http://www.legavolley.it/player/LUC-RIC-92",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LUC-RIC-92.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=LUC-RIC-92&sqid=6396&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/LUC-RIC-92.png",
+      "codice":"LUC-RIC-92"
    },
    {
       "nome":"Sapozhkov Maksim",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 9,
+      "squadra_id":9,
       "squadra":"Valsa Group Modena",
       "numero":"12",
       "nascita":"15/11/2000",
@@ -1859,12 +2155,14 @@
       "altezza":"220 cm",
       "url_giocatore":"http://www.legavolley.it/player/SAP-MAK-00",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SAP-MAK-00.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SAP-MAK-00&sqid=6402&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SAP-MAK-00.png",
+      "codice":"SAP-MAK-00"
    },
    {
       "nome":"Sbertoli Riccardo",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 1,
+      "squadra_id":1,
       "squadra":"Itas Trentino",
       "numero":"6",
       "nascita":"23/05/1998",
@@ -1872,12 +2170,14 @@
       "altezza":"190 cm",
       "url_giocatore":"http://www.legavolley.it/player/SBE-RIC-98",
       "url_squadra":"http://www.legavolley.it/team/6398",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SBE-RIC-98.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SBE-RIC-98&sqid=6398&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SBE-RIC-98.png",
+      "codice":"SBE-RIC-98"
    },
    {
       "nome":"Scanferla Leonardo",
       "ruolo":"Libero",
-	   "squadra_id": 3,
+      "squadra_id":3,
       "squadra":"Gas Sales Bluenergy Piacenza",
       "numero":"10",
       "nascita":"04/12/1998",
@@ -1885,12 +2185,14 @@
       "altezza":"184 cm",
       "url_giocatore":"http://www.legavolley.it/player/SCA-LEO-98",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SCA-LEO-98.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SCA-LEO-98&sqid=6396&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SCA-LEO-98.png",
+      "codice":"SCA-LEO-98"
    },
    {
       "nome":"Semeniuk Kamil",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 7,
+      "squadra_id":7,
       "squadra":"Sir Susa Vim Perugia",
       "numero":"16",
       "nascita":"16/07/1996",
@@ -1898,12 +2200,14 @@
       "altezza":"194 cm",
       "url_giocatore":"http://www.legavolley.it/player/SEM-KAM-96",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SEM-KAM-96.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SEM-KAM-96&sqid=6400&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SEM-KAM-96.png",
+      "codice":"SEM-KAM-96"
    },
    {
       "nome":"Sighinolfi Nicholas",
       "ruolo":"Centrale",
-	   "squadra_id": 9,
+      "squadra_id":9,
       "squadra":"Valsa Group Modena",
       "numero":"18",
       "nascita":"11/08/1994",
@@ -1911,12 +2215,14 @@
       "altezza":"206 cm",
       "url_giocatore":"http://www.legavolley.it/player/SIG-NIC-94",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SIG-NIC-94.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SIG-NIC-94&sqid=6402&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SIG-NIC-94.png",
+      "codice":"SIG-NIC-94"
    },
    {
       "nome":"Simon Robertlandy",
       "ruolo":"Centrale",
-	   "squadra_id": 3,
+      "squadra_id":3,
       "squadra":"Gas Sales Bluenergy Piacenza",
       "numero":"13",
       "nascita":"11/06/1987",
@@ -1924,12 +2230,14 @@
       "altezza":"208 cm",
       "url_giocatore":"http://www.legavolley.it/player/SIM-ROB-87",
       "url_squadra":"http://www.legavolley.it/team/6396",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SIM-ROB-87.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SIM-ROB-87&sqid=6396&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SIM-ROB-87.png",
+      "codice":"SIM-ROB-87"
    },
    {
-      "nome":"Solé Sebastian",
+      "nome":"SolÃ© Sebastian",
       "ruolo":"Centrale",
-	   "squadra_id": 7,
+      "squadra_id":7,
       "squadra":"Sir Susa Vim Perugia",
       "numero":"11",
       "nascita":"12/06/1991",
@@ -1937,12 +2245,14 @@
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/SOL-SEB-91",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SOL-SEB-91.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SOL-SEB-91&sqid=6400&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SOL-SEB-91.png",
+      "codice":"SOL-SEB-91"
    },
    {
       "nome":"Spirito Luca",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 10,
+      "squadra_id":10,
       "squadra":"Rana Verona",
       "numero":"13",
       "nascita":"30/10/1993",
@@ -1950,12 +2260,14 @@
       "altezza":"199 cm",
       "url_giocatore":"http://www.legavolley.it/player/SPI-LUC-93",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SPI-LUC-93.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SPI-LUC-93&sqid=6404&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SPI-LUC-93.png",
+      "codice":"SPI-LUC-93"
    },
    {
       "nome":"Stankovic Dragan",
       "ruolo":"Centrale",
-	   "squadra_id": 9,
+      "squadra_id":9,
       "squadra":"Valsa Group Modena",
       "numero":"7",
       "nascita":"18/10/1985",
@@ -1963,12 +2275,14 @@
       "altezza":"205 cm",
       "url_giocatore":"http://www.legavolley.it/player/STA-DRA-85",
       "url_squadra":"http://www.legavolley.it/team/6402",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/STA-DRA-85.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=STA-DRA-85&sqid=6402&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/STA-DRA-85.png",
+      "codice":"STA-DRA-85"
    },
    {
       "nome":"Stefani Tommaso",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 11,
+      "squadra_id":11,
       "squadra":"Pallavolo Padova",
       "numero":"3",
       "nascita":"04/05/2001",
@@ -1976,12 +2290,14 @@
       "altezza":"210 cm",
       "url_giocatore":"http://www.legavolley.it/player/STE-TOM-01",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/STE-TOM-01.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=STE-TOM-01&sqid=6399&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/STE-TOM-01.png",
+      "codice":"STE-TOM-01"
    },
    {
       "nome":"Szwarc Arthur",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 8,
+      "squadra_id":8,
       "squadra":"Mint Vero Volley Monza",
       "numero":"31",
       "nascita":"30/03/1995",
@@ -1989,12 +2305,14 @@
       "altezza":"207 cm",
       "url_giocatore":"http://www.legavolley.it/player/SZW-ART-95",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SZW-ART-95.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=SZW-ART-95&sqid=6403&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/SZW-ART-95.png",
+      "codice":"SZW-ART-95"
    },
    {
       "nome":"Takahashi Ran",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 8,
+      "squadra_id":8,
       "squadra":"Mint Vero Volley Monza",
       "numero":"12",
       "nascita":"02/09/2001",
@@ -2002,12 +2320,14 @@
       "altezza":"188 cm",
       "url_giocatore":"http://www.legavolley.it/player/TAK-RAN-01",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TAK-RAN-01.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=TAK-RAN-01&sqid=6403&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TAK-RAN-01.png",
+      "codice":"TAK-RAN-01"
    },
    {
       "nome":"Taniguchi Wataru",
       "ruolo":"Libero",
-	   "squadra_id": 11,
+      "squadra_id":11,
       "squadra":"Pallavolo Padova",
       "numero":"20",
       "nascita":"05/11/1996",
@@ -2015,12 +2335,14 @@
       "altezza":"174 cm",
       "url_giocatore":"http://www.legavolley.it/player/TAN-WAT-96",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TAN-WAT-96.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=TAN-WAT-96&sqid=6399&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TAN-WAT-96.png",
+      "codice":"TAN-WAT-96"
    },
    {
       "nome":"Thelle Jakob Solgaard",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 4,
+      "squadra_id":4,
       "squadra":"Cucine Lube Civitanova",
       "numero":"2",
       "nascita":"10/12/1999",
@@ -2028,25 +2350,29 @@
       "altezza":"198 cm",
       "url_giocatore":"http://www.legavolley.it/player/THE-JAK-99",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/THE-JAK-99.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=THE-JAK-99&sqid=6395&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/THE-JAK-99.png",
+      "codice":"THE-JAK-99"
    },
    {
       "nome":"Tondo Alessandro",
       "ruolo":"Centrale",
       "squadra":"Farmitalia Catania",
-	   "squadra_id": 5,
+      "squadra_id":5,
       "numero":"7",
       "nascita":"18/08/1991",
       "nazione":"ITA",
       "altezza":"202 cm",
       "url_giocatore":"http://www.legavolley.it/player/TON-ALE-91",
       "url_squadra":"http://www.legavolley.it/team/6435",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TON-ALE-91.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=TON-ALE-91&sqid=6435&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TON-ALE-91.png",
+      "codice":"TON-ALE-91"
    },
    {
       "nome":"Toscani Alessandro",
       "ruolo":"Libero",
-	   "squadra_id": 7,
+      "squadra_id":7,
       "squadra":"Sir Susa Vim Perugia",
       "numero":"8",
       "nascita":"18/07/1998",
@@ -2054,12 +2380,14 @@
       "altezza":"183 cm",
       "url_giocatore":"http://www.legavolley.it/player/TOS-ALE-98",
       "url_squadra":"http://www.legavolley.it/team/6400",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TOS-ALE-98.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=TOS-ALE-98&sqid=6400&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TOS-ALE-98.png",
+      "codice":"TOS-ALE-98"
    },
    {
       "nome":"Trinidad De Haro Angel",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 2,
+      "squadra_id":2,
       "squadra":"Gioiella Prisma Taranto",
       "numero":"7",
       "nascita":"27/03/1993",
@@ -2067,12 +2395,14 @@
       "altezza":"195 cm",
       "url_giocatore":"http://www.legavolley.it/player/TRI-ANG-93",
       "url_squadra":"http://www.legavolley.it/team/6397",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TRI-ANG-93.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=TRI-ANG-93&sqid=6397&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TRI-ANG-93.png",
+      "codice":"TRI-ANG-93"
    },
    {
       "nome":"Truhtchev Axel",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 10,
+      "squadra_id":10,
       "squadra":"Rana Verona",
       "numero":"23",
       "nascita":"29/04/1995",
@@ -2080,12 +2410,14 @@
       "altezza":"195 cm",
       "url_giocatore":"http://www.legavolley.it/player/TRU-AXE-95",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TRU-AXE-95.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=TRU-AXE-95&sqid=6404&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TRU-AXE-95.png",
+      "codice":"TRU-AXE-95"
    },
    {
       "nome":"Truocchio Andrea",
       "ruolo":"Centrale",
-	   "squadra_id": 11,
+      "squadra_id":11,
       "squadra":"Pallavolo Padova",
       "numero":"18",
       "nascita":"10/02/2000",
@@ -2093,12 +2425,14 @@
       "altezza":"207 cm",
       "url_giocatore":"http://www.legavolley.it/player/TRU-AND-00",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TRU-AND-00.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=TRU-AND-00&sqid=6399&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/TRU-AND-00.png",
+      "codice":"TRU-AND-00"
    },
    {
       "nome":"Visic Petar",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 8,
+      "squadra_id":8,
       "squadra":"Mint Vero Volley Monza",
       "numero":"1",
       "nascita":"11/02/1998",
@@ -2106,12 +2440,14 @@
       "altezza":"198 cm",
       "url_giocatore":"http://www.legavolley.it/player/VIS-PET-98",
       "url_squadra":"http://www.legavolley.it/team/6403",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/VIS-PET-98.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=VIS-PET-98&sqid=6403&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/VIS-PET-98.png",
+      "codice":"VIS-PET-98"
    },
    {
       "nome":"Vitelli Marco",
       "ruolo":"Centrale",
-	   "squadra_id": 12,
+      "squadra_id":12,
       "squadra":"Allianz Milano",
       "numero":"6",
       "nascita":"04/04/1996",
@@ -2119,12 +2455,14 @@
       "altezza":"203 cm",
       "url_giocatore":"http://www.legavolley.it/player/VIT-MAR-96",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/VIT-MAR-96.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=VIT-MAR-96&sqid=6394&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/VIT-MAR-96.png",
+      "codice":"VIT-MAR-96"
    },
    {
       "nome":"Yant Herrera Marlon",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 4,
+      "squadra_id":4,
       "squadra":"Cucine Lube Civitanova",
       "numero":"23",
       "nascita":"23/05/2001",
@@ -2132,12 +2470,14 @@
       "altezza":"204 cm",
       "url_giocatore":"http://www.legavolley.it/player/YAN-MAR-01",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/YAN-MAR-01.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=YAN-MAR-01&sqid=6395&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/YAN-MAR-01.png",
+      "codice":"YAN-MAR-01"
    },
    {
       "nome":"Zanotti Andrea",
       "ruolo":"Centrale",
-	   "squadra_id": 10,
+      "squadra_id":10,
       "squadra":"Rana Verona",
       "numero":"21",
       "nascita":"28/10/1997",
@@ -2145,12 +2485,14 @@
       "altezza":"195 cm",
       "url_giocatore":"http://www.legavolley.it/player/ZAN-AND-97",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZAN-AND-97.png"
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ZAN-AND-97&sqid=6404&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZAN-AND-97.png",
+      "codice":"ZAN-AND-97"
    },
    {
       "nome":"Zaytsev Ivan",
       "ruolo":"Schiacciatore",
-	   "squadra_id": 4,
+      "squadra_id":4,
       "squadra":"Cucine Lube Civitanova",
       "numero":"9",
       "nascita":"02/10/1988",
@@ -2158,12 +2500,14 @@
       "altezza":"204 cm",
       "url_giocatore":"http://www.legavolley.it/player/ZAY-IVA-88",
       "url_squadra":"http://www.legavolley.it/team/6395",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZAY-IVA-88.png"   
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ZAY-IVA-88&sqid=6395&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZAY-IVA-88.png",
+      "codice":"ZAY-IVA-88"
    },
    {
       "nome":"Zenger Julian",
       "ruolo":"Libero",
-	   "squadra_id": 11,
+      "squadra_id":11,
       "squadra":"Pallavolo Padova",
       "numero":"13",
       "nascita":"01/01/1997",
@@ -2171,12 +2515,14 @@
       "altezza":"190 cm",
       "url_giocatore":"http://www.legavolley.it/player/ZEN-JUL-97",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZEN-JUL-97.png"   
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ZEN-JUL-97&sqid=6399&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZEN-JUL-97.png",
+      "codice":"ZEN-JUL-97"
    },
    {
       "nome":"Zingel Aidan",
       "ruolo":"Centrale",
-	   "squadra_id": 10,
+      "squadra_id":10,
       "squadra":"Rana Verona",
       "numero":"1",
       "nascita":"19/11/1990",
@@ -2184,12 +2530,14 @@
       "altezza":"207 cm",
       "url_giocatore":"http://www.legavolley.it/player/ZIN-AID-90",
       "url_squadra":"http://www.legavolley.it/team/6404",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZIN-AID-90.png"   
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ZIN-AID-90&sqid=6404&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZIN-AID-90.png",
+      "codice":"ZIN-AID-90"
    },
    {
       "nome":"Zonta Nicola",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 12,
+      "squadra_id":12,
       "squadra":"Allianz Milano",
       "numero":"4",
       "nascita":"15/05/2000",
@@ -2197,12 +2545,14 @@
       "altezza":"186 cm",
       "url_giocatore":"http://www.legavolley.it/player/ZON-NIC-00",
       "url_squadra":"http://www.legavolley.it/team/6394",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZON-NIC-00.png"   
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ZON-NIC-00&sqid=6394&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZON-NIC-00.png",
+      "codice":"ZON-NIC-00"
    },
    {
       "nome":"Zoppellari Francesco",
       "ruolo":"Palleggiatore",
-	   "squadra_id": 11,
+      "squadra_id":11,
       "squadra":"Pallavolo Padova",
       "numero":"7",
       "nascita":"27/05/1997",
@@ -2210,6 +2560,8 @@
       "altezza":"185 cm",
       "url_giocatore":"http://www.legavolley.it/player/ZOP-FRA-97",
       "url_squadra":"http://www.legavolley.it/team/6399",
-      "url_foto":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZOP-FRA-97.png"   
+      "url_foto":"https://www.legavolley.it/Foto.aspx?Key=ZOP-FRA-97&sqid=6399&heightImg=500",
+      "url_card":"https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/ZOP-FRA-97.png",
+      "codice":"ZOP-FRA-97"
    }
 ]

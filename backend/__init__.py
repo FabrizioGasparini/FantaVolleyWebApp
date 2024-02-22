@@ -6,7 +6,7 @@ from app.error_handler import error_handlers_bp
 from app.models.database import db
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, supports_credentials=True)
 
 app.secret_key = "hello"
 

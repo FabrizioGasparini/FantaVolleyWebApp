@@ -5,7 +5,7 @@ from app.models.expired_token import ExpiredToken
 import validators
 
 from werkzeug.security import generate_password_hash, check_password_hash
-from flask_jwt_extended import create_access_token, decode_token
+from flask_jwt_extended import create_access_token, decode_token, jwt_required, get_jwt_identity
 from jwt import encode, decode
 
 auth = Blueprint('auth', __name__)
@@ -55,8 +55,7 @@ def register():
 @auth.post('/login')
 def login():
     data = request.get_json()
-    
-    user = User.query.filter_by(email=data['email']).first()
+    user = User.query.filter_by(username=data['username']).first()
     if user:
         if check_password_hash(user.password, data['password']):
             return jsonify({
@@ -69,13 +68,12 @@ def login():
         return jsonify({"error": {'code': 404, 'message': 'User not found (invalid username or password)'}}), 404        
 
     
-
 @auth.route("/user/read", methods=["GET", "POST"])
+@jwt_required()
 def user():
-    data = request.get_json()
-    user_identity = decode_token(data["token"])
+    user_identity = get_jwt_identity()
     
-    user = User.query.filter_by(username=user_identity['sub']).first()
+    user = User.query.filter_by(username=user_identity).first()
     if user:
         return jsonify({
             "user": user.to_json()
@@ -86,11 +84,12 @@ def user():
 
 
 @auth.route('/user/delete', methods=["DELETE", "POST"])
+@jwt_required()
 def delete():
     data = request.get_json()
-    user_identity = decode_token(data["token"])
+    user_identity = get_jwt_identity()
     
-    user = User.query.filter_by(username=user_identity['sub']).first()
+    user = User.query.filter_by(username=user_identity).first()
     if user:
         
         is_token_expired = ExpiredToken.query.filter_by(token=data["token"]).first()

@@ -16,7 +16,7 @@
 #     player_table.pop(0)
 
 #     for player in player_table:
-#             player_data = {"nome": "", "ruolo": "", "squadra": "", "numero": "", "nascita": "", "nazionalità": "", "altezza": "", "url_giocatore": "", "url_squadra": "", "url_foto": ""}
+#             player_data = {"nome": "", "url_foto": "", "codice": ""}
 
 #             stagione = player.find_all('td', id="OddCol")[1].text.strip() 
 #             if stagione != "2023":
@@ -28,42 +28,18 @@
 
 #             nome = player.find_all('td', class_="DettaglioA")[1].text.strip()
 #             player_data["nome"] = nome
-            
-#             ruolo = player.find_all('td', id="OddCol")[0].text.strip()  
-#             player_data["ruolo"] = ruolo
-
-#             squadra = player.find_all('td', class_="DettaglioA")[2].text.strip()  
-#             player_data["squadra"] = squadra
           
 #             url_giocatore = player.find_all('td', class_="DettaglioA")[1].get('onclick').split("'")[1]  
-#             player_data["url_giocatore"] = url_giocatore
 
 #             url_squadra = player.find_all('td', class_="DettaglioA")[2].get('onclick').split("'")[1]  
-#             player_data["url_squadra"] = url_squadra
 
 #             foto = f"https://www.legavolley.it/Foto.aspx?Key={url_giocatore.split('player/')[1]}&sqid={url_squadra.split('team/')[1]}"
 #             player_data["url_foto"] = foto
 
+#             codice = url_giocatore.split('player/')[1]
+#             player_data["codice"] = codice
 
 #             headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
-
-#             # URL ATLETA
-#             response = requests.get(url_giocatore, headers=headers)
-#             soup = BeautifulSoup(response.text, 'html.parser')
-
-#             number = soup.find(class_='atleta-info').find('span').text.split('#')[1]
-#             player_data["numero"] = number
-
-#             info = soup.find_all(class_='atleta-label')
-
-#             nascita = info[0].text.split("Nascita ")[1]
-#             player_data["nascita"] = nascita
-
-#             naz = info[2].text.split("Naz.Sportiva ")[1]
-#             player_data["nazionalità"] = naz
-
-#             altezza = info[4].text.split("Altezza ")[1]
-#             player_data["altezza"] = altezza
 
 #             players.append(player_data)
             
@@ -73,38 +49,31 @@
 # print(players)
 
 
-# import os
+import os
+import json
 
-# file = open('D:/Progetti/FantaVolley/backend/app/data/giocatori.json', 'r')
-# file2 = open('D:/Progetti/FantaVolley/backend/app/data/new_giocatori.json', 'w')
+file1 = open('D:/Progetti/FantaVolley/backend/app/data/giocatori.json', 'r')
+file2 = open('D:/Progetti/FantaVolley/backend/app/data/new_giocatori.json', 'w')
+file3 = open('D:/Progetti/FantaVolley/backend/script/test.json', 'r')
 
-# lines = file.readlines()
-    
+file_json = json.loads(file1.read())
+file3_json = json.loads(file3.read())
 
+for player in file_json:
+    for player2 in file3_json:
+        if player["nome"] == player2["nome"]:
+            player["url_card"] = player["url_foto"]
+            player["url_foto"] = player2["url_foto"]
+            player["codice"] = player2["codice"]
+            
+print(file_json)
 # for i, line in enumerate(lines):
-#     if '"url_giocatore"' in line:
-#         player_code = line.split('player/')[1].split('"')[0]
+#     if '"nome"' in line:
+#         nome = line.split('nome":')[1].split('"')[0]
+
         
 #         file2.write(f'\t   "url_giocatore": "https://playerimages.fra1.digitaloceanspaces.com/2023/rookie/{player_code}.png",\n')
 
         
     
-#     file2.write(line)
-
-import os
-import requests
-
-file = open('D:/Progetti/FantaVolley/backend/app/data/test.txt', 'r')
-lines = file.readlines()
-
-i = 0
-for line in lines:
-    line = line.split(".png")[0] + ".png"
-    request = requests.get(line)
-    if request.status_code == 200:
-        i += 1
-        print(i)
-    else:
-        print(request.url)
-
-print(i)
+#    file2.write(line)

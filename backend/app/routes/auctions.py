@@ -6,18 +6,18 @@ from app.models.player import Player
 from app.models.league import League
 from app.models.auction import Auction, AuctionStatus
 
-from flask_jwt_extended import decode_token, create_access_token
+from flask_jwt_extended import create_access_token, decode_token, jwt_required, get_jwt_identity
 from flask_jwt_extended.exceptions import JWTExtendedException
 
 auctions = Blueprint('auctions', __name__)
 
 
 @auctions.post('/create')
+@jwt_required()
 def create_auction():
-    data = request.get_json()
-    user_identity = decode_token(data["token"])
+    user_identity = get_jwt_identity()
 
-    user = User.query.filter_by(username=user_identity["sub"]).first()
+    user = User.query.filter_by(username=user_identity).first()
     if user:
 
         league = League.query.filter_by(owner_token=user.token).first()
@@ -43,11 +43,12 @@ def create_auction():
 
 
 @auctions.post('/start')
+@jwt_required()
 def start_auction():
     data = request.get_json()
-    user_identity = decode_token(data["token"])
+    user_identity = get_jwt_identity()
 
-    user = User.query.filter_by(username=user_identity["sub"]).first()
+    user = User.query.filter_by(username=user_identity).first()
     if user:
 
         league = League.query.filter_by(owner_token=user.token).first()
@@ -81,11 +82,11 @@ def start_auction():
     
 
 @auctions.post('/end')
+@jwt_required()
 def end_auction():
-    data = request.get_json()
-    user_identity = decode_token(data["token"])
+    user_identity = get_jwt_identity()
 
-    user = User.query.filter_by(username=user_identity["sub"]).first()
+    user = User.query.filter_by(username=user_identity).first()
     if user:
 
         league = League.query.filter_by(owner_token=user.token).first()
@@ -118,11 +119,12 @@ def end_auction():
 
 
 @auctions.post('/bid')
+@jwt_required()
 def bid_auction():
     data = request.get_json()
-    user_identity = decode_token(data["token"])
+    user_identity = get_jwt_identity()
 
-    user = User.query.filter_by(username=user_identity["sub"]).first()
+    user = User.query.filter_by(username=user_identity).first()
     if user:
 
         league = League.query.filter_by(invite_code=data["invite_code"]).first()
@@ -173,11 +175,11 @@ def read_auction():
     
 
 @auctions.post('/close')
+@jwt_required()
 def close_auction():
-    data = request.get_json()
-    user_identity = decode_token(data["token"])
+    user_identity = get_jwt_identity()
 
-    user = User.query.filter_by(username=user_identity["sub"]).first()
+    user = User.query.filter_by(username=user_identity).first()
     if user:
 
         league = League.query.filter_by(owner_token=user.token).first()

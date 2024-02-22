@@ -223,11 +223,17 @@
     margin-top: -10px;
 }
 
-.register a{
+.register button{
     font-size: 24px;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+
+    background-color: transparent;
 }
 
-.form .new-user {
+.new-user {
+    text-align: center;
     color: #fff;
     
     font-size: 15px;

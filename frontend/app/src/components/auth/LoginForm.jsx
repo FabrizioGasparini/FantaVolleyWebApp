@@ -1,33 +1,31 @@
 import { useState } from 'react';
 import './Login.css';
-import { faLock, faAt } from "@fortawesome/free-solid-svg-icons"
+import { faLock, faUser } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import axios from '../../api/axios';
 import Cookies from 'universal-cookie';
+import PropTypes from 'prop-types';
+import { useNavigate } from 'react-router-dom';
 
 const cookies = new Cookies()
 
-const COOKIE_PATH = "/"
-const COOKIE_NAME = "token"
-
-const LoginForm = () => {
-    const [email, setEmail] = useState('');
+const LoginForm = ({ onClick }) => {
+    const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('')
+
+    const navigate = useNavigate()
 
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('/api/v1/auth/login',
-                JSON.stringify({ email, password }),
-                {
-                    headers: { 'Content-Type': 'application/json' }
-                }
-            );
-            console.log(response.data);
+            const response = await axios.post('/api/v1/auth/login', { username: username, password: password });
             const token = response.data.user.token
 
-            cookies.set(COOKIE_NAME, token, {path: COOKIE_PATH})
+            cookies.set("token", token, {path:"/"})
+            axios.defaults.headers.common = { 'Authorization': `Bearer ${token}` }
+
+            return navigate('/')
         } catch (error) {
             setError(error.response.data.error.message)
             console.error('Errore durante il login:', error);
@@ -43,15 +41,15 @@ const LoginForm = () => {
                     <div className="input-box">
                         <input
                             type="text"
-                            name="email"
-                            id="email"
-                            placeholder="Email"
+                            name="username"
+                            id="username"
+                            placeholder="Username"
                             required
-                            autoComplete="email"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
+                            autoComplete="username"
+                            value={username}
+                            onChange={(e) => setUsername(e.target.value)}
                         />
-                        <FontAwesomeIcon className="icon" icon={faAt} />
+                        <FontAwesomeIcon className="icon" icon={faUser} />
                     </div>
                     <div className="input-box">
                         <input
@@ -70,14 +68,18 @@ const LoginForm = () => {
                 </div>
                 <button type="submit" className="submit">Login</button>
                 <p className="error-message">{error}</p>
+                <span className="separator"></span>
+                <p className='new-user'>Sei un nuovo utente?</p>
+                <div className="register">
+                    <button onClick={onClick}>Registrati</button>
+                </div>
             </form>
-            <span className="separator"></span>
-            <p className='new-user'>Sei un nuovo utente?</p>
-            <div className="register">
-                <a href="#">Registrati</a>
-            </div>
         </div>
     );
 }
+
+LoginForm.propTypes = {
+    onClick: PropTypes.func.isRequired
+};
 
 export default LoginForm;

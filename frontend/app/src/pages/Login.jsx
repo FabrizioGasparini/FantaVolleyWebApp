@@ -1,19 +1,16 @@
-//import { useState } from 'react';
-//import './Login.css';
+import { useState } from 'react';
 import LoginForm from '../components/auth/LoginForm';
-//import RegisterForm from '../components/auth/RegisterForm';
+import RegisterForm from '../components/auth/RegisterForm';
 
 const Login = () => {
-    /*const [isSignUpActive, setIsSignUpActive] = useState(true)
+    const [isLogInActive, setIsLogInActive] = useState(true)
     
     const handleFormChange = () => {
-        setIsSignUpActive(!isSignUpActive)
-    }*/
+        setIsLogInActive(!isLogInActive)
+    }
 
     return (
-        <section>
-            <LoginForm />
-        </section>
+        isLogInActive ? <LoginForm onClick={handleFormChange} /> : <RegisterForm onClick={handleFormChange} />
     );
 }
 

@@ -5,17 +5,18 @@ from app.models.user import User
 from app.models.player import Player
 from app.models.league import League
 
-from flask_jwt_extended import decode_token
+from flask_jwt_extended import decode_token, get_jwt_identity, jwt_required
 
 leagues = Blueprint('leagues', __name__)
 
 
 @leagues.post('/create')
+@jwt_required()
 def create_league():
     data = request.get_json()
-    user_identity = decode_token(data["token"])
+    user_identity = get_jwt_identity()
 
-    user = User.query.filter_by(username=user_identity['sub']).first()
+    user = User.query.filter_by(username=user_identity).first()
     if user:
 
         is_name_used = League.query.filter_by(name=data["name"]).first()
@@ -36,11 +37,12 @@ def create_league():
 
 
 @leagues.post('/join')
+@jwt_required()
 def join_league():
     data = request.get_json()
-    user_identity = decode_token(data["token"])
+    user_identity = get_jwt_identity()
     
-    user = User.query.filter_by(username=user_identity['sub']).first()
+    user = User.query.filter_by(username=user_identity).first()
     if user:
         
         league = League.query.filter_by(invite_code=data["invite_code"]).first()
@@ -63,11 +65,12 @@ def join_league():
 
 
 @leagues.post('/read')
+@jwt_required()
 def read_league():
     data = request.get_json()
-    user_identity = decode_token(data["token"])
+    user_identity = get_jwt_identity()
     
-    user = User.query.filter_by(username=user_identity['sub']).first()
+    user = User.query.filter_by(username=user_identity).first()
     if user:
         
         league = League.query.filter_by(invite_code=data["invite_code"]).first()
@@ -87,11 +90,12 @@ def read_league():
 
 
 @leagues.route("/delete", methods=["DELETE", "POST"])
+@jwt_required()
 def delete_league():
     data = request.get_json()
-    user_identity = decode_token(data["token"])
+    user_identity = get_jwt_identity()
     
-    user = User.query.filter_by(username=user_identity['sub']).first()
+    user = User.query.filter_by(username=user_identity).first()
     if user:
         
         league = League.query.filter_by(owner_token=user.token, invite_code=data["invite_code"]).first()
