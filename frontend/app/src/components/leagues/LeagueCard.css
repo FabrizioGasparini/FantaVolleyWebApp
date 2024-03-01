@@ -1,0 +1,83 @@
+.league-card {
+    width: 500px;
+    min-width: 500px;
+    height: 300px;
+
+    background-color: #ADD8E6;
+    border-radius: 15px;
+
+    color: #fff;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+
+    position: relative;
+    
+    cursor: pointer;
+}
+
+.league-card.small{
+    height: 215px;
+}
+
+.league-card.add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 175px;
+    background-color: transparent;
+    border: 5px dashed #ADD8E6;
+}
+
+.league-card .league-name{
+    font-size: 45px;
+    max-width: 430px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-wrap: nowrap;
+}
+
+.league-jersey {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.league-points {
+    font-size: 30px;
+    position: absolute;
+    bottom: 10px;
+    margin: 0;
+}
+
+.league-points span {
+    font-size: 55px;
+    margin-right: 8px;
+}
+
+.league-settings {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    font-size: 40px;
+}
+
+.league-count {
+    margin-top: -20px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.league-card.small .league-count {
+    margin-top: -30px;
+    font-size: 12px;
+}
+
+.league-count span {
+    font-size: 30px;
+}
+.league-count.small span {
+    font-size: 24px;
+}

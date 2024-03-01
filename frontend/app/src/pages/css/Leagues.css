@@ -1,0 +1,15 @@
+.leagues {
+    display: flex;
+    gap: 20px;
+
+    max-width: 90%;
+    column-count: 3;
+    flex-wrap: wrap;
+
+    min-height: 350px;
+
+    justify-content: start;
+
+    overflow-y: auto;
+}
+

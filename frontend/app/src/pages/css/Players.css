@@ -1,0 +1,41 @@
+
+
+.filters-label{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 65px;
+
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.filter {
+    text-align: center;
+    color: #fff;
+}
+
+.players-container {
+    width: 100%;
+    height: fit-content; 
+    min-height: 72vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    column-gap: 10px;
+    margin: 0;
+    padding: 0;
+
+    overflow-y: scroll;
+}

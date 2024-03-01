@@ -1,11 +1,11 @@
 import Sidebar from "../components/sidebar/Sidebar";
 
-const Home = () => {
+const Stats = () => {
     return (
         <Sidebar>
-            <p>Home</p>
+            Stats
         </Sidebar>
     )
 }
 
-export default Home;
+export default Stats;

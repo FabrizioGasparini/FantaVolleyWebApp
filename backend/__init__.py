@@ -36,6 +36,9 @@ app.register_blueprint(leagues, url_prefix='/api/v1/leagues')
 from app.routes.auctions import auctions
 app.register_blueprint(auctions, url_prefix='/api/v1/auctions')
 
+from app.routes.rosters import rosters
+app.register_blueprint(rosters, url_prefix='/api/v1/rosters')
+
 
 
 with app.app_context():

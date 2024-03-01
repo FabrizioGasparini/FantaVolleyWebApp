@@ -34,9 +34,9 @@ def get_players():
     }), 200
 
 
-@players.route('/read/<int:player_id>', methods=["GET", "POST"])
-def get_player_by_id(player_id):
-    player = Player.query.filter_by(id=player_id).first()
+@players.route('/read/<string:player_code>', methods=["GET", "POST"])
+def get_player_by_id(player_code):
+    player = Player.query.filter_by(codice=player_code).first()
 
     if player:
         return jsonify({

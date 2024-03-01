@@ -59,6 +59,14 @@ class League(db.Model):
 
         db.session.commit()
 
+    def remove_participant(self, token):
+        participants = json.loads(self.participants)
+        participants.remove(token)
+
+        self.participants = json.dumps(participants)
+
+        db.session.commit()
+
     def set_auction(self, auction):
         self.current_auction = auction
 

@@ -1,0 +1,81 @@
+.player-image {
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.player-image img {
+    height: 100%; 
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.stat {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.stat .info{
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    /* Personalize */
+    width: auto;
+    padding: .5rem 1rem .5rem 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+
+    font-size: 16px;
+
+    max-width: 290px;
+    width: 290px;
+
+    text-align: center;
+}
+
+.info.title{
+    width: 120px;
+    max-width: 120px;
+}
+
+.stat.large .info {
+    max-width: 420px;
+    width: 420px;
+    cursor: pointer;
+}
+
+.stat.large-2 .info {
+    max-width: 420px;
+    width: 420px;
+    height: 60px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.stat .info.red {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.stat .info.green {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.stat .info.round{
+    border-radius: 100px;
+}
+
+.hQSxZz.toggled {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.gmeTLe .side-icon{
+    margin-right: 14px !important;
+}

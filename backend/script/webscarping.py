@@ -57,16 +57,12 @@ file2 = open('D:/Progetti/FantaVolley/backend/app/data/new_giocatori.json', 'w')
 file3 = open('D:/Progetti/FantaVolley/backend/script/test.json', 'r')
 
 file_json = json.loads(file1.read())
-file3_json = json.loads(file3.read())
 
 for player in file_json:
-    for player2 in file3_json:
-        if player["nome"] == player2["nome"]:
-            player["url_card"] = player["url_foto"]
-            player["url_foto"] = player2["url_foto"]
-            player["codice"] = player2["codice"]
-            
-print(file_json)
+    codice = player["codice"]
+    file2.write(f"\nhttps://playerimages.fra1.digitaloceanspaces.com/rectangles/{codice}.png")      
+
+
 # for i, line in enumerate(lines):
 #     if '"nome"' in line:
 #         nome = line.split('nome":')[1].split('"')[0]

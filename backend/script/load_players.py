@@ -2,7 +2,7 @@ import sqlite3
 import json
 
 conn = sqlite3.connect('players.db')
-with open('giocatori.json', 'r') as json_file:
+with open('D:/Progetti/FantaVolley/backend/app/data/giocatori.json', 'r') as json_file:
     data = json.load(json_file)
     index = 1
     conn.execute('''CREATE TABLE IF NOT EXISTS player (

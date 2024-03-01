@@ -1,11 +1,15 @@
 import { useState, useEffect, useCallback } from 'react';
 import axios from "../api/axios";
 import PlayerCard from "../components/players/PlayerCard";
+import SelectDropdown from '../components/inputs/SelectDropdown';
+import TextInput from '../components/inputs/TextInput';
+import Sidebar from "../components/sidebar/Sidebar";
+import './css/Players.css'
 
 const Players = () => {
     const [players, setPlayers] = useState([]);
     const [filteredPlayers, setFilteredPlayers] = useState([]);
-    const [filters, setFilters] = useState({ "role": "", "team": 0, "name": "" });
+    const [filters, setFilters] = useState({ "role": "", "team": 0, "name": "", "nation": "" });
 
     useEffect(() => {
         const fetchPlayers = async () => {
@@ -21,6 +25,7 @@ const Players = () => {
     }, []);
     
     const handleFilterChange = (e, filter) => {
+        console.log(filter)
         let newFilters = filters
         newFilters[filter] = e.target.value
         setFilters(newFilters)
@@ -33,6 +38,7 @@ const Players = () => {
         const filtered = players.filter(player => {
             if (filters['role'] != '') if (player.ruolo != filters['role']) return false
             if (filters['team'] != 0) if (player.squadra_id != filters['team']) return false;
+            if (filters['nation'] != '') if (player.nazione != filters['nation']) return false;
             if (filters['name'].length > 2) if (!(player.nome).toLowerCase().includes(filters['name'].toLowerCase())) return false;
 
             return true
@@ -48,41 +54,46 @@ const Players = () => {
     }, [filterPlayers])
 
     return (
-        <>
+        <Sidebar>
+            <h1 className='header'>Giocatori</h1>
+            <p className='filters-label'>Filtri</p>
             <div className="filters">
-                <select value={filters["role"]} onChange={e => handleFilterChange(e, "role")}>
-                    <option value="">Tutti</option>
-                    <option value="Palleggiatore">Palleggiatore</option>
-                    <option value="Centrale">Centrale</option>
-                    <option value="Schiacciatore">Schiacciatore</option>
-                    <option value="Opposto">Opposto</option>
-                    <option value="Libero">Libero</option>
-                </select>
-                <select value={filters["team"]} onChange={e => handleFilterChange(e, "team")}>
-                    <option value="0">Tutti</option>
-                    <option value="1">Itas Trentino</option>
-                    <option value="2">Gioiella Prisma Taranto</option>
-                    <option value="3">Gas Sales Bluenergy Piacenza</option>
-                    <option value="4">Cucine Lube Civitanova</option>
-                    <option value="5">Farmitalia Catania</option>
-                    <option value="6">Cisterna Volley</option>
-                    <option value="7">Sir Susa Vim Perugia</option>
-                    <option value="8">Mint Vero Volley Monza</option>
-                    <option value="9">Valsa Group Modena</option>
-                    <option value="10">Rana Verona</option>
-                    <option value="11">Pallavolo Padova</option>
-                    <option value="12">Allianz Milano</option>
-                </select>
-                <input type="text" name="nome" id="nome" value={filters['name']} onChange={e => handleFilterChange(e, 'name')} />
+                <div className="filter">
+                    <p>Ruolo</p>
+                    <SelectDropdown filters={filters} onChange={handleFilterChange}
+                        filterName={"role"}
+                        optionsValues={["", "Palleggiatore", "Centrale", "Schiacciatore", "Opposto", "Libero"]}
+                        optionsTexts={["Tutti", "Palleggiatore", "Centrale", "Schiacciatore", "Opposto", "Libero"]}
+                        />
+                </div>
+                <div className="filter">
+                    <p>Squadra</p>
+                    <SelectDropdown filters={filters} onChange={handleFilterChange}
+                        filterName={"team"}
+                        optionsValues={["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]}
+                        optionsTexts={["Qualsiasi", "Itas Trentino", "Gioiella Prisma Taranto", "Gas Sales Bluenergy Piacenza", "Cucine Lube Civitanova", "Farmitalia Catania", "Cisterna Volley", "Sir Susa Vim Perugia", "Mint Vero Volley Monza", "Valsa Group Modena", "Rana Verona", "Pallavolo Padova", "Allianz Milano"]}
+                    />
+                </div>
+                <div className="filter">
+                    <p>Nazionalità</p>
+                    <SelectDropdown filters={filters} onChange={handleFilterChange}
+                        filterName={"nation"}
+                        optionsValues={["", "ARG", "AUS", "AUT", "BEL", "BLR", "BRA", "BUL", "CAN", "CRO", "CUB", "CZE", "ESP", "FRA", "GER", "IRI", "ITA", "JPN", "LUX", "MLI", "NED", "NOR", "POL", "POR", "RUS", "SLO", "SRB", "SWE", "TUN", "TUR", "UKR", "USA"]}
+                        optionsTexts={["Qualsiasi", "ARG", "AUS", "AUT", "BEL", "BLR", "BRA", "BUL", "CAN", "CRO", "CUB", "CZE", "ESP", "FRA", "GER", "IRI", "ITA", "JPN", "LUX", "MLI", "NED", "NOR", "POL", "POR", "RUS", "SLO", "SRB", "SWE", "TUN", "TUR", "UKR", "USA"]}
+                    />
+                </div>
+                <div className="filter">
+                    <p>Nome Giocatore</p>
+                    <TextInput filters={filters} onChange={handleFilterChange} filterName={"name"}/>
+                </div>
             </div>
 
-            <ul style={{width: '100vw', height: '100vh', display: 'flex', maxWidth: '100vw', flexWrap: 'wrap', overflow: 'scroll', justifyContent:'center'}}>
-                
+            <ul className='players-container'>
                 {filteredPlayers.map((player, index) => (
                     <PlayerCard key={index} player={player} />
                 ))}
             </ul>
-        </>
+        </Sidebar>
     )
 }
 
