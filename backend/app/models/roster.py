@@ -11,6 +11,7 @@ class Roster(db.Model):
         self.league_code = league_code
         self.token = token
         self.players = json.dumps(players)
+        self.list = json.dumps(players)
 
     def save_to_db(self):
         db.session.add(self)

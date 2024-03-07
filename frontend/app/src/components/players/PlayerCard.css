@@ -9,6 +9,10 @@
     cursor: pointer;
 }
 
+.player-card.small{
+    height: 250px;
+}
+
 .player-card img {
     height: 100%;
 }

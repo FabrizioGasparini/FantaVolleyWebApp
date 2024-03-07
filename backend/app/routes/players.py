@@ -35,8 +35,19 @@ def get_players():
 
 
 @players.route('/read/<string:player_code>', methods=["GET", "POST"])
-def get_player_by_id(player_code):
+def get_player_by_code(player_code):
     player = Player.query.filter_by(codice=player_code).first()
+
+    if player:
+        return jsonify({
+            "player": player.to_json()
+        }), 200
+    else:
+        return jsonify({"error": {'code': 404, 'message': 'Player not found (invalid id)'}}), 404
+
+@players.route('/read/<int:id>', methods=["GET", "POST"])
+def get_player_by_id(id):
+    player = Player.query.filter_by(id=id).first()
 
     if player:
         return jsonify({

@@ -1,0 +1,38 @@
+.court-position {
+    height: 250px;
+    aspect-ratio: 5/7;
+
+    border: 2px dashed white;
+    border-radius: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(255, 255, 255, 0.15);
+
+    position: relative;
+
+}
+
+.court-position.player{
+    border: none;
+    background-color: transparent;
+}
+
+.court-position.player p{
+    position: absolute;
+    top: -10px;
+}
+
+.role {
+    color: #fff;
+    margin: 0;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+}

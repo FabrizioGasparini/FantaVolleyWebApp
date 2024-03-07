@@ -13,7 +13,7 @@ import Logo from '../../assets/images/LogoU17White.png'
 import PropTypes from 'prop-types'
 import './Sidebar.css'
 
-const Sidebar = ({ children }) => {
+const Sidebar = ({ children, scroll }) => {
 
   return (
     <>
@@ -64,7 +64,7 @@ const Sidebar = ({ children }) => {
           </CDBSidebarFooter>
         </CDBSidebar>
 
-        <div className="page-content">
+        <div className={scroll ? "page-content scroll" : "page-content"}>
           {children}
         </div>
       </div>
@@ -74,6 +74,7 @@ const Sidebar = ({ children }) => {
 
 Sidebar.propTypes = {
   children: PropTypes.node.isRequired,
+  scroll: PropTypes.bool
 };
 
 export default Sidebar;

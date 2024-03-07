@@ -2,7 +2,6 @@ import { useNavigate, useParams } from "react-router-dom";
 import Sidebar from "../../../components/sidebar/Sidebar";
 import { useEffect, useState } from "react";
 import axios from "../../../api/axios";
-import './League.css';
 import LeagueCard from "../../../components/leagues/LeagueCard";
 
 import Cookies from "universal-cookie";
@@ -55,7 +54,7 @@ const League = () => {
                     <span></span>
                     <div className="stats">
                         <div className="stat large-2">
-                            <div className="info green">SCHIERA SQUADRA</div>
+                            <div className="info green" onClick={() => navigate("roster")}>SCHIERA SQUADRA</div>
                         </div>
                     </div>
                 </>

@@ -1,0 +1,66 @@
+.players-list {
+    width: 100%;
+}
+
+.players-list ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+.court {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 50px;
+}
+
+.titolari {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0;
+}
+
+.titolari .giocatori {
+    columns: 3;
+    gap: 100px;
+    padding: 0;
+}
+
+.titolari .giocatori > * {
+    margin-bottom: 20px;
+}
+
+.titolari .libero {
+    height: 100%;
+    margin: 0 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titolari .empty-player {
+    height: 250px;
+    aspect-ratio: 5 / 7;
+}
+
+
+.panchina {
+    display: flex;
+    gap: 10px;
+}
+
+.court-img{
+    position: absolute;
+    width: 60%;
+    opacity: .5;
+}

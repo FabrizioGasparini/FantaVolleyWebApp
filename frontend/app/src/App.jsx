@@ -11,6 +11,7 @@ import Leagues from './pages/Leagues';
 import Stats from './pages/Stats';
 import Rules from './pages/Rules';
 import League from './pages/dynamic/league/League';
+import Roster from './pages/dynamic/league/roster/Roster';
 
 function App()
 {
@@ -23,6 +24,7 @@ function App()
             <Route element={<Account/>} path="/account" />
             <Route element={<Leagues />} path="/leagues" />
             <Route element={<League />} path="/leagues/:invite_code" />
+            <Route element={<Roster />} path="/leagues/:invite_code/roster" />
           </Route>
           <Route element={<Home/>} path="/" />
           <Route element={<Stats />} path="/stats" />

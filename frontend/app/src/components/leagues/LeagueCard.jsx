@@ -14,7 +14,6 @@ const LeagueCard = (props) => {
     const [popupVisible, setPopupVisible] = useState(false)
     const [error, setError] = useState('')
     
-    console.log(console.league)
     const participants = props.league != undefined ? props.league.participants.length : 0
 
     const deleteLeague = async () => {

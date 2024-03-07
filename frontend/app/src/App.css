@@ -38,3 +38,11 @@ h2.header {
     margin: 10px;
     margin-bottom: 20px;
 }
+
+h3.header {
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+}

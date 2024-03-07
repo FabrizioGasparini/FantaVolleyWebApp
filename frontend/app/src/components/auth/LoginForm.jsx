@@ -13,22 +13,27 @@ const LoginForm = ({ onClick }) => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('')
+    
+    const [invisibleInput, setInvisibleInput] = useState('');
 
     const navigate = useNavigate()
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        try {
-            const response = await axios.post('/api/v1/auth/login', { username: username, password: password });
-            const token = response.data.user.token
+        if(invisibleInput == '')
+        {
+            try {
+                const response = await axios.post('/api/v1/auth/login', { username: username, password: password });
+                const token = response.data.user.token
 
-            cookies.set("token", token, {path:"/"})
-            axios.defaults.headers.common = { 'Authorization': `Bearer ${token}` }
+                cookies.set("token", token, {path:"/"})
+                axios.defaults.headers.common = { 'Authorization': `Bearer ${token}` }
 
-            return navigate('/')
-        } catch (error) {
-            setError(error.response.data.error.message)
-            console.error('Errore durante il login:', error);
+                return navigate('/')
+            } catch (error) {
+                setError(error.response.data.error.message)
+                console.error('Errore durante il login:', error);
+            }
         }
     };
 
@@ -65,6 +70,7 @@ const LoginForm = ({ onClick }) => {
                     <div className="forgot">
                         <a href="#">Password Dimenticata</a>
                     </div>
+                    <input type="text" className="invisible-input" style={{display: 'none'}} value={invisibleInput} onChange={(e) => setInvisibleInput(e.target.value)}/>
                 </div>
                 <button type="submit" className="submit">Login</button>
                 <p className="error-message">{error}</p>
