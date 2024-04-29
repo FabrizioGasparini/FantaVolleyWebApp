@@ -54,7 +54,7 @@ const CourtPosition = (props) =>
 
 
     return (
-        <div className={player != null ? "court-position player": "court-position"} onDrop={handleDrop} onDragOver={handleDragOver}>
+        <div className={props.className}  onDrop={handleDrop} onDragOver={handleDragOver}>
             <p className="role">{props.role}</p>
             {props.children}
         </div>
@@ -67,7 +67,8 @@ CourtPosition.propTypes = {
     league_code: PropTypes.string,
     player: PropTypes.object,
     children: PropTypes.node.isRequired,
-    onDrop: PropTypes.func
+    onDrop: PropTypes.func,
+    className: PropTypes.string
 }
 
 export default CourtPosition;

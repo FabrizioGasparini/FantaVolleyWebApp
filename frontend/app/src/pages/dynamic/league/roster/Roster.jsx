@@ -107,6 +107,7 @@ const Roster = () => {
                                 league_code={invite_code}
                                 player={getPlayer(7)}
                                 onDrop={() => onDropCard()}
+                                className={getPlayer(7) != null ? "court-position player": "court-position"}
                             >
                                 {
                                     getPlayer(7) != null ? <PlayerCard player={getPlayer(7)} small draggable court_position={7} /> : ''
@@ -121,6 +122,7 @@ const Roster = () => {
                                 league_code={invite_code}
                                 player={getPlayer(4)}
                                 onDrop={() => onDropCard()}
+                                className={getPlayer(4) != null ? "court-position player": "court-position"}
                             >
                                 {
                                     getPlayer(4) != null ? <PlayerCard player={getPlayer(4)} small draggable court_position={4} /> : ''
@@ -133,6 +135,7 @@ const Roster = () => {
                                 league_code={invite_code}
                                 player={getPlayer(5)}
                                 onDrop={() => onDropCard()}
+                                className={getPlayer(5) != null ? "court-position player": "court-position"}
                             >
                                 {
                                     getPlayer(5) != null ? <PlayerCard player={getPlayer(5)} small draggable court_position={5} /> : ''
@@ -145,6 +148,7 @@ const Roster = () => {
                                 league_code={invite_code}
                                 player={getPlayer(3)}
                                 onDrop={() => onDropCard()}
+                                className={getPlayer(3) != null ? "court-position player": "court-position"}
                             >
                                 {
                                     getPlayer(3) != null ? <PlayerCard player={getPlayer(3)} small draggable court_position={3} /> : ''
@@ -157,6 +161,7 @@ const Roster = () => {
                                 league_code={invite_code}
                                 player={getPlayer(6)}
                                 onDrop={() => onDropCard()}
+                                className={getPlayer(6) != null ? "court-position player": "court-position"}
                             >
                                 {
                                     getPlayer(6) != null ? <PlayerCard player={getPlayer(6)} small draggable court_position={6} /> : ''
@@ -169,11 +174,13 @@ const Roster = () => {
                                 league_code={invite_code}
                                 player={getPlayer(2)}
                                 onDrop={() => onDropCard()}
+                                className={getPlayer(2) != null ? "court-position player": "court-position"}
                             >
                                 {
                                     getPlayer(2) != null ? <PlayerCard player={getPlayer(2)} small draggable court_position={2} /> : ''
                                 }
-                            </CourtPosition>        
+                            </CourtPosition>
+                                    
                             {/* POSTO 1 */}
                             <CourtPosition 
                                 role="Palleggiatore"
@@ -181,6 +188,7 @@ const Roster = () => {
                                 league_code={invite_code}
                                 player={getPlayer(1)}
                                 onDrop={() => onDropCard()}
+                                className={getPlayer(1) != null ? "court-position player": "court-position"}
                             >
                                 {
                                     getPlayer(1) != null ? <PlayerCard player={getPlayer(1)} small draggable court_position={1} /> : ''
@@ -199,6 +207,7 @@ const Roster = () => {
                             league_code={invite_code}
                             player={getPlayer(8)}
                             onDrop={() => onDropCard()}
+                            className={getPlayer(8) != null ? "court-position player": "court-position"}
                         >
                             {
                                 getPlayer(8) != null ? <PlayerCard player={getPlayer(8)} small draggable court_position={8}/> : ''
@@ -209,6 +218,7 @@ const Roster = () => {
                             league_code={invite_code}
                             player={getPlayer(9)}
                             onDrop={() => onDropCard()}
+                            className={getPlayer(9) != null ? "court-position player": "court-position"}
                         >
                             {
                                 getPlayer(9) != null ? <PlayerCard player={getPlayer(9)} small draggable court_position={9}/> : ''
@@ -219,6 +229,7 @@ const Roster = () => {
                             league_code={invite_code} 
                             player={getPlayer(10)} 
                             onDrop={() => onDropCard()}
+                            className={getPlayer(10) != null ? "court-position player": "court-position"}
                         >
                             {
                                 getPlayer(10) != null ? <PlayerCard player={getPlayer(10)} small draggable court_position={10}/> : ''
@@ -229,6 +240,7 @@ const Roster = () => {
                             league_code={invite_code} 
                             player={getPlayer(11)}   
                             onDrop={() => onDropCard()}
+                            className={getPlayer(11) != null ? "court-position player": "court-position"}
                         >
                             {
                                 getPlayer(11) != null ? <PlayerCard player={getPlayer(11)} small draggable court_position={11}/> : ''
@@ -239,6 +251,7 @@ const Roster = () => {
                             league_code={invite_code} 
                             player={getPlayer(12)}    
                             onDrop={() => onDropCard()}
+                            className={getPlayer(12) != null ? "court-position player": "court-position"}
                         >
                             {
                                 getPlayer(12) != null ? <PlayerCard player={getPlayer(12)} small draggable court_position={12}/> : ''
@@ -249,6 +262,7 @@ const Roster = () => {
                             league_code={invite_code} 
                             player={getPlayer(13)}    
                             onDrop={() => onDropCard()}
+                            className={getPlayer(13) != null ? "court-position player": "court-position"}
                         >
                             {
                                 getPlayer(13) != null ? <PlayerCard player={getPlayer(13)} small draggable court_position={13}/> : ''
@@ -259,6 +273,7 @@ const Roster = () => {
                             league_code={invite_code} 
                             player={getPlayer(14)}    
                             onDrop={() => onDropCard()}
+                            className={getPlayer(14) != null ? "court-position player": "court-position"}
                         >
                             {
                                 getPlayer(14) != null ? <PlayerCard player={getPlayer(14)} small draggable court_position={14}/> : ''

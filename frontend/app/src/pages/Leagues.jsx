@@ -15,8 +15,12 @@ const Leagues = () => {
     const [leagues, setLeagues] = useState([])
     const [popupVisible, setPopupVisible] = useState(false)
     
+    const [createPopupVisible, setCreatePopupVisible] = useState(false)
     const [leagueName, setLeagueName] = useState('')
     const [error, setError] = useState('')
+
+    const [inviteCode, setInviteCode] = useState('')
+    const [joinPopupVisible, setJoinPopupVisible] = useState(false)
     
 
     const navigate = useNavigate()
@@ -47,7 +51,7 @@ const Leagues = () => {
                 }
             });
 
-            setPopupVisible(false)
+            setCreatePopupVisible(false)
             navigate(`${response.data.league.invite_code}`)
             setError('')
         }
@@ -55,6 +59,35 @@ const Leagues = () => {
             console.error('Error during request:', error);
             setError(error.response.data.error.message);
         }
+    }
+
+    const joinLeague = async () => {
+        try
+        {
+            const response = await axios.post('/api/v1/leagues/join', { 'invite_code': inviteCode }, {
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+
+            setJoinPopupVisible(false)
+            navigate(`${response.data.league.invite_code}`)
+            setError('')
+        }
+        catch (error) {
+            console.error('Error during request:', error);
+            setError(error.response.data.error.message);
+        }
+    }
+
+    const showJoinPopup = () => {
+        setPopupVisible(false)
+        setJoinPopupVisible(true)
+    }
+
+    const showCreatePopup = () => {
+        setPopupVisible(false)
+        setCreatePopupVisible(true)
     }
 
     return (
@@ -66,7 +99,17 @@ const Leagues = () => {
                     <LeagueCard league={league} key={index} onClick={() => { navigate(`${league.invite_code}`) }}/>
                 ))}
             </ul>
-            <PopupDialog trigger={popupVisible} onClose={() => setPopupVisible(false)} title="Nuova Lega">
+            <PopupDialog trigger={popupVisible} onClose={() => setPopupVisible(false)} title="Crea o Unisciti">
+                <div className="stats">
+                    <div className="stat large">
+                        <div className="info blue" onClick={() => showJoinPopup()}>UNISCITI AD UNA LEGA</div>
+                    </div>
+                    <div className="stat large">
+                        <div className="info green" onClick={() => showCreatePopup()}>CREA NUOVA LEGA</div>
+                    </div>
+                </div>
+            </PopupDialog>
+            <PopupDialog trigger={createPopupVisible} onClose={() => setCreatePopupVisible(false)} title="Nuova Lega">
                 <div className="stats">
                     <div className="stat">
                         <div className="info title">Nome</div>
@@ -74,7 +117,19 @@ const Leagues = () => {
                     </div>
                     <p className="error-message" style={{margin: '0px'}}>{error}</p>
                     <div className="stat large">
-                        <div className="info green" onClick={() => createLeague()}>CREA NUOVA LEGA</div>
+                        <div className="info green" onClick={() => createLeague()}>CREA</div>
+                    </div>
+                </div>
+            </PopupDialog>
+            <PopupDialog trigger={joinPopupVisible} onClose={() => setJoinPopupVisible(false)} title="Unisciti ad una Lega">
+                <div className="stats">
+                    <div className="stat">
+                        <div className="info title">Codice</div>
+                        <input type="text" className="text-input info" style={{fontWeight: 'bold'}} value={inviteCode} onChange={(e) => setInviteCode(e.target.value)}/>
+                    </div>
+                    <p className="error-message" style={{margin: '0px'}}>{error}</p>
+                    <div className="stat large">
+                        <div className="info blue" onClick={() => joinLeague()}>UNISCITI</div>
                     </div>
                 </div>
             </PopupDialog>

@@ -15,7 +15,7 @@ function PopupDialog(props) {
 
   return trigger ? (
     <div className="popup-dialog">
-      <div className="popup-content">
+      <div className={props.big ? "popup-content big" : "popup-content"}>
               <button className="close-btn" onClick={() => {
                 setTrigger(false)
                 props.onClose()
@@ -33,7 +33,8 @@ PopupDialog.propTypes = {
     trigger: PropTypes.bool.isRequired,
     title: PropTypes.string.isRequired,
     children: PropTypes.node.isRequired,
-    onClose: PropTypes.func.isRequired
+    onClose: PropTypes.func.isRequired,
+    big: PropTypes.bool
 };
 
 export default PopupDialog;

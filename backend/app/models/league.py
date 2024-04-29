@@ -48,7 +48,8 @@ class League(db.Model):
             'name': self.name,
             'owner_token': self.owner_token,
             'participants': json.loads(self.participants),
-            'invite_code': self.invite_code
+            'invite_code': self.invite_code,
+            'current_auction': self.current_auction
         }
     
     def add_participant(self, token):

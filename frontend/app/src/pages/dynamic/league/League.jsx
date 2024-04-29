@@ -56,6 +56,9 @@ const League = () => {
                         <div className="stat large-2">
                             <div className="info green" onClick={() => navigate("roster")}>SCHIERA SQUADRA</div>
                         </div>
+                        <div className="stat large-2">
+                            <div className="info blue" onClick={() => navigate("auction")}>PARTECIPA ALL&apos;ASTA</div>
+                        </div>
                     </div>
                 </>
             ) : ''}

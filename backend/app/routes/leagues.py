@@ -76,8 +76,9 @@ def read_league(invite_code):
         participants = json.loads(league.participants)
 
         if user.token in participants:
+        
             return jsonify({
-                "league": league.to_json()
+                "league": league.to_json(user.token == league.owner_token)
             }), 200
         else:
             return jsonify({"error": {'code': 404, 'message': 'League not found (invalid user token)'}}), 404    

@@ -66,6 +66,9 @@
 .stat .info.green {
     background-color: rgba(0, 255, 0, 0.5);
 }
+.stat .info.blue {
+    background-color: rgba(0, 100, 255, 0.5);
+}
 
 .stat .info.round{
     border-radius: 100px;

@@ -1,16 +1,17 @@
 .player-card{
-    height: 300px;
+    height: 250px;
     aspect-ratio: 5/7;
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
     cursor: pointer;
 }
 
 .player-card.small{
-    height: 250px;
+    height: 220px;
+    max-width: 142.84px;
 }
 
 .player-card img {
@@ -19,4 +20,34 @@
 
 .player-card p {
     color: #fff;
+}
+
+
+.player-card.big{
+    height: 400px;
+    aspect-ratio: 5/7;
+
+    border: 2px dashed white;
+    border-radius: 10px;
+
+
+    background-color: rgba(255, 255, 255, 0.15);
+    transition: 0.25s;
+}
+
+.player-card.big.hidden{
+    border: none;
+    background-color: transparent;
+}
+
+.player-card.big:hover{
+    scale: 1.05;
+}
+
+.player-card.big p {
+    font-size: 150px;
+}
+
+.player-card.big img {
+    height: 110%;
 }

@@ -110,7 +110,7 @@ def delete():
                         {
                             "message": "User deleted successfully"
                         }
-                    }), 410 
+                    }), 200 
                 else:
                     return jsonify({"error": {'code': 404, 'message': 'User not found (invalid password)'}}), 404  
             else:

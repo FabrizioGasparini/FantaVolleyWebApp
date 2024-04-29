@@ -97,7 +97,7 @@ const LeagueCard = (props) => {
 };
 
 LeagueCard.propTypes = {
-    league: PropTypes.any.isRequired,
+    league: PropTypes.any,
     onClick: PropTypes.func.isRequired,
     disableSettings: PropTypes.bool,
     small: PropTypes.bool

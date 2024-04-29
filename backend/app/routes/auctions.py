@@ -8,9 +8,11 @@ from app.models.auction import Auction, AuctionStatus
 
 from flask_jwt_extended import create_access_token, decode_token, jwt_required, get_jwt_identity
 from flask_jwt_extended.exceptions import JWTExtendedException
+from flask_socketio import emit
+
+from app.routes.websocket import socketio
 
 auctions = Blueprint('auctions', __name__)
-
 
 @auctions.post('/create')
 @jwt_required()
@@ -215,3 +217,19 @@ def close_auction():
             return jsonify({"error": {'code': 404, 'message': 'League not found'}}), 404
     else:
         return jsonify({"error": {'code': 404, 'message': 'User not found (invalid token)'}}), 404  
+    
+
+# WebSocket
+ 
+@socketio.on('connect')
+def test_connect():
+    print('Client connected')
+
+@socketio.on('disconnect')
+def test_disconnect():
+    print('Client disconnected')
+
+@socketio.on('data')
+def handle_selected_player(player):
+    print("Player Selected: ", str(player))
+    emit('selected_player', {'player': json.loads(player)}, broadcast=True)

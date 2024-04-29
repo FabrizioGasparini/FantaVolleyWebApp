@@ -1,7 +1,4 @@
 {
-  "cSpell.words": [
-    "FANTA",
-    "pyfile",
-    "SQLALCHEMY"
-  ]
+  "cSpell.words": ["FANTA", "pyfile", "SQLALCHEMY"],
+  "workbench.iconTheme": "material-icon-theme"
 }

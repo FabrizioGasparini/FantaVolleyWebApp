@@ -146,9 +146,14 @@ def read_auction():
                 return jsonify({
                     "roster": roster.to_json()
                 }), 200
-            
             else:
-                return jsonify({"error": {'code': 404, 'message': 'Roster not found'}}), 404
+                new_roster = Roster(data["league_code"], user.token, [])
+                new_roster.save_to_db()
+
+                return jsonify({
+                    "roster": roster.to_json()
+                }), 200
+
         else:
             return jsonify({"error": {'code': 404, 'message': 'League not found'}}), 404
     else:

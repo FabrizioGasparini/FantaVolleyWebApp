@@ -26,6 +26,24 @@
     flex-direction: column;
 }
 
+.popup-content.big {
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-height: 90%;
+    max-width: 1600px;
+    background-color: #ADD8E6;
+    border-radius: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+
+    overflow: hidden;
+    padding: 0 0 900px 0;
+}
+
 .popup-content .close-btn {
     position: absolute;
     top: 16px;
