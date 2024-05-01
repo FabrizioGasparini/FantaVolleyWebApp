@@ -5,39 +5,45 @@ import axios from "../../../api/axios";
 import LeagueCard from "../../../components/leagues/LeagueCard";
 
 import Cookies from "universal-cookie";
-const cookies = new Cookies()
+const cookies = new Cookies();
 
-const League = () => {
-    const { invite_code } = useParams()
-    const [league, setLeague] = useState(undefined)
+const League = ({ socket }) => {
+    const { invite_code } = useParams();
+    const [league, setLeague] = useState(undefined);
 
-    const navigate = useNavigate()
+    const navigate = useNavigate();
 
     useEffect(() => {
         const getLeague = async () => {
             try {
-                const token = cookies.get("token")
-                axios.defaults.headers.common = { 'Authorization': `Bearer ${token}` }
+                const token = cookies.get("token");
+                axios.defaults.headers.common = {
+                    Authorization: `Bearer ${token}`,
+                };
 
                 const response = await axios.get(`api/v1/leagues/read/${invite_code}`);
                 setLeague(response.data.league);
-            }
-            catch (error)
-            {
-                console.error('Error during request:', error);
-                navigate('/leagues')
+            } catch (error) {
+                console.error("Error during request:", error);
+                navigate("/leagues");
             }
         };
-        
-        getLeague();
 
-    }, [navigate, invite_code])
-    
+        getLeague();
+    }, [navigate, invite_code]);
+
     return (
         <Sidebar>
             {league ? (
                 <>
-                    <LeagueCard league={league} onClick={() => { console.log("Click") }} disableSettings small />
+                    <LeagueCard
+                        league={league}
+                        onClick={() => {
+                            console.log("Click");
+                        }}
+                        disableSettings
+                        small
+                    />
                     <div className="stats">
                         <div className="stat">
                             <div className="info title round">Giornata</div>
@@ -52,18 +58,34 @@ const League = () => {
                         </div>
                     </div>
                     <span></span>
-                    <div className="stats">
+                    <div className="stats" style={{ alignItems: "center" }}>
                         <div className="stat large-2">
-                            <div className="info green" onClick={() => navigate("roster")}>SCHIERA SQUADRA</div>
+                            <div className="info green" onClick={() => navigate("roster")}>
+                                SCHIERA SQUADRA
+                            </div>
                         </div>
                         <div className="stat large-2">
-                            <div className="info blue" onClick={() => navigate("auction")}>PARTECIPA ALL&apos;ASTA</div>
+                            <div className="info blue" onClick={() => navigate("auction")}>
+                                PARTECIPA ALL&apos;ASTA
+                            </div>
+                        </div>
+                        <div
+                            className="stat"
+                            onClick={() => {
+                                navigate("/leagues");
+                            }}
+                        >
+                            <div className="info red">
+                                <b>INDIETRO</b>
+                            </div>
                         </div>
                     </div>
                 </>
-            ) : ''}
+            ) : (
+                ""
+            )}
         </Sidebar>
     );
-}
+};
 
 export default League;

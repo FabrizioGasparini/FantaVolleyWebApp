@@ -3,7 +3,7 @@ from app.models.database import db
 from app.models.expired_token import ExpiredToken
 
 class RosterPlayer(db.Model):
-    roster_id = db.Column(db.Integer, primary_key=True)
+    id = db.Column(db.Integer, primary_key=True)
     player_id = db.Column(db.Integer, nullable=False)
     value = db.Column(db.Integer, nullable=False)
     points = db.Column(db.Integer, nullable=False)
@@ -32,7 +32,6 @@ class RosterPlayer(db.Model):
 
     def to_json(self):
         return {
-            'roster_id': self.roster_id,
             'player_id': self.player_id,
             'value': self.value,
             'points': self.points,

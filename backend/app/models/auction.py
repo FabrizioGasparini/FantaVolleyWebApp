@@ -2,6 +2,7 @@ import json
 
 from app.models.database import db
 from app.models.user import User
+from app.models.player import Player
 
 class Auction(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -18,10 +19,11 @@ class Auction(db.Model):
     def __init__(self, token, owner_token):
         self.token = token
         self.owner_token = owner_token
-        self.current_bid = json.dumps({"player_id": 0, "bidder_token": "", "bid": 0})
+        self.current_bid = json.dumps({"player_id": 0, "bidder_username": "", "bidder_token": "", "bid": 0})
         self.status = AuctionStatus.WAITING
         self.results = json.dumps([])
         self.selected_players = json.dumps([])
+        self.current_player_id = 0
 
     def save_to_db(self):
         db.session.add(self)
@@ -31,33 +33,48 @@ class Auction(db.Model):
         db.session.delete(self)
         db.session.commit()
 
-    def to_json(self, show_tokens = True):
+    def to_json(self, show_tokens = True, token = ""):
         current_bid = json.loads(self.current_bid)
+        current_bid.update({"bidder_self": current_bid.get('bidder_token') == token})
         
+        current_player = {}
+        if self.current_player_id != 0:
+            player = Player.query.filter_by(id=self.current_player_id).first()
+            if player:
+                current_player = player.to_json()
+
+        selected_players = json.loads(self.selected_players)
+
         if show_tokens:
             return {
                 'auction_token': self.token,
                 'owner_token': self.owner_token,
                 #'start_time': self.start_time, UNUSED
                 #'end_time': self.end_time, UNUSED
-                'current_player_id': self.current_player_id,
+                'current_player': current_player,
                 'current_bid': current_bid,
-                'status': self.status
+                'status': self.status,
+                'selected_players': selected_players
             }
         
-        bid = {"player_id": 0, "bidder_id": 0, "bid": 0}
+        bid = {"player_id": 0, "bidder_username": "","bidder_id": 0, "bid": 0}
 
         bid["player_id"] = current_bid["player_id"]
         bid["bid"] = current_bid["bid"]
-        bid["bidder_id"] = User.query.filter_by(token=current_bid["bidder_token"]).first().id
+        user = User.query.filter_by(token=current_bid.get('bidder_token')).first()
+        if user:
+            bid["bidder_id"] = user.id
+            bid["bidder_username"] = user.username
+
 
         return {
                 'auction_token': self.token,
                 #'start_time': self.start_time, UNUSED
                 #'end_time': self.end_time, UNUSED
-                'current_player_id': self.current_player_id,
+                'current_player': current_player,
                 'current_bid': bid,
-                'status': self.status
+                'status': self.status,
+                'selected_players': selected_players
             }
 
 
@@ -85,6 +102,7 @@ class Auction(db.Model):
         self.status = AuctionStatus.CLOSED
         
         current_bid = json.loads(self.current_bid)
+        print(current_bid)
         if current_bid["bidder_token"] != "":
             results = json.loads(self.results)
             selected_players = json.loads(self.selected_players)
@@ -98,6 +116,7 @@ class Auction(db.Model):
             self.selected_players = json.dumps(selected_players)
 
             self.current_player_id = 0
+            self.current_bid = json.dumps({"player_id": 0, "bidder_username": "", "bidder_token": "", "bid": 0})
 
             self.status = AuctionStatus.WAITING
 
@@ -120,6 +139,7 @@ class Auction(db.Model):
 
             current_bid["bid"] += 5
             current_bid["bidder_token"] = user_token
+            current_bid["bidder_username"] = User.query.filter_by(token=user_token).first().username
             current_bid["player_id"] = self.current_player_id
     
             print(current_bid["player_id"])
@@ -133,7 +153,7 @@ class Auction(db.Model):
         return False
 
         #self.end_time = self.end_time + timedelta(seconds=5) UNUSED
-
+  
     def get_participants(self):
         participants = []
 

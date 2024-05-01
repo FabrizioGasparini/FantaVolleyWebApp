@@ -20,7 +20,7 @@ def update_court():
     user = User.query.filter_by(username=user_identity).first()
     if user:
 
-        league = League.query.filter_by(invite_code=data['league_code']).first()
+        league = League.query.filter_by(invite_code=data['invite_code']).first()
         if league:
             
             roster = Roster.query.filter_by(league_code=league.invite_code, token=user.token).first()
@@ -46,7 +46,7 @@ def update_court():
                 roster.save_to_db()
 
                 return jsonify({
-                    "message": "Roaster updated successfully",
+                    "message": "Roster updated successfully",
                     "roster": roster.to_json()
                 }), 201
             
@@ -59,11 +59,11 @@ def update_court():
 
                     players.append(roster_player.to_json())
 
-                roster = Roster(data['league_code'], user.token, players)
+                roster = Roster(data['invite_code'], user.token, players)
                 roster.save_to_db()
 
                 return jsonify({
-                    "message": "Roaster created successfully",
+                    "message": "Roster created successfully",
                     "roster": roster.to_json()
                 }), 201
         else:
@@ -84,7 +84,7 @@ def update_court_position(court_position):
     user = User.query.filter_by(username=user_identity).first()
     if user:
 
-        league = League.query.filter_by(invite_code=data['league_code']).first()
+        league = League.query.filter_by(invite_code=data['invite_code']).first()
         if league:
             
             roster = Roster.query.filter_by(league_code=league.invite_code, token=user.token).first()
@@ -116,12 +116,12 @@ def update_court_position(court_position):
                 roster.save_to_db()
                 
                 return jsonify({
-                    "message": "Roaster updated successfully",
+                    "message": "Roster updated successfully",
                     "roster": roster.to_json()
                 }), 201
             
             else:
-                return jsonify({"error": {'code': 400, 'message': 'Roaster not found'}}), 400
+                return jsonify({"error": {'code': 400, 'message': 'Roster not found'}}), 400
         else:
             return jsonify({"error": {'code': 400, 'message': 'League not found (invalid code)'}}), 400
     else:
@@ -137,7 +137,7 @@ def read_auction():
 
     user = User.query.filter_by(username=user_identity).first()
     if user:
-        league = League.query.filter_by(invite_code=data["league_code"]).first()
+        league = League.query.filter_by(invite_code=data["invite_code"]).first()
         if league:
 
             roster = Roster.query.filter_by(token=user.token).first()
@@ -147,7 +147,37 @@ def read_auction():
                     "roster": roster.to_json()
                 }), 200
             else:
-                new_roster = Roster(data["league_code"], user.token, [])
+                new_roster = Roster(data["invite_code"], user.token, [])
+                new_roster.save_to_db()
+
+                return jsonify({
+                    "roster": roster.to_json()
+                }), 200
+
+        else:
+            return jsonify({"error": {'code': 404, 'message': 'League not found'}}), 404
+    else:
+        return jsonify({"error": {'code': 404, 'message': 'User not found (invalid token)'}}), 404
+
+
+@rosters.get('/read/<string:invite_code>')
+@jwt_required()
+def read_auction_code(invite_code):
+    user_identity = get_jwt_identity()
+
+    user = User.query.filter_by(username=user_identity).first()
+    if user:
+        league = League.query.filter_by(invite_code=invite_code).first()
+        if league:
+
+            roster = Roster.query.filter_by(token=user.token).first()
+
+            if roster:
+                return jsonify({
+                    "roster": roster.to_json()
+                }), 200
+            else:
+                new_roster = Roster(invite_code, user.token, [])
                 new_roster.save_to_db()
 
                 return jsonify({

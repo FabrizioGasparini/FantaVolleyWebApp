@@ -10,7 +10,7 @@ class League(db.Model):
     invite_code = db.Column(db.String, unique=True, nullable=False)
     current_auction = db.Column(db.String, nullable=False)
     starting_credits = db.Column(db.Integer, nullable=False)
-    roasters = db.Column(db.String, nullable=False)
+    rosters = db.Column(db.String, nullable=False)
 
     def __init__(self, name, participants, owner_token, invite_code, starting_credits):
         self.name = name
@@ -19,7 +19,7 @@ class League(db.Model):
         self.participants = json.dumps(participants)
         self.current_auction = ""
         self.starting_credits = starting_credits
-        self.roasters = json.dumps([])
+        self.rosters = json.dumps([])
 
     def save_to_db(self):
         db.session.add(self)
@@ -30,12 +30,12 @@ class League(db.Model):
         db.session.commit()
 
     def to_json(self, show_tokens = False):
+        participants = []
+        players = json.loads(self.participants)
         if show_tokens == False:
-            participants = []
-            players = json.loads(self.participants)
             
             for player in players:
-                participants.append(User.query.filter_by(token=player).first().id)
+                participants.append({"id": User.query.filter_by(token=player["token"]).first().id, "credits": player["credits"]})
 
             return {
                 'name': self.name,
@@ -43,64 +43,82 @@ class League(db.Model):
                 'invite_code': self.invite_code
             }
 
+        roster_players = []
+        rosters = json.loads(self.rosters)
+        for item in rosters:
+            print(item)
+            for player in item['roster']:
+                roster_players.append(player['player_id'])
 
         return {
             'name': self.name,
             'owner_token': self.owner_token,
             'participants': json.loads(self.participants),
             'invite_code': self.invite_code,
-            'current_auction': self.current_auction
+            'current_auction': self.current_auction,
+            'roster_players': roster_players,
+            'rosters': rosters
         }
     
     def add_participant(self, token):
         participants = json.loads(self.participants)
-        participants.append(token)
+        participants.append({"token":token, "credits": self.starting_credits})
 
         self.participants = json.dumps(participants)
 
-        db.session.commit()
+        self.save_to_db()
 
     def remove_participant(self, token):
         participants = json.loads(self.participants)
-        participants.remove(token)
+        filtered_array = [item for item in participants if item.get("token") != token]
+        participants = filtered_array
 
         self.participants = json.dumps(participants)
 
-        db.session.commit()
+        self.save_to_db()
+
+    def set_credits(self, token, credits):
+        participants = json.loads(self.participants)
+        for item in participants:
+            if item.get("token") == token:
+                item["credits"] = credits
+
+        self.participants = json.dumps(participants)
+        self.save_to_db()
 
     def set_auction(self, auction):
         self.current_auction = auction
 
-        db.session.commit()
+        self.save_to_db()
 
-    def add_roaster(self, token, roaster):
-        roasters = json.loads(self.roasters)
+    def add_roster(self, token, roster):
+        rosters = json.loads(self.rosters)
 
-        for old_roaster in roasters:
-            if old_roaster["token"] == token:
-                old_roaster['roaster'] += roaster
+        for old_roster in rosters:
+            if old_roster["token"] == token:
+                old_roster['roster'] += roster
 
-                print(old_roaster['roaster'])
+                print(old_roster['roster'])
 
-                self.roasters = json.dumps(roasters)
-                db.session.commit()
+                self.rosters = json.dumps(rosters)
+                self.save_to_db()
                 return True
                     
-        roasters.append({"token": token, "roaster": roaster})
+        rosters.append({"token": token, "roster": roster})
 
-        self.roasters = json.dumps(roasters)
-        db.session.commit()
+        self.rosters = json.dumps(rosters)
+        self.save_to_db()
         return True
 
-    def remove_roaster(self, token):
-        roasters = json.loads(self.roasters)
+    def remove_roster(self, token):
+        rosters = json.loads(self.rosters)
 
-        for roaster in roasters:
-            if roaster.token == token:
-                roasters.remove(roaster)
-                self.roasters = json.dumps(roasters)
+        for roster in rosters:
+            if roster.token == token:
+                rosters.remove(roster)
+                self.rosters = json.dumps(rosters)
 
-                db.session.commit()
+                self.save_to_db()
 
                 return True
             

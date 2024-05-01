@@ -1,7 +1,7 @@
-from flask import Flask
+from flask import Flask, request, jsonify
 from flask_cors import CORS
 from flask_jwt_extended import JWTManager
-from flask_socketio import SocketIO
+from flask_socketio import SocketIO, emit, send
 from app.error_handler import error_handlers_bp
 
 from app.models.database import db
@@ -48,5 +48,5 @@ with app.app_context():
     db.create_all()
 
 if __name__ == '__main__':
-    app.run(debug=True)
-    socketio.run(app, debug=True, port=5000)
+    #app.run(debug=True)
+    socketio.run(app, debug=True)

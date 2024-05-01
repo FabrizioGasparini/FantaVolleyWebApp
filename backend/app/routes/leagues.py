@@ -48,8 +48,14 @@ def join_league():
         league = League.query.filter_by(invite_code=data["invite_code"]).first()
         if league:
             
-            participants = json.loads(league.participants)
-            if user.token not in participants:
+            participants = json.loads(league.participants) or []
+            inParticipants = False
+
+            for item in participants:
+                if item.get("token") == user.token:
+                    inParticipants = True
+
+            if not inParticipants:
                 league.add_participant(user.token)
 
                 return jsonify({
@@ -75,11 +81,33 @@ def read_league(invite_code):
     if league:
         participants = json.loads(league.participants)
 
-        if user.token in participants:
+        for item in participants:
+            if item.get("token") == user.token:
+                return jsonify({
+                    "league": league.to_json(user.token == league.owner_token)
+                }), 200
+        else:
+            return jsonify({"error": {'code': 404, 'message': 'League not found (invalid user token)'}}), 404    
+    else:
+        return jsonify({"error": {'code': 404, 'message': 'League not found (invalid invite code)'}}), 404 
+
+@leagues.get('/read/<string:invite_code>/credits')
+@jwt_required()
+def read_league_credits(invite_code):
+    user_identity = get_jwt_identity()
+    user = User.query.filter_by(username=user_identity).first()
+
+    league = League.query.filter_by(invite_code=invite_code).first()
+         
+    if league:
+        participants = json.loads(league.participants)
+
+        for item in participants:
+            if item.get("token") == user.token:
+                return jsonify({
+                    "credits": item["credits"]
+                }), 200
         
-            return jsonify({
-                "league": league.to_json(user.token == league.owner_token)
-            }), 200
         else:
             return jsonify({"error": {'code': 404, 'message': 'League not found (invalid user token)'}}), 404    
     else:
@@ -87,7 +115,7 @@ def read_league(invite_code):
 
 @leagues.post('/read')
 @jwt_required()
-def read_league_post():
+def read_all_league_post():
     user_identity = get_jwt_identity()
     user = User.query.filter_by(username=user_identity).first()
     
@@ -96,10 +124,11 @@ def read_league_post():
          
         output_leagues = []
         for league in leagues:
-            participants = json.loads(league.participants)
+            participants = json.loads(league.participants) or []
             
-            if user.token in participants:
-                output_leagues.append(league.to_json(user.token == league.owner_token))
+            for item in participants:
+                if item.get("token") == user.token:
+                    output_leagues.append(league.to_json(user.token == league.owner_token))
 
         return jsonify({
             "leagues": output_leagues
@@ -156,12 +185,13 @@ def leave_league():
         if league:
             
             participants = json.loads(league.participants)
-            if user.token in participants:
-                league.remove_participant(user.token)
+            for item in participants:
+                if item.get("token") == user.token:
+                    league.remove_participant(user.token)
 
-                return jsonify({
-                    "message": "League left successfully"
-                }), 200
+                    return jsonify({
+                        "message": "League left successfully"
+                    }), 200
             else:
                 return jsonify({"error": {'code': 400, 'message': 'User not in league'}}), 400
         else:
