@@ -13,7 +13,7 @@ import { useNavigate } from "react-router-dom";
 
 const cookies = new Cookies();
 
-const sock = io("localhost:5000/", {
+const sock = io("https://fantavolley.pythonanywhere.com/", {
     transports: ["websocket"],
 });
 
